@@ -17,7 +17,6 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
 
 import thread
-import getpass
 import logging
 
 from gi.repository import GObject, Gtk, Gdk, Pango
@@ -27,7 +26,6 @@ from ubuntutweak.gui.gtk import post_ui
 from ubuntutweak.policykit.widgets import PolkitButton
 from ubuntutweak.utils import icon
 from ubuntutweak.common.consts import VERSION
-from ubuntutweak.common.debug import log_func
 from ubuntutweak.modules import ModuleLoader, create_broken_module_class
 from ubuntutweak.gui.dialogs import ErrorDialog
 from ubuntutweak.clips import ClipPage
@@ -116,7 +114,6 @@ class CategoryBox(Gtk.VBox):
     def get_buttons(self):
         return self._buttons
 
-    @log_func(log)
     def rebuild_table(self, ncols):
         self._current_cols = ncols
         self._current_modules = len(self._modules)
@@ -173,9 +170,8 @@ class FeaturePage(Gtk.ScrolledWindow):
 
         self.load_modules()
 
-        self.connect('size-allocate', self.rebuild_boxes)
-
-        self._setting.connect_notify(self.load_modules)
+        # TODO this will cause Bug #880663 randomly, as current there's no user extension for features, just disable it
+#        self._setting.connect_notify(self.load_modules)
 
         self.show_all()
 
@@ -214,7 +210,6 @@ class FeaturePage(Gtk.ScrolledWindow):
         module = widget.get_module()
         self.emit('module_selected', module.get_name())
 
-    @log_func(log)
     def rebuild_boxes(self, widget=None, event=None):
         request = self.get_allocation()
         ncols = request.width / 164 # 32 + 120 + 6 + 4
@@ -256,8 +251,6 @@ class SearchPage(FeaturePage):
         viewport.set_property('shadow-type', Gtk.ShadowType.NONE)
         viewport.add(self._box)
         self.add(viewport)
-
-        self.connect('size-allocate', self.rebuild_boxes)
 
         self.show_all()
 
@@ -325,6 +318,7 @@ class UbuntuTweakWindow(GuiBuilder):
         tweaks_page.connect('module_selected', self.on_module_selected)
         self.search_page.connect('module_selected', self.on_module_selected)
         admins_page.connect('module_selected', self.on_module_selected)
+        self.apps_page.connect('loaded', self.show_apps_page)
         clip_page.connect('load_module', lambda widget, name: self.do_load_module(name))
         clip_page.connect('load_feature', lambda widget, name: self.select_target_feature(name))
 
@@ -344,17 +338,17 @@ class UbuntuTweakWindow(GuiBuilder):
         self.mainwindow.add_accel_group(accel_group)
         thread.start_new_thread(self.preload_proxy_cache, ())
 
-    @log_func(log)
+    def show_apps_page(self, widget):
+        self.notebook.set_current_page(self.feature_dict['apps'])
+
     def preload_proxy_cache(self):
         #This function just called to make sure the cache is loaded as soon as possible
         proxy.is_package_installed('ubuntu-tweak')
 
-    @log_func(log)
     def on_search_entry_activate(self, widget):
         widget.grab_focus()
         self.on_search_entry_changed(widget)
 
-    @log_func(log)
     def on_search_entry_changed(self, widget):
         text = widget.get_text()
         self.set_current_module(None, None)
@@ -386,15 +380,12 @@ class UbuntuTweakWindow(GuiBuilder):
     def _initialize_ui_states(self, widget, splash_window):
         self.window_size_setting = GSetting('com.ubuntu-tweak.tweak.window-size')
         width, height = self.window_size_setting.get_value()
-        if width >= 800 and height >= 480:
+        if width >= 900 and height >= 506:
             self.mainwindow.set_default_size(width, height)
 
         for feature_button in ('overview_button', 'apps_button', 'admins_button', \
                                'tweaks_button', 'janitor_button'):
             button = getattr(self, feature_button)
-
-            if feature_button == 'apps_button' and getpass.getuser() != 'tualatrix':
-                button.hide()
 
             label = button.get_child().get_label()
             button.get_child().set_markup('<b>%s</b>' % label)
@@ -529,7 +520,6 @@ class UbuntuTweakWindow(GuiBuilder):
             self.back_button.set_sensitive(False)
             self.next_button.set_sensitive(False)
 
-    @log_func(log)
     def on_back_button_clicked(self, widget):
         self.navigation_dict[self.current_feature] = tuple(reversed(self.navigation_dict[self.current_feature]))
         self.notebook.set_current_page(self.feature_dict[self.current_feature])
@@ -537,7 +527,6 @@ class UbuntuTweakWindow(GuiBuilder):
 
         self.update_jump_buttons()
 
-    @log_func(log)
     def on_next_button_clicked(self, widget):
         back, forward = self.navigation_dict[self.current_feature]
         self.navigation_dict[self.current_feature] = forward, back
@@ -603,6 +592,9 @@ class UbuntuTweakWindow(GuiBuilder):
                 log.debug("handler_block_by_func by apps")
                 self.back_button.handler_block_by_func(self.on_back_button_clicked)
                 self.next_button.handler_block_by_func(self.on_next_button_clicked)
+                if not self.apps_page.is_loaded:
+                    self.notebook.set_current_page(self.feature_dict['wait'])
+                    self.apps_page.load()
                 self.apps_page.set_web_buttons_active(True)
             else:
                 self.update_jump_buttons()

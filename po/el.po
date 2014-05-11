@@ -7,37 +7,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-04 22:24+0800\n"
-"PO-Revision-Date: 2012-04-19 10:10+0000\n"
-"Last-Translator: Ding Zhou <tualatrix@gmail.com>\n"
+"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"PO-Revision-Date: 2013-05-12 06:41+0000\n"
+"Last-Translator: Filippos Kolyvas <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-08-12 03:17+0000\n"
-"X-Generator: Launchpad (build 15780)\n"
+"X-Launchpad-Export-Date: 2014-04-20 04:41+0000\n"
+"X-Generator: Launchpad (build 16985)\n"
 
 #: ../data/script-worker:57
 #, c-format
 msgid "You don't have permission to write in %s"
-msgstr "Δεν έχεις δικαίωμα εγγραφής στο %s"
+msgstr "Δεν έχετε δικαίωμα εγγραφής στο %s"
 
-#: ../data/script-worker:155 ../data/script-worker:168
+#: ../data/script-worker:158 ../data/script-worker:171
 msgid "Enter your password to perform the administrative tasks"
-msgstr "Εισάγετε τον κωδικό σας για να εκτελέσετε διαχειριστικές εργασίες"
+msgstr ""
+"Εισάγετε τον κωδικό σας για να εκτελέσετε διαδικασίες που απαιτούν προνόμια "
+"διαχειριστή"
 
-#: ../data/script-worker:162
+#: ../data/script-worker:165
 msgid "Coudn't find any text editor in your system!"
-msgstr "Δεν εντοπίστηκε επεξεργαστής κειμένου στο σύστημά σας!"
+msgstr "Δεν βρέθηκε επεξεργαστής κειμένου στο σύστημά σας!"
 
-#: ../data/script-worker:191
+#: ../data/script-worker:194
 msgid "Select a folder"
 msgstr "Επιλέξτε ένα φάκελο"
 
-#: ../data/script-worker:221
+#: ../data/script-worker:224
 msgid "Please select a target (files or folders)."
-msgstr "Παρακαλώ κάντε μια επιλογή (αρχείο ή φάκελο)"
+msgstr "Παρακαλώ επιλέξτε έναν προορισμό (αρχεία ή φακέλους)"
 
 #: ../data/ubuntu-tweak.desktop.in.h:1
 msgid "Tweak ubuntu to what you like"
@@ -45,43 +47,51 @@ msgstr "Διαμορφώστε το ubuntu όπως σας αρέσει"
 
 #: ../data/ubuntu-tweak.desktop.in.h:2 ../data/ui/preferences.ui.h:9
 msgid "Overview"
-msgstr ""
+msgstr "Επισκόπηση"
 
-#: ../data/ubuntu-tweak.desktop.in.h:3 ../data/ui/preferences.ui.h:13
+#: ../data/ubuntu-tweak.desktop.in.h:3 ../ubuntutweak/janitor/__init__.py:889
+msgid "Apps"
+msgstr "Εφαρμογές"
+
+#: ../data/ubuntu-tweak.desktop.in.h:4 ../data/ui/preferences.ui.h:13
 msgid "Tweaks"
-msgstr ""
+msgstr "Προσαρμογές"
 
-#: ../data/ubuntu-tweak.desktop.in.h:4 ../data/ui/preferences.ui.h:17
+#: ../data/ubuntu-tweak.desktop.in.h:5 ../data/ui/preferences.ui.h:17
 msgid "Admins"
-msgstr ""
+msgstr "Συντήρηση"
 
-#: ../data/ubuntu-tweak.desktop.in.h:5 ../data/ui/preferences.ui.h:22
+#: ../data/ubuntu-tweak.desktop.in.h:6 ../data/ui/preferences.ui.h:22
 msgid "Janitor"
-msgstr ""
+msgstr "Καθαριστής"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:1
 msgid "Tweak all kinds of settings"
-msgstr ""
+msgstr "Προσαρμογή όλων των ειδών ρυθμίσεων"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:2
 msgid "To tweak the settings, you need to authenticate."
 msgstr ""
+"Για να αλλάξετε τις ρυθμίσεις, πρέπει να επαληθεύσετε την ταυτότητά σας"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:3
 msgid "Clean user and system cruft"
-msgstr ""
+msgstr "Καθαρισμός περιττών αρχείων χρήστη και συστήματος"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:4
 msgid "To clean the cruft, you need to authenticate."
 msgstr ""
+"Για τον καθαρισμό των περιττών αρχείων πρέπει να γίνει έλεγχος ταυτότητας."
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:5
 msgid "Edit the Software Sources lists"
-msgstr ""
+msgstr "Επεξεργασία πηγών λογισμικού"
 
 #: ../data/com.ubuntu-tweak.daemon.policy.in.h:6
 msgid "To edit the software sources, you need to authenticate."
 msgstr ""
+"Για να επεξεργαστείτε τις πηγές λογισμικού πρέπει να γίνει έλεγχος "
+"ταυτότητας."
 
 #: ../data/ui/window.ui.h:1
 msgid "Left"
@@ -93,73 +103,73 @@ msgstr "Δεξιά"
 
 #: ../data/ui/preferences.ui.h:1
 msgid "Preferences"
-msgstr ""
+msgstr "Προτιμήσεις"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:3
 msgid "<b>Clip Management</b>"
-msgstr ""
+msgstr "<b>Διαχείριση στοιχείων</b>"
 
 #: ../data/ui/preferences.ui.h:4
 msgid "Manage the clip view in the Overview"
-msgstr ""
+msgstr "Διαχείριση της εμφάνισης στοιχείων στην επισκόπηση"
 
 #: ../data/ui/preferences.ui.h:5 ../data/ui/appspage.ui.h:1
 #: ../data/ui/quicklists.ui.h:1 ../data/ui/sourceeditor.ui.h:1
 #: ../data/ui/janitorpage.ui.h:1
 msgid "column"
-msgstr ""
+msgstr "στήλη"
 
 #: ../data/ui/preferences.ui.h:6
 msgid "Move Up"
-msgstr ""
+msgstr "Μετακίνηση πάνω"
 
 #: ../data/ui/preferences.ui.h:7
 msgid "Move Down"
-msgstr ""
+msgstr "Μετακίνηση κάτω"
 
-#: ../data/ui/preferences.ui.h:8
+#: ../data/ui/preferences.ui.h:8 ../ubuntutweak/apps/__init__.py:105
 msgid "Install"
-msgstr ""
+msgstr "Εγκατάσταση"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:11
 msgid "<b>Tweaks Extensions</b>"
-msgstr ""
+msgstr "<b>Επεκτάσεις προσαρμογών</b>"
 
 #: ../data/ui/preferences.ui.h:12
 msgid "Tweaks Extensions Management"
-msgstr ""
+msgstr "Διαχείριση επεκτάσεων προσαρμογών"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:15
 msgid "<b>Admins Extensions</b>"
-msgstr ""
+msgstr "<b>Επεκτάσεις συντήρησης</b>"
 
 #: ../data/ui/preferences.ui.h:16
 msgid "Admins Extensions Management"
-msgstr ""
+msgstr "Διαχείριση επεκτάσεων συντήρησης"
 
 #: ../data/ui/preferences.ui.h:18
 msgid "<b>Generic</b>"
-msgstr ""
+msgstr "<b>Γενικό</b>"
 
 #. Please make sure the "<b>xxx</b>" is ok
 #: ../data/ui/preferences.ui.h:20
 msgid "<b>Janitor Extensions</b>"
-msgstr ""
+msgstr "<b>Επεκτάσεις καθαριστή</b>"
 
 #: ../data/ui/preferences.ui.h:21
 msgid "Janitor Extensions Management"
-msgstr ""
+msgstr "Διαχείριση επεκτάσεων καθαριστή"
 
 #: ../data/ui/uturl.ui.h:1
 msgid "Ubuntu Tweak"
-msgstr ""
+msgstr "Ubuntu Tweak"
 
 #: ../data/ui/uturl.ui.h:2
 msgid "_Install"
-msgstr ""
+msgstr "_Εγκατάσταση"
 
 #: ../data/ui/uturl.ui.h:3
 msgid "Description"
@@ -167,19 +177,19 @@ msgstr "Περιγραφή"
 
 #: ../data/ui/sourcecenter.ui.h:1
 msgid "<b>Homepage</b>"
-msgstr ""
+msgstr "<b>Αρχική Σελίδα</b>"
 
 #: ../data/ui/sourcecenter.ui.h:2
 msgid "<b>Source URL</b>"
-msgstr ""
+msgstr "<b>URL πηγής</b>"
 
 #: ../data/ui/sourcecenter.ui.h:3
 msgid "<b>Description</b>"
-msgstr ""
+msgstr "<b>Περιγραφή</b>"
 
 #: ../data/ui/sourcecenter.ui.h:4
 msgid "http://ubuntu-tweak.com"
-msgstr ""
+msgstr "http://ubuntu-tweak.com"
 
 #: ../data/ui/sourcecenter.ui.h:5 ../ubuntutweak/admins/sourcecenter.py:1118
 msgid "Description is here"
@@ -191,11 +201,12 @@ msgstr "Λεπτομέρειες"
 
 #: ../data/ui/sourcecenter.ui.h:7
 msgid "Purge PPA"
-msgstr ""
+msgstr "Εκκαθάριση αποθετηρίου PPA"
 
 #: ../data/ui/brokenmodule.ui.h:1
 msgid "<big><b>This module encountered an error while loading.</b></big>"
 msgstr ""
+"<big><b>Αυτό το άρθρωμα αντιμετώπισε ένα σφάλμα κατά τη φόρτωση.</b></big>"
 
 #: ../data/ui/brokenmodule.ui.h:2
 msgid ""
@@ -203,10 +214,13 @@ msgid ""
 "Please choose <i>Report</i> to file a new bug report. Make sure to include "
 "the error message below:"
 msgstr ""
+"Αν επιθυμείτε να μας βοηθήσετε με την διόρθωση του προβλήματος,\n"
+"Τότε επιλέξτε <i>Αναφορά</i> για να καταθέσετε μια νέα αναφορά σφάλματος. "
+"Φροντίστε να συμπεριλάβετε το μήνυμα λάθους παρακάτω:"
 
 #: ../data/ui/brokenmodule.ui.h:4 ../data/ui/traceback.ui.h:5
 msgid "Error Message"
-msgstr "Μήνυμα Σφάλματος"
+msgstr "Μήνυμα σφάλματος"
 
 #: ../data/ui/brokenmodule.ui.h:5 ../data/ui/traceback.ui.h:1
 msgid "_Report"
@@ -214,39 +228,39 @@ msgstr "_Αναφορά"
 
 #: ../data/ui/loginsettings.ui.h:1
 msgid "Click the button to change the login screen logo"
-msgstr "Πάτησε το κουμπί για να αλλάξεις το λογότυπο της οθόνης εισόδου"
+msgstr "Πατήστε το κουμπί για να αλλάξετε το λογότυπο της οθόνης εισόδου"
 
 #: ../data/ui/loginsettings.ui.h:2
 msgid "Click the button to change the login screen background"
-msgstr "Πάτησε το κουμπί για να αλλάξεις το φόντο της οθόνης εισόδου"
+msgstr "Πατήστε το κουμπί για να αλλάξετε το φόντο της οθόνης εισόδου"
 
 #: ../data/ui/loginsettings.ui.h:3
 msgid "Set the same background as the current desktop background"
-msgstr ""
+msgstr "Ορίστε το ίδιο φόντο με το τρέχον φόντο της επιφάνειας εργασίας"
 
 #: ../data/ui/quicklists.ui.h:2
 msgid "Active"
-msgstr ""
+msgstr "Ενεργό"
 
 #: ../data/ui/quicklists.ui.h:3
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: ../data/ui/quicklists.ui.h:4
 msgid "Command line"
-msgstr ""
+msgstr "Γραμμή εντολών"
 
 #: ../data/ui/quicklists.ui.h:5
 msgid "Command:"
-msgstr ""
+msgstr "Εντολή:"
 
 #: ../data/ui/quicklists.ui.h:6
 msgid "Name:"
-msgstr ""
+msgstr "Όνομα:"
 
 #: ../data/ui/clippage.ui.h:1
 msgid "<b>Recently Used</b>"
-msgstr ""
+msgstr "<b>Πρόσφατα χρησιμοποιημένα</b>"
 
 #: ../data/ui/filetypemanager.ui.h:1
 msgid "Add Application"
@@ -266,43 +280,43 @@ msgstr "_Χρήση μιας προσαρμοσμένης εντολής"
 
 #: ../data/ui/filetypemanager.ui.h:5
 msgid "Edit Type"
-msgstr "Επεξεργασία Τύπου"
+msgstr "Επεξεργασία τύπου αρχείων"
 
 #: ../data/ui/sourceeditor.ui.h:2
 msgid "Save this source"
-msgstr ""
+msgstr "Αποθήκευση αυτής της πηγής λογισμικού"
 
 #: ../data/ui/sourceeditor.ui.h:3
 msgid "toolbutton1"
-msgstr ""
+msgstr "κουμπί1"
 
 #: ../data/ui/sourceeditor.ui.h:4
 msgid "Redo this source"
-msgstr ""
+msgstr "Επαναφορά αυτής της πηγής λογισμικού"
 
 #: ../data/ui/sourceeditor.ui.h:5
 msgid "toolbutton2"
-msgstr ""
+msgstr "κουμπί2"
 
 #: ../data/ui/sourceeditor.ui.h:6
 msgid "Delete this source"
-msgstr ""
+msgstr "Διαγραφή αυτής της πηγής λογισμικού"
 
 #: ../data/ui/sourceeditor.ui.h:7
 msgid "toolbutton3"
-msgstr ""
+msgstr "κουμπί3"
 
 #: ../data/ui/sourceeditor.ui.h:8 ../data/ui/desktoprecovery.ui.h:2
 msgid "Backup History:"
-msgstr "Ιστορικό Αντίγραφων Ασφαλείας:"
+msgstr "Ιστορικό αντιγράφων ασφαλείας:"
 
 #: ../data/ui/sourceeditor.ui.h:9
 msgid "Auto Backup"
-msgstr ""
+msgstr "Αυτόματη δημιουργία αντιγράφων ασφαλείας"
 
 #: ../data/ui/sourceeditor.ui.h:10 ../data/ui/desktoprecovery.ui.h:3
 msgid "_Recover"
-msgstr "_Επαναφορά"
+msgstr "Α_νάκτηση"
 
 #: ../data/ui/sourceeditor.ui.h:11 ../data/ui/desktoprecovery.ui.h:4
 msgid "_Backup"
@@ -310,7 +324,7 @@ msgstr "_Αντίγραφο Ασφαλείας"
 
 #: ../data/ui/sourceeditor.ui.h:12
 msgid "U_pdate"
-msgstr ""
+msgstr "Ενημέρωση"
 
 #: ../data/ui/updatemanager.ui.h:1
 msgid "_Install Update"
@@ -318,15 +332,15 @@ msgstr "_Εγκατάσταση ενημέρωσης"
 
 #: ../data/ui/janitorpage.ui.h:2
 msgid "<big><b>Cool! Your system is clean!</b></big>"
-msgstr ""
+msgstr "<big><b>Τέλεια! Το σύστημά σας είναι καθαρό!</b></big>"
 
 #: ../data/ui/janitorpage.ui.h:3
 msgid "_Scan"
-msgstr ""
+msgstr "_Σάρωση"
 
 #: ../data/ui/janitorpage.ui.h:4
 msgid "_Clean"
-msgstr ""
+msgstr "_Καθαρισμός"
 
 #: ../data/ui/traceback.ui.h:2
 msgid "<big><b>Oops... an error occured</b></big>"
@@ -339,8 +353,8 @@ msgid ""
 "the error message below:"
 msgstr ""
 "Άν θέλετε να μας βοηθήσετε να διορθώσουμε το πρόβλημα, \n"
-"Παρακαλούμε επιλέξτε <i>Αναφορά</i> ώστε να αρχειοθετήσετε μιά καινούργια "
-"αναφορά σφάλματος.Φροντίστε να συμπεριλάβετε το μύνημα λάθους που ακολουθεί:"
+"Παρακαλούμε επιλέξτε <i>Αναφορά</i> ώστε να υποβάλετε μια νέα αναφορά "
+"σφάλματος.Φροντίστε να συμπεριλάβετε το παρακάτω μήνυμα σφάλματος:"
 
 #: ../data/ui/traceback.ui.h:6
 msgid "<big><b>Oops... a fatal error occured</b></big>"
@@ -355,8 +369,8 @@ msgid ""
 msgstr ""
 "Το Ubuntu Tweak πρέπει να τερματιστεί.\n"
 "Άν θέλετε να μας βοηθήσετε να διορθώσουμε το πρόβλημα, \n"
-"Παρακαλούμε επιλέξτε <i>Αναφορά</i> ώστε να αρχειοθετήσετε μιά καινούργια "
-"αναφορά σφάλματος.Φροντίστε να συμπεριλάβετε το μύνημα λάθους που ακολουθεί:"
+"Παρακαλούμε επιλέξτε <i>Αναφορά</i> ώστε να υποβάλετε μια νέα αναφορά "
+"σφάλματος.Φροντίστε να συμπεριλάβετε το παρακάτω μήνυμα σφάλματος:"
 
 #: ../data/ui/mainwindow.ui.h:1
 msgid ""
@@ -384,6 +398,18 @@ msgid ""
 "Ubuntu Tweak; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr ""
+"Το Ubuntu Tweak είναι ελεύθερο λογισμικό, μπορείτε να το αναδιανέμετε ή/και "
+"να το τροποποιήσετε υπό τους όρους της GNU Γενικής Άδειας Δημόσιας Χρήσης, "
+"όπως αυτή δημοσιεύεται από το Ίδρυμα Ελεύθερου Λογισμικού(FSF), είτε της "
+"έκδοσης 2 της Άδειας, είτε (κατ' επιλογή σας) οποιαδήποτε μεταγενέστερη "
+"έκδοση.\n"
+"Το Ubuntu Tweak διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ "
+"ΚΑΜΙΑ ΕΓΓΥΗΣΗ. Χωρίς καν την υπονοούμενη εγγύηση ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή "
+"ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Δείτε την GNU Γενική Άδεια Δημόσιας "
+"Χρήσης για περισσότερες λεπτομέρειες.\n"
+"Θα πρέπει να έχετε λάβει ένα αντίγραφο της GNU Γενικής Άδειας Δημόσιας "
+"Χρήσης μαζί με το Ubuntu Tweak. Αν όχι, γράψτε στο Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 
 #: ../data/ui/mainwindow.ui.h:6
 msgid "translator-credits"
@@ -404,41 +430,48 @@ msgstr ""
 "  Manos Vasiliadis https://launchpad.net/~idioteque\n"
 "  Michael Kotsarinis https://launchpad.net/~mk73628\n"
 "  Mixalis Zisis https://launchpad.net/~mixasgr\n"
+"  Nicolas Doganis https://launchpad.net/~nic-doganis\n"
 "  Renji NsK https://launchpad.net/~redarmy-2505\n"
 "  Thanos Kakarountas https://launchpad.net/~a-kakarountas\n"
 "  Vassilis Skoullis https://launchpad.net/~vaskoul\n"
 "  Yannis Kaskamanidis https://launchpad.net/~ttnfy17\n"
 "  ale3andro https://launchpad.net/~ale3andro\n"
+"  linuxlalala https://launchpad.net/~linuxlalala\n"
 "  mara sdr https://launchpad.net/~paren8esis\n"
 "  mixalns https://launchpad.net/~jhonnyglou\n"
 "  msrowley https://launchpad.net/~msrowley\n"
 "  rexes13 https://launchpad.net/~p-tournaris\n"
+"  tzem https://launchpad.net/~athmakrigiannis\n"
 "  xoristzatziki https://launchpad.net/~simsonbike-bugs\n"
 "  Τάσος Παπανικολάου https://launchpad.net/~taspap"
 
 #: ../data/ui/mainwindow.ui.h:7
 msgid "Search... <Ctrl+F>"
-msgstr ""
+msgstr "Αναζήτηση με το <Ctrl+F>"
 
 #: ../data/ui/mainwindow.ui.h:8
 msgid "_Overview"
-msgstr ""
+msgstr "_Επισκόπηση"
 
 #: ../data/ui/mainwindow.ui.h:9
-msgid "_Tweaks"
-msgstr ""
+msgid "_Apps"
+msgstr "_Εφαρμογές"
 
 #: ../data/ui/mainwindow.ui.h:10
-msgid "_Admins"
-msgstr ""
+msgid "_Tweaks"
+msgstr "_Προσαρμογές"
 
 #: ../data/ui/mainwindow.ui.h:11
-msgid "_Janitor"
-msgstr ""
+msgid "_Admins"
+msgstr "_Συντήρηση"
 
 #: ../data/ui/mainwindow.ui.h:12
+msgid "_Janitor"
+msgstr "_Καθαριστής"
+
+#: ../data/ui/mainwindow.ui.h:13
 msgid "<big><b>No matches found</b></big>"
-msgstr ""
+msgstr "Δεν βρέθηκαν αποτελέσματα αναζήτησης"
 
 #: ../data/ui/desktoprecovery.ui.h:1
 msgid "Setting Name:"
@@ -448,20 +481,20 @@ msgstr "Όνομα Ρύθμισης:"
 msgid "R_eset"
 msgstr "_Eπαναφορά"
 
-#: ../ubuntutweak/system/__init__.py:42
+#: ../ubuntutweak/system/__init__.py:43
 msgid "GNOME Classic"
-msgstr ""
+msgstr "Κλασσικό GNOME"
 
-#: ../ubuntutweak/system/__init__.py:44
+#: ../ubuntutweak/system/__init__.py:45 ../ubuntutweak/system/__init__.py:46
 msgid "GNOME Fallback"
-msgstr ""
-
-#: ../ubuntutweak/system/__init__.py:55
-#, python-format
-msgid "Unknown (%s)"
-msgstr ""
+msgstr "GNOME Fallback"
 
 #: ../ubuntutweak/system/__init__.py:57
+#, python-format
+msgid "Unknown (%s)"
+msgstr "Άγνωστο (%s)"
+
+#: ../ubuntutweak/system/__init__.py:59
 #: ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Άγνωστο"
@@ -477,15 +510,15 @@ msgstr "Λήψη...%d"
 
 #: ../ubuntutweak/network/downloadmanager.py:148
 msgid "Downloaded!"
-msgstr "Μεταφορτώθηκε"
+msgstr "Ελήφθη!"
 
 #: ../ubuntutweak/network/downloadmanager.py:155
 msgid "Error happened!"
 msgstr "Προέκυψε σφάλμα!"
 
 #: ../ubuntutweak/network/utdata.py:50 ../ubuntutweak/network/utdata.py:83
-#: ../ubuntutweak/tweaks/unity.py:66 ../ubuntutweak/tweaks/unity.py:69
-#: ../ubuntutweak/tweaks/unity.py:131 ../ubuntutweak/tweaks/unity.py:199
+#: ../ubuntutweak/tweaks/unity.py:68 ../ubuntutweak/tweaks/unity.py:145
+#: ../ubuntutweak/tweaks/unity.py:213
 msgid "Never"
 msgstr "Ποτέ"
 
@@ -519,88 +552,94 @@ msgstr[1] "%d λεπτά πριν"
 
 #: ../ubuntutweak/network/utdata.py:81
 msgid "Just Now"
-msgstr "Ακριβώς τώρα"
+msgstr "Μόλις τώρα"
 
 #: ../ubuntutweak/policykit/widgets.py:64
 msgid "_Unlock"
 msgstr "_Ξεκλείδωμα"
 
-#: ../ubuntutweak/policykit/dbusproxy.py:32
+#: ../ubuntutweak/policykit/dbusproxy.py:28
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
 "If you want to help developers debugging, try to run \"<b>sudo "
 "/usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" in a terminal."
 msgstr ""
-"H διεργασία του Ubuntu Tweak δεν εκκίνησε σωστά. Αυτό σημαίνει ότι κάποια "
-"χαρακτηριστικά για προχωρημένους ίσως να μην λειτουργούν.\n"
+"Δεν έγινε σωστή εκκίνηση της υπηρεσίας του Ubuntu Tweak. Αυτό σημαίνει ότι "
+"κάποιες προχωρημένες λειτουργίες ίσως να μη λειτουργήσουν.\n"
 "Αν θέλετε να βοηθήσετε τους προγραμματιστές στην αποσφαλμάτωση, δοκιμάστε να "
 "εκτελέσετε \"<b>sudo /usr/share/ubuntu-tweak/ubuntu-tweak-daemon</b>\" σε "
-"τερματικό."
+"ένα τερματικό."
 
 #: ../ubuntutweak/common/debug.py:59
 msgid "Error message has been copied"
-msgstr ""
+msgstr "Το μήνυμα σφάλματος έχει αντιγραφεί"
 
 #: ../ubuntutweak/common/debug.py:60
 msgid ""
 "Now click \"Report\" to enter the bug report website. Make sure to attach "
 "the error message in \"Further information\"."
 msgstr ""
+"Τώρα κάντε κλικ στο κουμπί \"Αναφορά\"για να μπείτε στην ιστοσελίδα αναφοράς "
+"σφάλματος. Σιγουρευτείτε πως επισυνάψατε το μήνυμα σφάλματος στις "
+"«Περισσότερες πληροφορίες»."
 
 #: ../ubuntutweak/common/debug.py:81
 msgid "Copy Error Message"
-msgstr ""
+msgstr "Αντιγραφή μηνύματος σφάλματος"
 
 #: ../ubuntutweak/common/debug.py:121
 msgid "Sorry, your distribution is not supported by Ubuntu Tweak"
-msgstr ""
+msgstr "Συγγνώμη, η διανομή σας δεν υποστηρίζεται από το Ubuntu Tweak"
 
 #: ../ubuntutweak/common/debug.py:122
 msgid ""
 "You can't file bug for this issue. Please only use Ubuntu Tweak on Ubuntu. "
 "Or it may kill your cat."
 msgstr ""
+"Δεν μπορείτε να υποβάλετε αναφορά σφάλματος για αυτό το θέμα. Παρακαλούμε "
+"χρησιμοποιείστε το Ubuntu Tweak στο Ubuntu. Αλλιώς μπορεί να ανατινάξει την "
+"γάτα σας."
 
 #: ../ubuntutweak/janitor/gwibber_plugin.py:4
 msgid "Gwibber Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Gwibber"
 
 #: ../ubuntutweak/janitor/opera_plugin.py:4
 msgid "Opera Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Opera"
 
 #: ../ubuntutweak/janitor/googleearth_plugin.py:5
 msgid "Google Earth Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Google Earth"
 
-#: ../ubuntutweak/janitor/thumbnailcache_plugin.py:4
+#: ../ubuntutweak/janitor/thumbnailcache_plugin.py:5
 msgid "Thumbnail cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Μικρογραφιών"
 
 #: ../ubuntutweak/janitor/softwarecenter_plugin.py:4
 msgid "Software Center Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Κέντρου Λογισμικού"
 
 #: ../ubuntutweak/janitor/mozilla_plugin.py:37
 msgid "Firefox Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Firefox"
 
 #: ../ubuntutweak/janitor/mozilla_plugin.py:43
 msgid "Thunderbird Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Thunderbird"
 
 #: ../ubuntutweak/janitor/chrome_plugin.py:4
 msgid "Chrome Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Chrome"
 
 #: ../ubuntutweak/janitor/chrome_plugin.py:11
 msgid "Chromium Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Chromium"
 
 #: ../ubuntutweak/janitor/empathy_plugin.py:4
 msgid "Empathy Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Empathy"
 
 #: ../ubuntutweak/janitor/autoremoval_plugin.py:14
 msgid "Unneeded Packages"
@@ -608,30 +647,30 @@ msgstr "Πακέτα που δεν χρειάζονται"
 
 #: ../ubuntutweak/janitor/autoremoval_plugin.py:53
 msgid "Unneeded Packages (No package to be removed)"
-msgstr ""
+msgstr "Πακέτα που δεν χρειάζονται (δεν υπάρχει πακέτο προς αφαίρεση)"
 
 #: ../ubuntutweak/janitor/aptcache_plugin.py:10
 msgid "Apt Cache"
-msgstr ""
+msgstr "Προσωρινή μνήμη Apt"
 
 #: ../ubuntutweak/janitor/__init__.py:278
 msgid "No cache to be cleaned"
-msgstr ""
+msgstr "Δεν υπάρχει προσωρινή μνήμη για καθάρισμα"
 
 #: ../ubuntutweak/janitor/__init__.py:576
 #, python-format
 msgid "Scanning cruft for \"%s\"..."
-msgstr ""
+msgstr "Σάρωση περιττών αρχείων για το \"%s\"..."
 
 #: ../ubuntutweak/janitor/__init__.py:698
 #, python-format
 msgid "Scan error for \"%s\", double-click to see details"
-msgstr ""
+msgstr "'Ελεγχος σφάλματος για \"%s\", διπλό κλίκ για λεπτομέρειες"
 
 #: ../ubuntutweak/janitor/__init__.py:763
 #, python-format
 msgid "Cleaning cruft for \"%s\"..."
-msgstr ""
+msgstr "Καθαρισμός περιττών αρχείων του \"%s\"..."
 
 #: ../ubuntutweak/janitor/__init__.py:844
 #: ../ubuntutweak/admins/desktoprecovery.py:81
@@ -644,25 +683,21 @@ msgstr "Σύστημα"
 msgid "Personal"
 msgstr "Προσωπικά"
 
-#: ../ubuntutweak/janitor/__init__.py:889
-msgid "Apps"
-msgstr ""
-
 #: ../ubuntutweak/janitor/packageconfigs_plugin.py:30
 msgid "Package Configs"
-msgstr ""
+msgstr "Ρυθμίσεις Πακέτων"
 
 #: ../ubuntutweak/janitor/packageconfigs_plugin.py:73
 msgid "Packages Configs (No package config to be removed)"
-msgstr ""
+msgstr "Ρυθμίσεις Πακέτων (Δεν υπάρχει ρύθμιση πακέτου προς αφαίρεση)"
 
 #: ../ubuntutweak/janitor/oldkernel_plugin.py:16
 msgid "Old Kernel"
-msgstr ""
+msgstr "Παλαιός Πυρήνας"
 
-#: ../ubuntutweak/janitor/oldkernel_plugin.py:101
+#: ../ubuntutweak/janitor/oldkernel_plugin.py:105
 msgid "Old Kernel Packages (No old kernel package to be removed)"
-msgstr ""
+msgstr "Παλαιά πακέτα πυρήνα (Δεν υπάρχουν πακέτα πυρήνα προς αφαίρεση)"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:79
 #: ../ubuntutweak/modules/__init__.py:29
@@ -671,18 +706,18 @@ msgstr "Εφαρμογές"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:80
 #: ../ubuntutweak/admins/userdir.py:34 ../ubuntutweak/modules/__init__.py:32
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Desktop"
-msgstr "Επιφάνεια Eργασίας"
+msgstr "Επιτραπέζιος υπολογιστής"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:106
-#: ../ubuntutweak/apps/__init__.py:240
+#: ../ubuntutweak/apps/__init__.py:392
 msgid "Category"
 msgstr "Κατηγορία"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:147
 msgid "Setting"
-msgstr ""
+msgstr "Ρύθμιση"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:188
 msgid "Backup Name:"
@@ -690,7 +725,7 @@ msgstr "Όνομα Αντιγράφου Ασφαλείας:"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:217
 msgid "Backing up..."
-msgstr ""
+msgstr "Δημιουργία αντιγράφων ασφαλείας..."
 
 #: ../ubuntutweak/admins/desktoprecovery.py:242
 #, python-format
@@ -711,49 +746,58 @@ msgstr ""
 "Μπορείτε επίσης να χρησιμοποιήσετε το κουμπί \"Επαναφορά\" για να "
 "επαναφέρετε τις προεπιλεγμένες ρυθμίσεις συστήματος."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:347
+#: ../ubuntutweak/admins/desktoprecovery.py:348
 msgid "No Backup Yet"
 msgstr "Δεν υπάρχει αντίγραφο ασφαλείας ακόμη"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:382
+#: ../ubuntutweak/admins/desktoprecovery.py:383
 #, python-format
 msgid ""
 "Backup all settings under \"<b>%s</b>\"\n"
 "Would you like to continue?"
 msgstr ""
+"Δημιουργία Αντιγράφου Ασφαλείας για όλες τις ρυθμίσεις κάτω από "
+"\"<b>%s</b>\"\n"
+"Θα θέλατε να συνεχίσετε;"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:403
+#: ../ubuntutweak/admins/desktoprecovery.py:404
 #, python-format
 msgid ""
 "Backup settings under \"<b>%s</b>\"\n"
 "Would you like to continue?"
 msgstr ""
+"Δημιουργία Αντιγράφου Ασφαλείας για τις ρυθμίσεις κάτω από \"<b>%s</b>\"\n"
+"Θα θέλατε να συνεχίσετε;"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:446
+#: ../ubuntutweak/admins/desktoprecovery.py:447
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s/%s</b>\"?"
-msgstr ""
+msgstr "Θα θέλατε να διαγράψετε το αντίγραφο ασφαλείας \"<b>%s/%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:450
+#: ../ubuntutweak/admins/desktoprecovery.py:451
 #, python-format
 msgid ""
 "Would you like to delete the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
+"Θα θέλατε να διαγράψετε τα αντίγραφα ασφαλείας όλων των ρυθμίσεων "
+"\"<b>%(setting_name)s</b>\" με όνομα \"<b>%(backup_name)s</b>\";"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:472
+#: ../ubuntutweak/admins/desktoprecovery.py:473
 #, python-format
 msgid "Would you like to recover the backup \"<b>%s/%s</b>\"?"
-msgstr ""
+msgstr "Θα θέλατε να ανακτήσετε το αντίγραφο ασφαλείας \"<b>%s/%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:475
+#: ../ubuntutweak/admins/desktoprecovery.py:476
 #, python-format
 msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 msgstr ""
+"Θα θέλατε να ανακτήσετε τα αντίγραφα ασφαλείας όλων των ρυθμίσεων "
+"\"<b>%(setting_name)s</b>\" με όνομα \"<b>%(backup_name)s</b>\";"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:480
+#: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
 "<b>NOTES</b>: While recovering, your desktop may be unresponsive for a "
 "moment."
@@ -761,30 +805,33 @@ msgstr ""
 "<b>ΣΗΜΕΙΩΣΕΙΣ</b>: Κατά την ανάκτηση, η επιφάνεια εργασίας σας μπορεί να μην "
 "αποκρίνεται για λίγο."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:497
-msgid "Recovery Successful!"
-msgstr ""
-
 #: ../ubuntutweak/admins/desktoprecovery.py:498
-#: ../ubuntutweak/admins/desktoprecovery.py:534
+msgid "Recovery Successful!"
+msgstr "Επιτυχία Ανάκτησης!"
+
+#: ../ubuntutweak/admins/desktoprecovery.py:499
+#: ../ubuntutweak/admins/desktoprecovery.py:535
 msgid "You may need to restart your desktop for changes to take effect"
 msgstr ""
+"Μπορεί να χρειαστεί να επανεκκινήσετε τον υπολογιστή σας για να ισχύσουν οι "
+"αλλαγές"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:503
+#: ../ubuntutweak/admins/desktoprecovery.py:504
 msgid "_Logout"
 msgstr "_Αποσύνδεση"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:516
+#: ../ubuntutweak/admins/desktoprecovery.py:517
 #, python-format
 msgid "Would you like to reset settings for \"<b>%s</b>\"?"
-msgstr ""
+msgstr "Θα θέλατε να επαναφέρετε τις αρχικές ρυθμίσεις του \"<b>%s</b>\";"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:518
+#: ../ubuntutweak/admins/desktoprecovery.py:519
 #, python-format
 msgid "Would you like to reset all settings under \"<b>%s</b>\"?"
 msgstr ""
+"Θα θέλατε να επαναφέρετε όλες τις αρχικές ρυθμίσεις στο \"<b>%s</b>\";"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:520
+#: ../ubuntutweak/admins/desktoprecovery.py:521
 msgid ""
 "<b>NOTES</b>: Whilst resetting, your desktop may be unresponsive for a "
 "moment."
@@ -792,23 +839,23 @@ msgstr ""
 "<b>ΣΗΜΕΙΩΣΕΙΣ</b>: Κατά την επαναφορά, η επιφάνεια εργασίας σας μπορεί να "
 "μην αποκρίνεται για λίγο."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:533
+#: ../ubuntutweak/admins/desktoprecovery.py:534
 msgid "Reset Successful!"
-msgstr ""
+msgstr "Επιτυχία Επαναφοράς!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:562
-#: ../ubuntutweak/admins/sourceeditor.py:418
+#: ../ubuntutweak/admins/desktoprecovery.py:563
+#: ../ubuntutweak/admins/sourceeditor.py:422
 msgid "Please enter a new name for your backup:"
 msgstr "Παρακαλούμε εισάγετε ένα όνομα για το αντίγραφο ασφαλείας σας:"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:594
+#: ../ubuntutweak/admins/desktoprecovery.py:595
 msgid "Backup Successful!"
 msgstr "Δημιουργία αντιγράφου ασφαλείας επιτυχής!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:597
-#: ../ubuntutweak/admins/sourceeditor.py:394
+#: ../ubuntutweak/admins/desktoprecovery.py:598
+#: ../ubuntutweak/admins/sourceeditor.py:398
 msgid "Backup Failed!"
-msgstr "Δημιουργία αντιγράφου ασφαλείας απέτυχε!"
+msgstr "Η δημιουργία αντιγράφου ασφαλείας απέτυχε!"
 
 #: ../ubuntutweak/admins/sourcecenter.py:301
 msgid "Package"
@@ -826,19 +873,19 @@ msgstr "Έκδοση Συστήματος"
 #, python-format
 msgid "%d New Application Available"
 msgid_plural "%d New Applications Available"
-msgstr[0] "%d Νέα Εφαρμογή Διαθέσιμη"
-msgstr[1] "%d Νέες Εφαρμογές Διαθέσιμες"
+msgstr[0] "%d νέα εφαρμογή διαθέσιμη"
+msgstr[1] "%d νέες εφαρμογές διαθέσιμες"
 
 #: ../ubuntutweak/admins/sourcecenter.py:475
 #, python-format
 msgid "%d Package Update Available"
 msgid_plural "%d Package Updates Available"
-msgstr[0] "%d Ενημέρωση Πακέτου Διαθέσιμη"
-msgstr[1] "%d Ενημέρωσεις Πακέτων Διαθέσιμες"
+msgstr[0] "%d ενημέρωση πακέτου διαθέσιμη"
+msgstr[1] "%d ενημερώσεις πακέτων διαθέσιμες"
 
 #: ../ubuntutweak/admins/sourcecenter.py:513
 msgid "No Available Package Updates"
-msgstr "Δεν Υπάρχουν Διαθέσιμες Ενημερώσεις Πακέτων"
+msgstr "Δεν υπάρχουν διαθέσιμες ενημερώσεις πακέτων"
 
 #: ../ubuntutweak/admins/sourcecenter.py:603
 #: ../ubuntutweak/admins/sourcecenter.py:1103
@@ -866,8 +913,8 @@ msgid ""
 "To enable this Source, You need to enable <b>\"%s\"</b> at first.\n"
 "Do you wish to continue?"
 msgstr ""
-"Για να ενεργοποιήσετε την πηγή, Θα πρέπει να ενεργοποιήσετε <b>\"% s\"</ "
-"b>πρώτα.\n"
+"Για να ενεργοποιήσετε αυτήν την πηγή, θα πρέπει να ενεργοποιήσετε το <b>\"% "
+"s\"</ b>πρώτα.\n"
 "Θέλετε να συνεχίσετε;"
 
 #: ../ubuntutweak/admins/sourcecenter.py:817
@@ -876,12 +923,13 @@ msgid ""
 "You can't disable this Source because <b>\"%(SOURCE)s\"</b> depends on it.\n"
 "To continue you need to disable <b>\"%(SOURCE)s\"</b> first."
 msgstr ""
-"Δεν μπορείτε να απενεργοποιήσετε αυτήν Πηγή επειδή <b>\\\"%(SOURCE)s\\\"</b> "
-"εξαρτάται από αυτό.\n"
-"Για να συνεχίσετε θα πρέπει να απενεργοποιήσετε <b>\\\"%(SOURCE)s\\\"</b> "
+"Δεν μπορείτε να απενεργοποιήσετε αυτήν την πηγή επειδή το <b>\\\"%(SOURCE)s\\"
+"\"</b> εξαρτάται από αυτή.\n"
+"Για να συνεχίσετε θα πρέπει να απενεργοποιήσετε το <b>\\\"%(SOURCE)s\\\"</b> "
 "πρώτα."
 
 #: ../ubuntutweak/admins/sourcecenter.py:903
+#: ../ubuntutweak/apps/__init__.py:225
 msgid "New source has been enabled"
 msgstr "Η νέα πηγή ενεργοποιήθηκε"
 
@@ -891,12 +939,12 @@ msgid ""
 "%s is enabled now, Please click the refresh button to update the application "
 "cache."
 msgstr ""
-"% s είναι ενεργοποιημένη τώρα, παρακαλώ κάντε κλικ στο κουμπί Ανανέωση για "
-"ενημέρωση."
+"Το % s είναι ενεργοποιημένο τώρα, παρακαλώ κάντε κλικ στο κουμπί ανανέωσης "
+"για να ενημερωθεί η προσωρινή μνήμη εφαρμογών."
 
 #: ../ubuntutweak/admins/sourcecenter.py:921
 msgid "Enabled PPAs"
-msgstr ""
+msgstr "Ενεργοποιημένα αποθετήρια PPA"
 
 #: ../ubuntutweak/admins/sourcecenter.py:924
 msgid "Source Center"
@@ -907,13 +955,15 @@ msgid ""
 "A collection of software sources to ensure your applications are always up-"
 "to-date."
 msgstr ""
+"Μια συλλογή πηγών λογισμικού ώστε να διασφαλίσετε πως οι εφαρμογές σας είναι "
+"πάντα ενημερωμένες."
 
 #: ../ubuntutweak/admins/sourcecenter.py:928
 msgid "Visit online Source Center"
 msgstr "Επισκεφτείτε το Κέντρο Πηγών"
 
 #: ../ubuntutweak/admins/sourcecenter.py:937
-#: ../ubuntutweak/admins/appcenter.py:506
+#: ../ubuntutweak/admins/appcenter.py:505
 msgid "_Sync"
 msgstr "_Συγχρονισμός"
 
@@ -926,10 +976,8 @@ msgid ""
 "It is a possible security risk to use packages from Third-Party Sources.\n"
 "Please be careful and use only sources you trust."
 msgstr ""
-"Είναι πιθανόν επικίνδυνο για την ασφάλεια η χρήση των πακέτων από  Πηγές "
-"Τρίτων.\n"
-"Παρακαλώ να είστε προσεκτικοί και να χρησιμοποιείτε μόνο τις πηγές που "
-"εμπιστεύεστε."
+"Είναι πιθανό ρίσκο ασφαλείας να χρησιμοποιείτε πακέτα από τρίτες πηγές.\n"
+"Παρακαλώ προσέχετε και χρησιμοποιείτε μόνο πηγές που εμπιστεύεστε."
 
 #: ../ubuntutweak/admins/sourcecenter.py:979
 msgid "Never show this dialog"
@@ -942,9 +990,9 @@ msgid "disabled on upgrade to %s"
 msgstr "απενεργοποιημένο κατά την αναβάθμιση σε %s"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1014
-#: ../ubuntutweak/admins/appcenter.py:546
+#: ../ubuntutweak/admins/appcenter.py:545
 msgid "Last synced:"
-msgstr "Συγχρονίστηκε:"
+msgstr "Συγχρονίστηκε τελευταία:"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1019
 msgid "Upgrade Third Party Sources"
@@ -978,6 +1026,8 @@ msgid ""
 "All enabled PPAs (Select and click \"Purge PPA\" can safely downgrade "
 "packages)"
 msgstr ""
+"Όλα τα ενεργοποιημένα αποθετήρια PPA (η επιλογή και το κλικ στη λειτουργία "
+"«Εκκαθάριση PPA» μπορεί να υποβαθμίσει πακέτα με ασφάλεια)"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1155
 msgid "An error occurred whilst downloading the file"
@@ -992,13 +1042,13 @@ msgid ""
 "Network Error, Please check your network connection or the remote server is "
 "down."
 msgstr ""
-"Σφάλμα δικτύου, Παρακαλούμε ελέγξτε την σύνδεσή σας ή ο απομακρυσμένος "
-"εξυπηρετητής δεν ανταποκρίνεται."
+"Σφάλμα δικτύου. Παρακαλώ ελέγξτε την σύνδεσή σας ή ο απομακρυσμένος "
+"εξυπηρετητής δεν λειτουργεί."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1184
-#: ../ubuntutweak/admins/appcenter.py:665
+#: ../ubuntutweak/admins/appcenter.py:664
 msgid "No update available."
-msgstr "Καμία διαθέσιμη ενημέρωση."
+msgstr "Δεν υπάρχει διαθέσιμη ενημέρωση."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1209
 msgid "It's safe to purge the PPA, no packages need to be downgraded."
@@ -1014,80 +1064,85 @@ msgstr ""
 #: ../ubuntutweak/admins/sourcecenter.py:1216
 #, python-format
 msgid "You're going to purge \"%s\":"
-msgstr ""
+msgstr "Πρόκειται να εκκαθαρίσετε το \"%s\":"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1253
 msgid "PPA has been purged"
-msgstr ""
+msgstr "Το αποθετήριο PPA εκκαθαρίστηκε"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1254
 msgid "It is highly recommend to do a \"Refresh\" source operation."
-msgstr ""
+msgstr "Προτείνεται ανεπιφύλακτα να κάνετε τη λειτουργία πηγών «Ανανέωση»."
 
-#: ../ubuntutweak/admins/sourceeditor.py:168
+#: ../ubuntutweak/admins/sourceeditor.py:172
 msgid "Source Editor"
 msgstr "Επεξεργαστής Πηγών"
 
-#: ../ubuntutweak/admins/sourceeditor.py:169
+#: ../ubuntutweak/admins/sourceeditor.py:173
 msgid "Manually edit your software sources to suit your needs."
 msgstr ""
 "Χειροκίνητη επεξεργασία των πηγών λογισμικού για να ταιριάζουν στις ανάγκες "
-"σου."
+"σας."
 
-#: ../ubuntutweak/admins/sourceeditor.py:208
+#: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
 "You're viewing the backup \"<b>%(backup_name)s</b>\" for "
 "\"<b>%(list_name)s</b>\""
 msgstr ""
+"Βλέπετε το αντίγραφο ασφαλείας \"<b>%(backup_name)s</b>\" του "
+"\"<b>%(list_name)s</b>\""
 
-#: ../ubuntutweak/admins/sourceeditor.py:279
+#: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
-msgstr ""
+msgstr "Κανένα αντίγραφο ασφαλείας ακόμα"
 
-#: ../ubuntutweak/admins/sourceeditor.py:319
+#: ../ubuntutweak/admins/sourceeditor.py:323
 msgid "Please check the permission of the sources.list file"
 msgstr "Παρακαλούμε ελέγξτε τα δικαιώματα του αρχείου sources.list"
 
-#: ../ubuntutweak/admins/sourceeditor.py:321
+#: ../ubuntutweak/admins/sourceeditor.py:325
 msgid "Save failed!"
 msgstr "Αποτυχία αποθήκευσης!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:339
+#: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
 "Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
 "\"<b>%(list_name)s</b>\"?"
 msgstr ""
+"Θα θέλατε να ανακτήσετε το αντίγραφο ασφαλείας \"<b>%(backup_name)s</b>\" "
+"του \"<b>%(list_name)s</b>\";"
 
-#: ../ubuntutweak/admins/sourceeditor.py:350
+#: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
-msgstr ""
+msgstr "Αποτυχία Ανάκτησης!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:351
+#: ../ubuntutweak/admins/sourceeditor.py:355
 msgid "You may need to check the permission of source list."
-msgstr ""
+msgstr "Θα πρέπει να ελέγξετε τα δικαιώματα της λίστας πηγών."
 
-#: ../ubuntutweak/admins/sourceeditor.py:383
+#: ../ubuntutweak/admins/sourceeditor.py:387
 msgid "Please enter the name for your backup:"
-msgstr ""
+msgstr "Παρακαλώ εισάγετε το όνομα του αντιγράφου ασφαλείας σας:"
 
-#: ../ubuntutweak/admins/sourceeditor.py:396
-#: ../ubuntutweak/admins/sourceeditor.py:429
+#: ../ubuntutweak/admins/sourceeditor.py:400
+#: ../ubuntutweak/admins/sourceeditor.py:433
 msgid "Please only use alphanumeric characters and \"_\" and \"-\"."
 msgstr ""
+"Παρακαλώ χρησιμοποιήστε μόνο αλφαριθμητικούς χαρακτήρες και \"_\" και \"-\"."
 
-#: ../ubuntutweak/admins/sourceeditor.py:398
-#: ../ubuntutweak/admins/sourceeditor.py:431
+#: ../ubuntutweak/admins/sourceeditor.py:402
+#: ../ubuntutweak/admins/sourceeditor.py:435
 msgid "Backup name is invalid"
-msgstr ""
+msgstr "Το όνομα του αντίγραφου ασφαλείας δεν είναι έγκυρο"
 
-#: ../ubuntutweak/admins/sourceeditor.py:404
+#: ../ubuntutweak/admins/sourceeditor.py:408
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s</b>\"?"
-msgstr ""
+msgstr "Θα θέλατε να διαγράψετε το αντίγραφο ασφαλείας \"<b>%s</b>\"?"
 
-#: ../ubuntutweak/admins/sourceeditor.py:434
+#: ../ubuntutweak/admins/sourceeditor.py:438
 msgid ""
 "The current content will be lost after reloading!\n"
 "Do you wish to continue?"
@@ -1095,11 +1150,11 @@ msgstr ""
 "Το τρέχον περιεχόμενο θα χαθεί μετά την επαναφόρτωση! \n"
 "Θέλετε να συνεχίσετε;"
 
-#: ../ubuntutweak/admins/sourceeditor.py:452
+#: ../ubuntutweak/admins/sourceeditor.py:456
 msgid "You can't delete sources.list!"
 msgstr "Δεν μπορείτε να διαγράψετε το αρχείο sources.list!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:454
+#: ../ubuntutweak/admins/sourceeditor.py:458
 #, python-format
 msgid ""
 "The \"%s\" will be deleted!\n"
@@ -1114,11 +1169,11 @@ msgstr "Έγγραφο HTML"
 
 #: ../ubuntutweak/admins/templates.py:66
 msgid "ODB Database"
-msgstr "Βάση Δεδομένων ODB"
+msgstr "Βάση δεδομένων ODB"
 
 #: ../ubuntutweak/admins/templates.py:67
 msgid "ODS Spreadsheet"
-msgstr "ODS Φύλλο Εργασίας"
+msgstr "Λογιστικό φύλλο ODS"
 
 #: ../ubuntutweak/admins/templates.py:68
 msgid "ODT Document"
@@ -1134,7 +1189,7 @@ msgstr "Παρουσίαση ODP"
 
 #: ../ubuntutweak/admins/templates.py:71
 msgid "Python script"
-msgstr "πρόγραμμα εντολών Python"
+msgstr "Δέσμη ενεργειών Python"
 
 #: ../ubuntutweak/admins/templates.py:72
 msgid "Pygtk Example"
@@ -1166,7 +1221,7 @@ msgstr ""
 "Εδώ μπορείτε να διαχειριστείτε τα πρότυπα των εγγράφων σας.\n"
 "Μπορείτε να προσθέσετε αρχεία ως πρότυπα σύροντάς τα σε αυτό το παράθυρο.\n"
 "Μπορείτε τότε να δημιουργήσετε νέα έγγραφα βασισμένα σε αυτά τα πρότυπα από "
-"μενού που εμφανίζεται με δεξί κλικ στο Ναυτίλο."
+"το μενού δεξιού κλικ του Ναυτίλου."
 
 #: ../ubuntutweak/admins/templates.py:128
 #, python-format
@@ -1185,7 +1240,7 @@ msgstr "Πήγαινε και Όρισε"
 
 #: ../ubuntutweak/admins/templates.py:142
 msgid "Restart This Module"
-msgstr "Επανεκκίνηση αυτής της λειτουργίας"
+msgstr "Επανεκκίνηση αυτού του αρθρώματος"
 
 #: ../ubuntutweak/admins/templates.py:167
 msgid "Rebuild System Templates"
@@ -1194,7 +1249,7 @@ msgstr "Ξανακτίσε τα πρότυπα συστήματος"
 #: ../ubuntutweak/admins/templates.py:182
 msgid "The templates path is still incorrect, please reset it!"
 msgstr ""
-"Η διαδρομή των προτύπων είναι ακόμα εσφαλμένη, παρακλαούμε να γίνει "
+"Η διαδρομή των προτύπων είναι ακόμα εσφαλμένη, παρακαλούμε να γίνει "
 "επαναφορά!"
 
 #: ../ubuntutweak/admins/templates.py:194
@@ -1205,40 +1260,42 @@ msgstr ""
 "Αυτό θα σβήσει όλα τα απενεργοποιημένα πρότυπα.\n"
 "Θέλετε να συνεχίσετε?"
 
-#: ../ubuntutweak/admins/appcenter.py:188
+#: ../ubuntutweak/admins/appcenter.py:187
 msgid "Installed Apps"
-msgstr ""
+msgstr "Εγκαταστημένες εφαρμογές"
 
-#: ../ubuntutweak/admins/appcenter.py:455
+#: ../ubuntutweak/admins/appcenter.py:454
 msgid "Checking update..."
 msgstr "Έλεγχος ενημέρωσης..."
 
-#: ../ubuntutweak/admins/appcenter.py:490
+#: ../ubuntutweak/admins/appcenter.py:489
 msgid "Fetching online data..."
 msgstr "Λήψη Δεδομένων..."
 
-#: ../ubuntutweak/admins/appcenter.py:495
+#: ../ubuntutweak/admins/appcenter.py:494
 msgid "Application Center"
 msgstr "Κέντρο Εφαρμογών"
 
-#: ../ubuntutweak/admins/appcenter.py:496
+#: ../ubuntutweak/admins/appcenter.py:495
 msgid ""
 "A simple but efficient way for finding and installing popular applications."
 msgstr ""
+"Ένας απλός αλλά αποτελεσματικός τρόπος να βρίσκετε και να εγκαθιστάτε "
+"δημοφιλείς εφαρμογές."
 
-#: ../ubuntutweak/admins/appcenter.py:499
+#: ../ubuntutweak/admins/appcenter.py:498
 msgid "Visit Online Application Center"
 msgstr "Επισκευθείτε το διαδικτυακό κέντρο της εφαρμογής"
 
-#: ../ubuntutweak/admins/appcenter.py:553
+#: ../ubuntutweak/admins/appcenter.py:552
 msgid "New application data available, would you like to update?"
 msgstr "Νέα διαθέσιμα δεδομένα εφαρμογής, θέλετε την ενημέρωση;"
 
-#: ../ubuntutweak/admins/appcenter.py:652
+#: ../ubuntutweak/admins/appcenter.py:651
 msgid "Update available, would you like to update?"
 msgstr "Διαθέσιμες ενημερώσεις, θα θελατε να ενημερώσετε;"
 
-#: ../ubuntutweak/admins/appcenter.py:661
+#: ../ubuntutweak/admins/appcenter.py:660
 msgid ""
 "Network Error, please check your network connection - or the remote server "
 "may be down."
@@ -1246,7 +1303,7 @@ msgstr ""
 "Σφάλμα δικτύου, παρακαλώ ελέγξτε τη σύνδεση του δικτύου σας - ή ο "
 "απομακρυσμένος διακομιστής μπορεί να μην είναι διαθέσιμος."
 
-#: ../ubuntutweak/admins/appcenter.py:678
+#: ../ubuntutweak/admins/appcenter.py:677
 msgid "An error occurred while downloading the file."
 msgstr "Προέκυψε σφάλμα κατά τη λήψη του αρχείου."
 
@@ -1286,9 +1343,9 @@ msgid ""
 msgstr ""
 "Το Ubuntu Tweak θα επαναφέρει τον επιλεγμένο φάκελο στην προκαθορισμένη του "
 "τοποθεσία.\n"
-"Παρ'όλα αυτά, θα πρέπει να μεταφέρεις τα αρχεία σου πίσω στη θέση τους "
+"Παρ' όλα αυτά, θα πρέπει να μεταφέρετε τα αρχεία σας πίσω στη θέση τους "
 "χειροκίνητα.\n"
-"Θέλεις να συνεχίσεις?"
+"Θέλετε να συνεχίσετε;"
 
 #: ../ubuntutweak/admins/userdir.py:204
 msgid "Directory"
@@ -1308,7 +1365,7 @@ msgstr "Επαναφορά στην προεπιλογή"
 
 #: ../ubuntutweak/admins/userdir.py:237
 msgid "User Folder"
-msgstr ""
+msgstr "Προσωπικός φάκελος χρήστη"
 
 #: ../ubuntutweak/admins/userdir.py:238
 msgid ""
@@ -1316,9 +1373,9 @@ msgid ""
 "Don't change the location of your desktop folder unless you know what you "
 "are doing."
 msgstr ""
-"Μπορεις να αλλάξεις τις διαδρομές των προκαθορισμένων φακέλων εδώ.\n"
-"Μην αλλάξεις την τοποθεσία του φακέλου επιφάνειας εργασία εκτός αν ξέρεις τι "
-"κάνεις."
+"Μπορείτε να αλλάξετε τις διαδρομές των προκαθορισμένων φακέλων από εδώ.\n"
+"Μην αλλάξετε την τοποθεσία του φακέλου επιφάνειας εργασίας εκτός κι αν "
+"ξέρετε τι κάνετε."
 
 #: ../ubuntutweak/admins/userdir.py:261
 msgid "_Restore"
@@ -1328,147 +1385,162 @@ msgstr "_Επαναφορά"
 msgid "_Change"
 msgstr "_Αλλαγή"
 
-#: ../ubuntutweak/admins/quicklists.py:208
+#: ../ubuntutweak/admins/quicklists.py:211
 msgid "QuickLists Editor"
-msgstr ""
+msgstr "Επεξεργαστής QuickLists"
 
-#: ../ubuntutweak/admins/quicklists.py:209
+#: ../ubuntutweak/admins/quicklists.py:212
 msgid "Unity Launcher QuickLists Editor"
-msgstr ""
+msgstr "Επεξεργαστής QuickLists για τον εκκινητή του Unity"
 
-#: ../ubuntutweak/admins/quicklists.py:397
+#: ../ubuntutweak/admins/quicklists.py:230
+msgid "Running Apps"
+msgstr "Εκτελούμενες εφαρμογές"
+
+#: ../ubuntutweak/admins/quicklists.py:231
+msgid "Workspace Switcher"
+msgstr "Εναλλάκτης χώρων εργασίας"
+
+#: ../ubuntutweak/admins/quicklists.py:232
+msgid "Devices"
+msgstr "Συσκευές"
+
+#: ../ubuntutweak/admins/quicklists.py:426
 #, python-format
 msgid "Would you like to reset \"%s\"?"
-msgstr ""
+msgstr "Θα θέλατε να επαναφέρετε το \"%s\";"
 
-#: ../ubuntutweak/admins/quicklists.py:398
+#: ../ubuntutweak/admins/quicklists.py:427
 #, python-format
 msgid "If you continue, the actions of %s will be set to default."
 msgstr ""
+"Αν συνεχίσετε, οι ενέργειες του %s θα ρυθμιστούν στις προεπιλεγμένες."
 
-#: ../ubuntutweak/admins/quicklists.py:411
+#: ../ubuntutweak/admins/quicklists.py:440
 msgid "Would you like to reset the launcher items?"
-msgstr ""
+msgstr "Θα θέλατε να επαναφέρετε τα αντικείμενα του εκκινητή;"
 
-#: ../ubuntutweak/admins/quicklists.py:412
+#: ../ubuntutweak/admins/quicklists.py:441
 msgid ""
 "If you continue, launcher will be set to default and all your current items "
 "will be lost."
 msgstr ""
+"Αν συνεχίσετε, ο εκκινητής θα ρυθμιστεί στις προεπιλογές και τα τρέχοντα "
+"αντικείμενά σας θα χαθούν."
 
-#: ../ubuntutweak/admins/scripts.py:43
+#: ../ubuntutweak/admins/scripts.py:49
 msgid "Create Launcher ..."
 msgstr "Δημιουργία εκκινητή ..."
 
-#: ../ubuntutweak/admins/scripts.py:44
+#: ../ubuntutweak/admins/scripts.py:50
 msgid "Copy to ..."
 msgstr "Αντιγραφή σε ..."
 
-#: ../ubuntutweak/admins/scripts.py:45
+#: ../ubuntutweak/admins/scripts.py:51
 msgid "Copy to Desktop"
 msgstr "Αντιγραφή στην Επιφάνεια Εργασίας"
 
-#: ../ubuntutweak/admins/scripts.py:46
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Copy to Download"
 msgstr "Αντιγραφή στο φάκελο Λήψεις"
 
-#: ../ubuntutweak/admins/scripts.py:47
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Copy to Home"
 msgstr "Αντιγραφή στο φάκελο ρίζας (Ηome)"
 
-#: ../ubuntutweak/admins/scripts.py:48
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "Έλεγχος md5 sum"
 
-#: ../ubuntutweak/admins/scripts.py:49
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Compress PDF"
 msgstr "Συμπίεση PDF"
 
-#: ../ubuntutweak/admins/scripts.py:50
+#: ../ubuntutweak/admins/scripts.py:56
 msgid "Move to ..."
 msgstr "Μετακίνηση σε ..."
 
-#: ../ubuntutweak/admins/scripts.py:51
+#: ../ubuntutweak/admins/scripts.py:57
 msgid "Move to Desktop"
 msgstr "Μετακίνηση στην Επιφάνεια Εργασίας"
 
-#: ../ubuntutweak/admins/scripts.py:52
+#: ../ubuntutweak/admins/scripts.py:58
 msgid "Move to Download"
 msgstr "Μετακίνηση στο φάκελο Λήψεις"
 
-#: ../ubuntutweak/admins/scripts.py:53
+#: ../ubuntutweak/admins/scripts.py:59
 msgid "Move to Home"
 msgstr "Μετακίνηση στο φάκελο Home"
 
-#: ../ubuntutweak/admins/scripts.py:54
+#: ../ubuntutweak/admins/scripts.py:60
 msgid "Create hardlink to ..."
 msgstr "Δημιουργία δεσμού (hardlink) σε ..."
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:61
 msgid "Link to ..."
 msgstr "Σύνδεση σε ..."
 
-#: ../ubuntutweak/admins/scripts.py:56
+#: ../ubuntutweak/admins/scripts.py:62
 msgid "Link to Desktop"
 msgstr "Σύνδεση στην Επιφάνεια Εργασίας"
 
-#: ../ubuntutweak/admins/scripts.py:57
+#: ../ubuntutweak/admins/scripts.py:63
 msgid "Link to Download"
 msgstr "Σύνδεσμος στο Λήψεις"
 
-#: ../ubuntutweak/admins/scripts.py:58
+#: ../ubuntutweak/admins/scripts.py:64
 msgid "Link to Home"
 msgstr "Σύνδεσμος στο Home"
 
-#: ../ubuntutweak/admins/scripts.py:59
+#: ../ubuntutweak/admins/scripts.py:65
 msgid "Open with your favourite text editor"
 msgstr "Άνοιγμα με τον αγαπημένο σας επεξεργαστή κειμένου"
 
-#: ../ubuntutweak/admins/scripts.py:60
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Open with your favourite text editor (as root)"
 msgstr "Άνοιγμα με τον αγαπημένο σας επεξεργαστή κειμένου (σαν υπερχρήστης)"
 
-#: ../ubuntutweak/admins/scripts.py:61
+#: ../ubuntutweak/admins/scripts.py:67
 msgid "Browse as root"
-msgstr "Εξερεύνηση ως root"
+msgstr "Εξερεύνηση ως υπερχρήστης"
 
-#: ../ubuntutweak/admins/scripts.py:62
+#: ../ubuntutweak/admins/scripts.py:68
 msgid "Search in current folder"
 msgstr "Αναζήτηση στον τρέχοντα φάκελο"
 
-#: ../ubuntutweak/admins/scripts.py:63
+#: ../ubuntutweak/admins/scripts.py:69
 msgid "Convert image to JPG"
 msgstr "Μετατροπή εικόνας σε JPG"
 
-#: ../ubuntutweak/admins/scripts.py:64
+#: ../ubuntutweak/admins/scripts.py:70
 msgid "Convert image to PNG"
 msgstr "Μετατροπή εικόνας σε PNG"
 
-#: ../ubuntutweak/admins/scripts.py:65
+#: ../ubuntutweak/admins/scripts.py:71
 msgid "Convert image to GIF"
 msgstr "Μετατροπή εικόνας σε GIF"
 
-#: ../ubuntutweak/admins/scripts.py:66
+#: ../ubuntutweak/admins/scripts.py:72
 msgid "Set image as wallpaper"
 msgstr "Χρήση της εικόνας ως φόντο επιφάνειας εργασίας"
 
-#: ../ubuntutweak/admins/scripts.py:67
+#: ../ubuntutweak/admins/scripts.py:73
 msgid "Make hard shadow to image"
 msgstr "Δημιουργία σκληρής μάσκας στο είδωλο"
 
-#: ../ubuntutweak/admins/scripts.py:95
+#: ../ubuntutweak/admins/scripts.py:101
 msgid "Enabled Scripts"
 msgstr "Ενεργοποιημένα σενάρια εντολών"
 
-#: ../ubuntutweak/admins/scripts.py:126
+#: ../ubuntutweak/admins/scripts.py:132
 msgid "Disabled Scripts"
 msgstr "Απενεργοποιημένα σενάρια εντολών"
 
-#: ../ubuntutweak/admins/scripts.py:133
+#: ../ubuntutweak/admins/scripts.py:139
 msgid "Scripts"
 msgstr "Δέσμες ενεργειών"
 
-#: ../ubuntutweak/admins/scripts.py:134
+#: ../ubuntutweak/admins/scripts.py:140
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1479,11 +1551,11 @@ msgstr ""
 "Μπορείτε να σύρετε σενάρια ενεργειών εδώ από τον Διαχειριστή Αρχείων.\n"
 "Το 'Σενάρια εντολών' θα προστεθεί τότε στο μενού περιεχομένου."
 
-#: ../ubuntutweak/admins/scripts.py:162
+#: ../ubuntutweak/admins/scripts.py:168
 msgid "Rebuild System Scripts"
 msgstr "Αναδημιουργία σεναρίων εντολών Συστήματος"
 
-#: ../ubuntutweak/admins/scripts.py:176
+#: ../ubuntutweak/admins/scripts.py:182
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1507,34 +1579,36 @@ msgstr ""
 "Εισάγετε την εντολή για την εκτέλεση της εφαρμογής και επιλέξετε ένα "
 "συνδυασμό πλήκτρων για τη συντόμευση."
 
-#: ../ubuntutweak/admins/shortcuts.py:83
+#: ../ubuntutweak/admins/shortcuts.py:84
 #, python-format
 msgid "Command %d"
 msgstr "Εντολή %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:88
-#: ../ubuntutweak/admins/shortcuts.py:200
+#: ../ubuntutweak/admins/shortcuts.py:89
+#: ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
-#: ../ubuntutweak/tweaks/window.py:77 ../ubuntutweak/tweaks/window.py:84
-#: ../ubuntutweak/tweaks/window.py:95 ../ubuntutweak/tweaks/window.py:110
+#: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
+#: ../ubuntutweak/tweaks/window.py:98 ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:137 ../ubuntutweak/tweaks/window.py:144
+#: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "None"
 msgstr "Κανένα"
 
-#: ../ubuntutweak/admins/shortcuts.py:93
-#: ../ubuntutweak/admins/shortcuts.py:145
+#: ../ubuntutweak/admins/shortcuts.py:94
+#: ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "απενεργοποιημένο"
 
-#: ../ubuntutweak/admins/shortcuts.py:102
+#: ../ubuntutweak/admins/shortcuts.py:103
 msgid "ID"
 msgstr "ID"
 
-#: ../ubuntutweak/admins/shortcuts.py:113
+#: ../ubuntutweak/admins/shortcuts.py:114
 msgid "Command"
 msgstr "Εντολή"
 
-#: ../ubuntutweak/admins/shortcuts.py:126
+#: ../ubuntutweak/admins/shortcuts.py:127
 msgid "Key"
 msgstr "Κλειδί"
 
@@ -1559,7 +1633,7 @@ msgid "Application"
 msgstr "Εφαρμογή"
 
 #: ../ubuntutweak/admins/filetypemanager.py:50
-#: ../ubuntutweak/apps/__init__.py:259
+#: ../ubuntutweak/apps/__init__.py:411
 msgid "All"
 msgstr "Όλα"
 
@@ -1595,7 +1669,7 @@ msgstr[1] ""
 
 #: ../ubuntutweak/admins/filetypemanager.py:544
 msgid "File Type Manager"
-msgstr "Διαχειριστής Τύπων Αρχείων"
+msgstr "Διαχείριση τύπων αρχείων"
 
 #: ../ubuntutweak/admins/filetypemanager.py:545
 msgid "Manage all registered file types"
@@ -1603,19 +1677,19 @@ msgstr "Διαχειριστείτε όλους τους καταχωρημέν�
 
 #: ../ubuntutweak/admins/filetypemanager.py:582
 msgid "_Reset"
-msgstr ""
+msgstr "_Επαναφορά"
 
 #: ../ubuntutweak/admins/filetypemanager.py:588
 msgid "Only show filetypes with associated applications"
-msgstr ""
+msgstr "Προβολή μόνο των τύπων αρχείων που σχετίζονται με κάποια εφαρμογή"
 
 #: ../ubuntutweak/modules/__init__.py:28
 msgid "Broken Modules"
-msgstr ""
+msgstr "Προβληματικά αρθρώματα"
 
 #: ../ubuntutweak/modules/__init__.py:30
 msgid "Appearance"
-msgstr ""
+msgstr "Εμφάνιση"
 
 #: ../ubuntutweak/modules/__init__.py:31
 msgid "Startup"
@@ -1623,13 +1697,13 @@ msgstr "Εκκίνηση"
 
 #: ../ubuntutweak/modules/__init__.py:35
 msgid "Other"
-msgstr ""
+msgstr "'Αλλο"
 
 #: ../ubuntutweak/modules/__init__.py:254
 msgid "More"
 msgstr "Περισσότερα"
 
-#: ../ubuntutweak/modules/__init__.py:426
+#: ../ubuntutweak/modules/__init__.py:427
 #, python-format
 msgid ""
 "Ubuntu Tweak has detected that your apt configuration is broken.\n"
@@ -1643,8 +1717,19 @@ msgid ""
 "\n"
 "Or you can submit the Error Message to the developer for help:"
 msgstr ""
+"Το Ubuntu Tweak εντόπισε ότι η ρύθμιση του apt είναι κατεστραμμένη.\n"
+"Προσπαθήστε να την διορθώσετε ακολουθώντας τα παρακάτω βήματα:\n"
+"\n"
+"\t1. Ανοίξτε ένα Τερματικό\n"
+"\t2. Εκτελέστε τις εντολές επιδιόρθωσης:\n"
+"\n"
+"\t\tsudo chmod 644 %(broken_file)s\n"
+"\t\tsudo chown root:root %(broken_file)s\n"
+"\n"
+"Ή μπορείτε να υποβάλετε το Μήνυμα Σφάλματος στον προγραμματιστή του έργου "
+"για βοήθεια:"
 
-#: ../ubuntutweak/modules/__init__.py:436
+#: ../ubuntutweak/modules/__init__.py:437
 #, python-format
 msgid ""
 "Ubuntu Tweak has detected that your apt list file is broken.\n"
@@ -1659,158 +1744,180 @@ msgid ""
 "\n"
 "Or you can submit the Error Message to the developer forhelp:"
 msgstr ""
+"Το Ubuntu Tweak εντόπισε ότι το αρχείο της λίστας apt είναι κατεστραμμένο.\n"
+"Δοκιμάστε να το διορθώσετε ακολουθώντας τα παρακάτω βήματα:\n"
+"\n"
+"\t1. Ανοίξτε ένα Τερματικό\n"
+"\t2. Εκτελέστε την εντολή για να ανοίξει το αρχείο λίστας apt:\n"
+"\n"
+"\t\tsudo gedit %s\n"
+"\n"
+"\t3. Επεξεργαστείτε την λίστα για να είναι σωστή\n"
+"\n"
+"Ή μπορείτε να υποβάλετε το Μήνυμα Σφάλματος στον προγραμματιστή του έργου "
+"για βοήθεια:"
 
-#: ../ubuntutweak/tweaks/icons.py:26
+#: ../ubuntutweak/tweaks/icons.py:27
 msgid "Show \"Computer\" icon"
-msgstr ""
+msgstr "Εμφάνιση εικονιδίου «Υπολογιστής»"
 
-#: ../ubuntutweak/tweaks/icons.py:33
+#: ../ubuntutweak/tweaks/icons.py:34
 msgid "Show \"Home Folder\" icon"
-msgstr ""
+msgstr "Εμφάνιση εικονιδίου «Προσωπικός φάκελος»"
 
-#: ../ubuntutweak/tweaks/icons.py:40
+#: ../ubuntutweak/tweaks/icons.py:41
 msgid "Show \"Trash\" icon"
-msgstr ""
+msgstr "Εμφάνιση εικονιδίου «Απορρίμματα»"
 
-#: ../ubuntutweak/tweaks/icons.py:47
+#: ../ubuntutweak/tweaks/icons.py:48
 msgid "Show \"Network Servers\" icon"
-msgstr ""
+msgstr "Εμφάνιση εικονιδίου «Δίκτυο»"
 
-#: ../ubuntutweak/tweaks/icons.py:76 ../ubuntutweak/gui/treeviews.py:89
+#: ../ubuntutweak/tweaks/icons.py:80 ../ubuntutweak/gui/treeviews.py:89
 msgid "Rename"
 msgstr "Μετονομασία"
 
-#: ../ubuntutweak/tweaks/icons.py:107
+#: ../ubuntutweak/tweaks/icons.py:111
 msgid "Desktop Icons"
-msgstr ""
+msgstr "Εικονίδια επιφάνειας εργασίας"
 
-#: ../ubuntutweak/tweaks/icons.py:108
+#: ../ubuntutweak/tweaks/icons.py:112
 msgid "Rename and toggle visibilty of desktop icons"
 msgstr ""
 "Μετονομασία και αλλαγή της ορατότητας των εικονιδίων στην επιφάνεια εργασίας"
 
-#: ../ubuntutweak/tweaks/icons.py:113
+#: ../ubuntutweak/tweaks/icons.py:117
 msgid "Show desktop icons:"
-msgstr ""
+msgstr "Εμφάνιση εικονιδίων στην επιφάνεια εργασίας"
 
-#: ../ubuntutweak/tweaks/icons.py:114
+#: ../ubuntutweak/tweaks/icons.py:118
 msgid "Show mounted volumes"
-msgstr ""
+msgstr "Εμφάνιση προσαρτημένων τόμων"
 
-#: ../ubuntutweak/tweaks/icons.py:115
+#: ../ubuntutweak/tweaks/icons.py:119
 msgid "Show contents of \"Home Folder\""
-msgstr ""
+msgstr "Εμφάνιση περιεχομένων προσωπικού φακέλου"
 
-#: ../ubuntutweak/tweaks/icons.py:146
+#: ../ubuntutweak/tweaks/icons.py:151
 msgid "Note: switch off this option will make the desktop unclickable"
 msgstr ""
-
-#: ../ubuntutweak/tweaks/theme.py:36
-msgid "Theme"
-msgstr ""
+"Σημείωση: η απενεργοποίηση της λειτουργίας αυτής θα καταργήσει τη δυνατότητα "
+"κλικ στην επιφάνεια εργασίας"
 
 #: ../ubuntutweak/tweaks/theme.py:37
+msgid "Theme"
+msgstr "Θέμα"
+
+#: ../ubuntutweak/tweaks/theme.py:38
 msgid "Set the gtk theme, icon theme, cursor theme and others"
 msgstr ""
+"Ορίστε το θέμα gtk, το θέμα των εικονιδίων, το θέμα του δρομέα ποντικιού και "
+"άλλα"
 
-#: ../ubuntutweak/tweaks/theme.py:41 ../ubuntutweak/tweaks/loginsettings.py:47
+#: ../ubuntutweak/tweaks/theme.py:42 ../ubuntutweak/tweaks/loginsettings.py:47
 msgid "Icon theme:"
-msgstr ""
+msgstr "Θέμα εικονιδίων:"
 
-#: ../ubuntutweak/tweaks/theme.py:42 ../ubuntutweak/tweaks/loginsettings.py:46
+#: ../ubuntutweak/tweaks/theme.py:43 ../ubuntutweak/tweaks/loginsettings.py:46
 msgid "Gtk theme:"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/theme.py:43
-msgid "Cursor theme:"
-msgstr ""
+msgstr "Θέμα Gtk:"
 
 #: ../ubuntutweak/tweaks/theme.py:44
+msgid "Cursor theme:"
+msgstr "Θέμα δρομέα ποντικιού:"
+
+#: ../ubuntutweak/tweaks/theme.py:45
 msgid "Window theme:"
-msgstr ""
+msgstr "Θέμα παραθύρων:"
 
-#: ../ubuntutweak/tweaks/theme.py:89
+#: ../ubuntutweak/tweaks/theme.py:102
 msgid "Install theme:"
-msgstr ""
+msgstr "Εγκατάσταση θέματος"
 
-#: ../ubuntutweak/tweaks/theme.py:99
+#: ../ubuntutweak/tweaks/theme.py:112
 msgid "Theme file is invalid"
-msgstr ""
+msgstr "Το αρχείο θέματος δεν είναι έγκυρο"
 
-#: ../ubuntutweak/tweaks/theme.py:105
+#: ../ubuntutweak/tweaks/theme.py:118
 #, python-format
 msgid "\"%s\" installed successfully"
-msgstr ""
+msgstr "Το \"%s\" εγκαταστάθηκε με επιτυχία"
 
-#: ../ubuntutweak/tweaks/theme.py:106
+#: ../ubuntutweak/tweaks/theme.py:119
 #, python-format
 msgid "Would you like to set your icon theme to \"%s\" immediatelly?"
-msgstr ""
+msgstr "Θα θέλατε να ορίσετε το θέμα εικονιδίων σας σε \"%s\" αμέσως;"
 
 #: ../ubuntutweak/tweaks/window.py:32
 msgid "Window"
-msgstr ""
+msgstr "Παράθυρο"
 
 #: ../ubuntutweak/tweaks/window.py:33
 msgid "Manage Window Manager settings"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/window.py:48
-msgid "Window control button position:"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/window.py:49
-msgid "\"Close\" button only"
-msgstr ""
+msgstr "Διαχείριση ρυθμίσεων του Διαχειριστή παραθύρων"
 
 #: ../ubuntutweak/tweaks/window.py:50
-msgid "Titlebar mouse wheel action:"
-msgstr ""
+msgid "Window control button position:"
+msgstr "Θέση κουμπιών ελέγχων παραθύρων:"
 
 #: ../ubuntutweak/tweaks/window.py:51
-msgid "Titlebar double-click action:"
-msgstr ""
+msgid "\"Close\" button only"
+msgstr "Μόνο κουμπί «Κλείσιμο»"
 
 #: ../ubuntutweak/tweaks/window.py:52
-msgid "Titlebar middle-click action:"
-msgstr ""
+msgid "Titlebar mouse wheel action:"
+msgstr "Ενέργεια ροδέλας ποντικιού για τη μπάρα τίτλου:"
 
 #: ../ubuntutweak/tweaks/window.py:53
-msgid "Titlebar right-click action:"
-msgstr ""
+msgid "Titlebar double-click action:"
+msgstr "Ενέργεια διπλού κλικ για τη μπάρα τίτλου:"
 
-#: ../ubuntutweak/tweaks/window.py:77 ../ubuntutweak/tweaks/window.py:85
-#: ../ubuntutweak/tweaks/window.py:98 ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:54
+msgid "Titlebar middle-click action:"
+msgstr "Ενέργεια μεσαίου κλικ για τη μπάρα τίτλου:"
+
+#: ../ubuntutweak/tweaks/window.py:55
+msgid "Titlebar right-click action:"
+msgstr "Ενέργεια δεξιού κλικ για τη μπάρα τίτλου:"
+
+#: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:88
+#: ../ubuntutweak/tweaks/window.py:101 ../ubuntutweak/tweaks/window.py:116
+#: ../ubuntutweak/tweaks/window.py:137 ../ubuntutweak/tweaks/window.py:145
+#: ../ubuntutweak/tweaks/window.py:156 ../ubuntutweak/tweaks/window.py:167
 msgid "Roll up"
 msgstr "Δίπλωση πάνω"
 
-#: ../ubuntutweak/tweaks/window.py:84 ../ubuntutweak/tweaks/window.py:95
-#: ../ubuntutweak/tweaks/window.py:110
+#: ../ubuntutweak/tweaks/window.py:87 ../ubuntutweak/tweaks/window.py:98
+#: ../ubuntutweak/tweaks/window.py:113 ../ubuntutweak/tweaks/window.py:144
+#: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "Maximize"
 msgstr "Μεγιστοποίηση"
 
-#: ../ubuntutweak/tweaks/window.py:85 ../ubuntutweak/tweaks/window.py:98
-#: ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:88 ../ubuntutweak/tweaks/window.py:101
+#: ../ubuntutweak/tweaks/window.py:116 ../ubuntutweak/tweaks/window.py:145
+#: ../ubuntutweak/tweaks/window.py:156 ../ubuntutweak/tweaks/window.py:167
 msgid "Minimize"
 msgstr "Ελαχιστοποίηση"
 
-#: ../ubuntutweak/tweaks/window.py:86 ../ubuntutweak/tweaks/window.py:99
-#: ../ubuntutweak/tweaks/window.py:114
+#: ../ubuntutweak/tweaks/window.py:89 ../ubuntutweak/tweaks/window.py:102
+#: ../ubuntutweak/tweaks/window.py:117 ../ubuntutweak/tweaks/window.py:146
+#: ../ubuntutweak/tweaks/window.py:157 ../ubuntutweak/tweaks/window.py:168
 msgid "Lower"
-msgstr "Πεζά"
+msgstr "Βύθιση"
 
-#: ../ubuntutweak/tweaks/window.py:86 ../ubuntutweak/tweaks/window.py:99
-#: ../ubuntutweak/tweaks/window.py:114
+#: ../ubuntutweak/tweaks/window.py:89 ../ubuntutweak/tweaks/window.py:102
+#: ../ubuntutweak/tweaks/window.py:117 ../ubuntutweak/tweaks/window.py:146
+#: ../ubuntutweak/tweaks/window.py:157 ../ubuntutweak/tweaks/window.py:168
 msgid "Menu"
-msgstr "Κατάλογος"
+msgstr "Μενού"
 
-#: ../ubuntutweak/tweaks/window.py:96 ../ubuntutweak/tweaks/window.py:111
+#: ../ubuntutweak/tweaks/window.py:99 ../ubuntutweak/tweaks/window.py:114
 msgid "Maximize Horizontally"
 msgstr "Οριζόντια μεγιστοποίηση"
 
-#: ../ubuntutweak/tweaks/window.py:97 ../ubuntutweak/tweaks/window.py:112
+#: ../ubuntutweak/tweaks/window.py:100 ../ubuntutweak/tweaks/window.py:115
 msgid "Maximize Vertically"
-msgstr "Κάθετη μεγιστοποίηση"
+msgstr "Κατακόρυφη μεγιστοποίηση"
 
 #: ../ubuntutweak/tweaks/nautilus.py:27
 msgid "File Manager"
@@ -1818,207 +1925,216 @@ msgstr "Διαχειριστής αρχείων"
 
 #: ../ubuntutweak/tweaks/nautilus.py:28
 msgid "Manage the Nautilus file manager"
-msgstr ""
+msgstr "Διαχείριση του Ναυτίλου, διαχειριστή αρχείων"
 
 #: ../ubuntutweak/tweaks/nautilus.py:33
-msgid "Show advanced permissions in \"File Properties\""
-msgstr ""
+msgid "Use the location entry instead of the pathbar"
+msgstr "Χρήση της καταχώρησης τοποθεσίας αντί της μπάρας διαδρομής"
 
 #: ../ubuntutweak/tweaks/nautilus.py:34
-msgid "Use the location entry instead of the pathbar"
+msgid "Enable Recursive Search"
 msgstr ""
 
 #: ../ubuntutweak/tweaks/nautilus.py:35
 msgid "Automatically mount media:"
-msgstr ""
+msgstr "Αυτόματη προσάρτηση των μέσων:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:36
 msgid "Automatically open a folder:"
-msgstr ""
+msgstr "Αυτόματο άνοιγμα ενός φακέλου:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:37
 msgid "Prompt or autorun/autostart programs:"
-msgstr ""
+msgstr "Προτροπή ή αυτόματη εκκίνηση προγραμμάτων:"
 
 #: ../ubuntutweak/tweaks/nautilus.py:38
 msgid "Thumbnail icon size (pixels):"
-msgstr ""
+msgstr "Μέγεθος εικονιδίου μικρογραφιών (εικονοστοιχεία):"
 
 #: ../ubuntutweak/tweaks/nautilus.py:39
 msgid "Thumbnail cache time (days):"
-msgstr ""
+msgstr "Διάρκεια προσωρινής μνήμης μικρογραφιών (ημέρες):"
 
 #: ../ubuntutweak/tweaks/nautilus.py:40
 msgid "Maximum thumbnail cache size (MB):"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/nautilus.py:52
-msgid "File browser:"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/session.py:29
-msgid "Session Indicator"
-msgstr ""
+msgstr "μέγιστο μέγεθος προσωρινής μνήμης μικρογραφιών (MB):"
 
 #: ../ubuntutweak/tweaks/session.py:30
-msgid "Control your system session releated features"
-msgstr "Ελέγξτε τα χαρακτηρηστικά της συνεδρίας συστήματος"
+msgid "Session Indicator"
+msgstr "Δείκτης συνεδρίας"
 
-#: ../ubuntutweak/tweaks/session.py:34
-msgid "User indicator"
-msgstr ""
+#: ../ubuntutweak/tweaks/session.py:31
+msgid "Control your system session releated features"
+msgstr "Ελέγξτε τα χαρακτηριστικά της συνεδρίας συστήματος"
 
 #: ../ubuntutweak/tweaks/session.py:35
+msgid "User indicator"
+msgstr "Δείκτης χρήστη"
+
+#: ../ubuntutweak/tweaks/session.py:36
 msgid "Disable \"Lock Screen\""
 msgstr "Απενεργοποίηση \"Κλειδώματος Οθόνης\""
 
-#: ../ubuntutweak/tweaks/session.py:36
-msgid "Show user's real name on the panel"
-msgstr ""
-
 #: ../ubuntutweak/tweaks/session.py:37
-msgid "Remove the log out item"
-msgstr ""
+msgid "Show user's real name on the panel"
+msgstr "Εμφάνιση του πραγματικού ονόματος χρήστη στη μπάρα μενού"
 
 #: ../ubuntutweak/tweaks/session.py:38
-msgid "Remove the shutdown item"
-msgstr ""
+msgid "Remove the log out item"
+msgstr "Αφαίρεση του στοιχείου Αποσύνδεση"
 
 #: ../ubuntutweak/tweaks/session.py:39
+msgid "Remove the shutdown item"
+msgstr "Αφαίρεση του στοιχείου Τερματισμός"
+
+#: ../ubuntutweak/tweaks/session.py:40
 msgid "Suppress the dialog to confirm logout and shutdown action"
 msgstr ""
+"Καταστολή του διαλόγου επιβεβαίωσης των ενεργειών αποσύνδεσης και τερματισμού"
 
-#: ../ubuntutweak/tweaks/session.py:68
+#: ../ubuntutweak/tweaks/session.py:73
 msgid "Session indicator:"
-msgstr ""
+msgstr "Δείκτης συνεδρίας"
 
-#: ../ubuntutweak/tweaks/workspace.py:36
+#: ../ubuntutweak/tweaks/workspace.py:37
 msgid "Show Workspaces"
 msgstr "Εμφάνιση Χώρων εργασίας"
 
-#: ../ubuntutweak/tweaks/workspace.py:37
+#: ../ubuntutweak/tweaks/workspace.py:38
 msgid "Show Windows"
 msgstr "Εμφάνιση Παραθύρων"
 
-#: ../ubuntutweak/tweaks/workspace.py:38
-msgid "Show Desktop"
-msgstr "Εμφάνιση Επιφάνειας Εργασίας"
-
 #: ../ubuntutweak/tweaks/workspace.py:39
-msgid "Show Widgets"
-msgstr "Εμφάνιση Προγραμματιδίων"
+msgid "Show Desktop"
+msgstr "Εμφάνιση Επιφάνειας εργασίας"
 
 #: ../ubuntutweak/tweaks/workspace.py:138
 msgid "Workspace"
-msgstr ""
+msgstr "Χώρος εργασίας"
 
 #: ../ubuntutweak/tweaks/workspace.py:139
 msgid "Workspace size and screen edge action settings"
-msgstr ""
+msgstr "Ρυθμίσεις χώρων εργασίας και ενεργειών άκρων οθόνης"
 
 #: ../ubuntutweak/tweaks/workspace.py:144
 msgid "Edge trigger delay (ms):"
-msgstr ""
+msgstr "Καθυστέρηση έναυσης ενέργειας άκρης (χιλ. δευτερολέπτου):"
 
 #: ../ubuntutweak/tweaks/workspace.py:145
 msgid "Horizontal workspace:"
-msgstr ""
+msgstr "Οριζόντιοι χώροι εργασίας:"
 
 #: ../ubuntutweak/tweaks/workspace.py:146
 msgid "Vertical workspace:"
-msgstr ""
+msgstr "Κατακόρυφοι χώροι εργασίας:"
 
 #: ../ubuntutweak/tweaks/sound.py:29
 msgid "Sound"
-msgstr ""
+msgstr "Ήχος"
 
 #: ../ubuntutweak/tweaks/sound.py:30
 msgid "Set the sound theme for Ubuntu"
-msgstr ""
+msgstr "Ορίστε το θέμα ήχων του Ubuntu"
 
 #: ../ubuntutweak/tweaks/sound.py:34
 msgid "Event sounds:"
-msgstr ""
+msgstr "Ήχοι συμβάντων:"
 
 #: ../ubuntutweak/tweaks/sound.py:35
 msgid "Input feedback sounds:"
-msgstr ""
+msgstr "Ήχοι ανάδρασης εισαγωγής:"
 
 #: ../ubuntutweak/tweaks/sound.py:36
 msgid "Sound theme:"
-msgstr ""
+msgstr "Θέμα ήχου:"
 
 #: ../ubuntutweak/tweaks/sound.py:37 ../ubuntutweak/tweaks/loginsettings.py:45
 msgid "Play login sound:"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/misc.py:31
-msgid "Miscellaneous"
-msgstr ""
+msgstr "Αναπαραγωγή ήχου σύνδεσης:"
 
 #: ../ubuntutweak/tweaks/misc.py:32
-msgid "Set the cursor timeout, menus and buttons icons"
-msgstr ""
+msgid "Miscellaneous"
+msgstr "Διάφορα"
 
-#: ../ubuntutweak/tweaks/misc.py:36
-msgid "Natural Scrolling"
-msgstr ""
+#: ../ubuntutweak/tweaks/misc.py:33
+msgid "Set the cursor timeout, menus and buttons icons"
+msgstr "Ρύθμιση του δρομέα, των μενού και των εικονιδίων κουμπιών"
 
 #: ../ubuntutweak/tweaks/misc.py:37
+msgid "Natural Scrolling"
+msgstr "Φυσική Κύλιση"
+
+#: ../ubuntutweak/tweaks/misc.py:38
 msgid "Menus have icons"
 msgstr "Οι κατάλογοι έχουν εικονίδια"
 
-#: ../ubuntutweak/tweaks/misc.py:38
+#: ../ubuntutweak/tweaks/misc.py:39
 msgid "Buttons have icons"
 msgstr "Τα κουμπιά έχουν εικονίδια"
 
-#: ../ubuntutweak/tweaks/misc.py:39
+#: ../ubuntutweak/tweaks/misc.py:40
 msgid "Show Input Method menu in the context menu"
 msgstr "Εμφάνιση του μενού Μεθόδου Εισαγωγής στο μενού περιεχομένων"
 
-#: ../ubuntutweak/tweaks/misc.py:40
+#: ../ubuntutweak/tweaks/misc.py:41
 msgid "Show Unicode Control Character menu in the context menu"
 msgstr "Εμφάνιση χαρακτήρα ελέγχου Unicode στο μενού περιεχομένων"
 
-#: ../ubuntutweak/tweaks/misc.py:41
+#: ../ubuntutweak/tweaks/misc.py:42
 msgid "Disable printing"
 msgstr "Απενεργοποίηση εκτύπωσης"
 
-#: ../ubuntutweak/tweaks/misc.py:42
+#: ../ubuntutweak/tweaks/misc.py:43
 msgid "Disable printer settings"
 msgstr "Απενεργοποίηση ρυθμίσεων του εκτυπωτή"
 
-#: ../ubuntutweak/tweaks/misc.py:43
+#: ../ubuntutweak/tweaks/misc.py:44
 msgid "Disable save to disk"
 msgstr "Απενεργοποίηση αποθήκευσης στο δίσκο"
 
-#: ../ubuntutweak/tweaks/misc.py:44
+#: ../ubuntutweak/tweaks/misc.py:45
 msgid "Disable \"Fast User Switching\""
 msgstr "Απενεργοποίηση της \"Γρήγορης εναλλαγής χρηστών\""
 
-#: ../ubuntutweak/tweaks/misc.py:45
-msgid "Cursor blink:"
-msgstr ""
-
 #: ../ubuntutweak/tweaks/misc.py:46
-msgid "Overlay scrollbars:"
-msgstr ""
+msgid "Cursor blink:"
+msgstr "Αναβόσβημα δρομέα:"
 
 #: ../ubuntutweak/tweaks/misc.py:47
-msgid "Cursor blink time:"
-msgstr ""
+msgid "Overlay scrollbars:"
+msgstr "Επικαλυπτόμενες μπάρες κύλισης:"
 
 #: ../ubuntutweak/tweaks/misc.py:48
-msgid "Cursor blink timeout:"
-msgstr ""
+msgid "Cursor blink time:"
+msgstr "Χρόνος αναβοσβησίματος δρομέα:"
 
-#: ../ubuntutweak/tweaks/misc.py:60 ../ubuntutweak/tweaks/unity.py:175
+#: ../ubuntutweak/tweaks/misc.py:49
+msgid "Cursor blink timeout:"
+msgstr "Χρόνος αναμονής αναβοσβησίματος δρομέα:"
+
+#: ../ubuntutweak/tweaks/misc.py:61 ../ubuntutweak/tweaks/unity.py:189
 msgid "Note: you may need to log out to take effect"
-msgstr ""
+msgstr "Σημείωση: μπορεί να χρειαστεί αποσύνδεση για να ισχύσει η αλλαγή"
+
+#: ../ubuntutweak/tweaks/misc.py:73
+msgid "Normal"
+msgstr "Κανονικό"
+
+#: ../ubuntutweak/tweaks/misc.py:74
+msgid "Auto"
+msgstr "Αυτόματα"
+
+#: ../ubuntutweak/tweaks/misc.py:75
+msgid "Show Overlay"
+msgstr "Εμφάνιση επικάλυψης"
+
+#: ../ubuntutweak/tweaks/misc.py:76
+msgid "Never Show Overlay"
+msgstr "Να μην εμφανίζεται η επικάλυψη"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:37
 msgid "Login Settings"
-msgstr "Ρυθμίσεις Εισόδου"
+msgstr "Ρυθμίσεις Σύνδεσης"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:38
 msgid "Control the appearance and behaviour of your login screen"
@@ -2026,332 +2142,390 @@ msgstr "Ρυθμίστε την εμφάνιση και συμπεριφορά �
 
 #: ../ubuntutweak/tweaks/loginsettings.py:43
 msgid "Guest account:"
-msgstr ""
+msgstr "Λογαριασμός επισκέπτη:"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:44
 msgid "Draw grid:"
-msgstr ""
+msgstr "Σχεδίαση πλέγματος:"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:63
+#: ../ubuntutweak/tweaks/loginsettings.py:62
 msgid "Note: you may need to reboot to take effect"
-msgstr ""
+msgstr "Σημείωση: μπορεί να χρειαστεί επανεκκίνηση για να ισχύσει η αλλαγή"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:141
+#: ../ubuntutweak/tweaks/loginsettings.py:136
 msgid "Choose a new logo image"
 msgstr "Επιλέξτε μια νέα εικόνα λογότυπου"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:147
+#: ../ubuntutweak/tweaks/loginsettings.py:142
 msgid "All images (*.PNG)"
-msgstr ""
+msgstr "Όλες οι εικόνες (*.PNG)"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:194
+#: ../ubuntutweak/tweaks/loginsettings.py:189
 msgid "Choose a new background image"
 msgstr "Επίλεξε μια νέα εικόνα φόντου"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:200
+#: ../ubuntutweak/tweaks/loginsettings.py:195
 msgid "All images"
 msgstr "Όλες οι εικόνες"
 
-#: ../ubuntutweak/tweaks/fonts.py:26
-msgid "Fonts"
-msgstr ""
-
 #: ../ubuntutweak/tweaks/fonts.py:27
-msgid "Fonts Settings"
-msgstr ""
+msgid "Fonts"
+msgstr "Γραμματοσειρές"
 
-#: ../ubuntutweak/tweaks/fonts.py:32
-msgid "Text scaling factor:"
-msgstr ""
+#: ../ubuntutweak/tweaks/fonts.py:28
+msgid "Fonts Settings"
+msgstr "Ρυθμίσεις Γραμματοσειρών"
 
 #: ../ubuntutweak/tweaks/fonts.py:33
-msgid "Default font:"
-msgstr ""
+msgid "Text scaling factor:"
+msgstr "Συντελεστής κλιμάκωσης κειμένου:"
 
 #: ../ubuntutweak/tweaks/fonts.py:34
-msgid "Monospace font:"
-msgstr ""
+msgid "Default font:"
+msgstr "Προεπιλεγμένη γραμματοσειρά:"
 
 #: ../ubuntutweak/tweaks/fonts.py:35
-msgid "Document font:"
-msgstr ""
+msgid "Monospace font:"
+msgstr "Γραμματοσειρά σταθερού πλάτους:"
 
 #: ../ubuntutweak/tweaks/fonts.py:36
-msgid "Window title bar font:"
-msgstr ""
+msgid "Document font:"
+msgstr "Γραμματοσειρά εγγράφων:"
 
 #: ../ubuntutweak/tweaks/fonts.py:37
-msgid "Hinting:"
-msgstr ""
+msgid "Window title bar font:"
+msgstr "Γραμματοσειρά μπάρας τίτλου παραθύρου:"
 
 #: ../ubuntutweak/tweaks/fonts.py:38
+msgid "Hinting:"
+msgstr "Υπόδειξη:"
+
+#: ../ubuntutweak/tweaks/fonts.py:39
 msgid "Antialiasing:"
-msgstr ""
+msgstr "Εξομάλυνση:"
 
-#: ../ubuntutweak/tweaks/fonts.py:64
+#: ../ubuntutweak/tweaks/fonts.py:78
 msgid "Desktop font:"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/fonts.py:89
-msgid "No hinting"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/fonts.py:90
-msgid "Basic"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/fonts.py:91
-msgid "Moderate"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/fonts.py:92
-msgid "Maximum"
-msgstr ""
+msgstr "Γραμματοσειρά επιφανείας εργασίας:"
 
 #: ../ubuntutweak/tweaks/fonts.py:99
-msgid "No antialiasing"
-msgstr ""
+msgid "No hinting"
+msgstr "Χωρίς υπόδειξη"
 
 #: ../ubuntutweak/tweaks/fonts.py:100
-msgid "Standard grayscale antialiasing"
-msgstr ""
+msgid "Basic"
+msgstr "Βασικό"
 
 #: ../ubuntutweak/tweaks/fonts.py:101
+msgid "Moderate"
+msgstr "Μέτριο"
+
+#: ../ubuntutweak/tweaks/fonts.py:102
+msgid "Maximum"
+msgstr "Μέγιστο"
+
+#: ../ubuntutweak/tweaks/fonts.py:109
+msgid "No antialiasing"
+msgstr "Χωρίς εξομάλυνση"
+
+#: ../ubuntutweak/tweaks/fonts.py:110
+msgid "Standard grayscale antialiasing"
+msgstr "Εξομάλυνση κλίμακας του γκρι"
+
+#: ../ubuntutweak/tweaks/fonts.py:111
 msgid "Subpixel antialiasing (LCD screens only)"
-msgstr ""
+msgstr "Εξομάλυνση subpixel (μόνο για οθόνες LCD)"
 
 #: ../ubuntutweak/tweaks/unity.py:37
 msgid "Tweak the powerful Unity desktop"
-msgstr ""
+msgstr "Προσαρμόστε το δυνατό περιβάλλον εργασίας Unity"
 
 #: ../ubuntutweak/tweaks/unity.py:42
 msgid "HUD:"
-msgstr ""
+msgstr "HUD:"
 
 #: ../ubuntutweak/tweaks/unity.py:43
-msgid "Shortcut hits overlay:"
-msgstr ""
+msgid "Shortcut hints overlay:"
+msgstr "Επικάλυψη υποδείξεων συντομεύσεων πληκτρολογίου:"
 
 #: ../ubuntutweak/tweaks/unity.py:44
 msgid "Launcher icon size:"
-msgstr ""
+msgstr "Μέγεθος εικονιδίων εκκινητή:"
 
 #: ../ubuntutweak/tweaks/unity.py:45
 msgid "Launcher opacity:"
-msgstr ""
+msgstr "Αδιαφάνεια εκκινητή:"
 
 #: ../ubuntutweak/tweaks/unity.py:46
-msgid "Launcher hide mode:"
-msgstr ""
+msgid "Web Apps integration:"
+msgstr "Ενσωμάτωση διαδικτυακών εφαρμογών:"
 
 #: ../ubuntutweak/tweaks/unity.py:47
-msgid "Launcher icon backlight:"
-msgstr ""
+msgid "Launcher hide mode:"
+msgstr "Λειτουργία απόκρυψης του εκκινητή:"
 
 #: ../ubuntutweak/tweaks/unity.py:48
-msgid "Launcher show devices:"
-msgstr ""
+msgid "Launcher icon backlight:"
+msgstr "Οπίσθιο φωτισμός εικονιδίων εκκινητή:"
 
 #: ../ubuntutweak/tweaks/unity.py:49
-msgid "\"Show desktop\" icon:"
-msgstr ""
+msgid "Launcher show devices:"
+msgstr "Εμφάνιση συσκευών στον εκκινητή:"
 
 #: ../ubuntutweak/tweaks/unity.py:50
-msgid "Dash size:"
-msgstr ""
+msgid "\"Show desktop\" icon:"
+msgstr "Εικονίδιο «Εμφάνιση επιφανείας εργασίας»:"
 
 #: ../ubuntutweak/tweaks/unity.py:51
-msgid "Blur type:"
+msgid "Launcher click to minimize app:"
 msgstr ""
 
 #: ../ubuntutweak/tweaks/unity.py:52
-msgid "Panel opacity:"
-msgstr ""
+msgid "Disable \"Show Desktop\" in the switcher:"
+msgstr "Απενεργοποίηση του «Εμφάνιση επιφανείας εργασίας» στον εκκινητή:"
 
 #: ../ubuntutweak/tweaks/unity.py:53
-msgid "Panel opacity for maximized windows:"
-msgstr ""
+msgid "Dash size:"
+msgstr "Μέγεθος του Dash:"
 
 #: ../ubuntutweak/tweaks/unity.py:54
-msgid "Super key:"
-msgstr ""
+msgid "Blur type:"
+msgstr "Τύπος θολώματος:"
 
 #: ../ubuntutweak/tweaks/unity.py:55
-msgid "Full screen dash:"
-msgstr ""
+msgid "Panel opacity:"
+msgstr "Αδιαφάνεια της μπάρας μενού:"
 
 #: ../ubuntutweak/tweaks/unity.py:56
-msgid "Compositing manager:"
-msgstr ""
+msgid "Panel opacity for maximized windows:"
+msgstr "Αδιαφάνεια της μπάρας μενού για μεγιστοποιημένα παράθυρα:"
 
 #: ../ubuntutweak/tweaks/unity.py:57
+msgid "Super key:"
+msgstr "Πλήκτρο Super:"
+
+#: ../ubuntutweak/tweaks/unity.py:58
+msgid "Full screen dash:"
+msgstr "Dash πλήρους οθόνης:"
+
+#: ../ubuntutweak/tweaks/unity.py:59
+msgid "Compositing manager:"
+msgstr "Διαχειριστής σύνθεσης επ. εργασίας:"
+
+#: ../ubuntutweak/tweaks/unity.py:60
 msgid "Number of workspaces:"
-msgstr ""
+msgstr "Αριθμός χώρων εργασίας:"
 
-#: ../ubuntutweak/tweaks/unity.py:66 ../ubuntutweak/tweaks/unity.py:69
-#: ../ubuntutweak/tweaks/unity.py:199
+#: ../ubuntutweak/tweaks/unity.py:68 ../ubuntutweak/tweaks/unity.py:213
 msgid "Auto Hide"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:66
-msgid "Dodge Window"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:66
-msgid "Dodge Active Window"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:119
-msgid "Backlight Always On"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:120
-msgid "Backlight Toggles"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:121
-msgid "Backlight Always Off"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:122
-msgid "Edge Illumination Toggles"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:123
-msgid "Backlight and Edge Illumination Toggles"
-msgstr ""
-
-#: ../ubuntutweak/tweaks/unity.py:132
-msgid "Only Mounted"
-msgstr ""
+msgstr "Αυτόματη απόκρυψη"
 
 #: ../ubuntutweak/tweaks/unity.py:133
+msgid "Backlight Always On"
+msgstr "Οπίσθιος φωτισμός πάντοτε ενεργοποιημένος"
+
+#: ../ubuntutweak/tweaks/unity.py:134
+msgid "Backlight Toggles"
+msgstr "Εναλλαγή οπίσθιου φωτισμού."
+
+#: ../ubuntutweak/tweaks/unity.py:135
+msgid "Backlight Always Off"
+msgstr "Οπίσθιος φωτισμός πάντοτε απενεργοποιημένος"
+
+#: ../ubuntutweak/tweaks/unity.py:136
+msgid "Edge Illumination Toggles"
+msgstr "Εναλλαγή φωτισμού άκρων"
+
+#: ../ubuntutweak/tweaks/unity.py:137
+msgid "Backlight and Edge Illumination Toggles"
+msgstr "Εναλλαγή οπίσθιου φωτισμού και φωτισμού άκρων"
+
+#: ../ubuntutweak/tweaks/unity.py:146
+msgid "Only Mounted"
+msgstr "Μόνο προσαρτημένους"
+
+#: ../ubuntutweak/tweaks/unity.py:147
 msgid "Always"
-msgstr ""
+msgstr "Πάντοτε"
 
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Automatic"
-msgstr ""
+msgstr "Αυτόματα"
 
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Netbook"
-msgstr ""
+msgstr "Netbook"
 
-#: ../ubuntutweak/tweaks/unity.py:149
+#: ../ubuntutweak/tweaks/unity.py:163
 msgid "No blur"
-msgstr ""
+msgstr "Χωρίς θόλωση"
 
-#: ../ubuntutweak/tweaks/unity.py:150
+#: ../ubuntutweak/tweaks/unity.py:164
 msgid "Static blur"
-msgstr ""
+msgstr "Στατική θόλωση"
 
-#: ../ubuntutweak/tweaks/unity.py:151
+#: ../ubuntutweak/tweaks/unity.py:165
 msgid "Active blur"
-msgstr ""
+msgstr "Ενεργή θόλωση"
 
-#: ../ubuntutweak/tweaks/unity.py:200
+#: ../ubuntutweak/tweaks/unity.py:214
 msgid "Intellihide"
-msgstr ""
+msgstr "Έξυπνη απόκρυψη"
 
 #: ../ubuntutweak/tweaks/workarounds.py:33
 msgid "Workarounds"
-msgstr ""
+msgstr "Εναλλακτικοί τρόποι"
 
 #: ../ubuntutweak/tweaks/workarounds.py:34
 msgid "The workarounds to fix some problems"
-msgstr ""
+msgstr "Οι εναλλακτικοί τρόποι για να διορθώσετε κάποια προβλήματα"
 
 #: ../ubuntutweak/tweaks/workarounds.py:38
 msgid "Fix the appearance of themes when granted root privileges:"
 msgstr ""
+"Διόρθωση της εμφάνισης θεμάτων όταν έχουν χορηγηθεί δικαιώματα υπερχρήστη:"
 
 #: ../ubuntutweak/tweaks/workarounds.py:39
-msgid "Auto detect text encoding for Chinese in Gedit:"
+msgid "Auto detect text encoding for Simplified Chinese in Gedit:"
 msgstr ""
+"Αυτόματη αναγνώριση κωδικοποίησης για απλοποιημένα κινεζικά στον Gedit:"
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:20
+msgid "Love Wallpaper HD"
+msgstr "Love Wallpaper HD"
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:21
+msgid "Browse online gallery and find your wallpaper"
+msgstr ""
+"Περιηγηθείτε στη διαδικτυακή συλλογή και βρείτε το wallpaper που σας αρέσει"
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:48
+msgid "I'm Feeling Lucky"
+msgstr "Αισθάνομαι τυχερός"
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:91
+msgid "Downloading Wallpaper"
+msgstr "Λήψη wallpaper"
+
+#: ../ubuntutweak/apps/__init__.py:106
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: ../ubuntutweak/apps/__init__.py:107
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: ../ubuntutweak/apps/__init__.py:108
+msgid "Installing"
+msgstr "Γίνεται εγκατάσταση"
+
+#: ../ubuntutweak/apps/__init__.py:109
+msgid "Uninstalling"
+msgstr "Γίνεται απεγκατάσταση"
+
+#: ../ubuntutweak/apps/__init__.py:110
+msgid "Updating"
+msgstr "Γίνεται ενημέρωση"
+
+#: ../ubuntutweak/apps/__init__.py:111
+msgid "Not Available"
+msgstr "Μη διαθέσιμο"
+
+#: ../ubuntutweak/apps/__init__.py:226
+#, python-format
+msgid "\"%s\" is enabled now, Please click the update button to update %s"
+msgstr ""
+"Τώρα το \"%s\" είναι ενεργοποιημένο. Παρακαλώ κάντε κλικ στο κουμπί "
+"ενημέρωσης για να ενημερώσετε το %s"
 
 #: ../ubuntutweak/clips/userinfo.py:10
 msgid "User Information"
-msgstr ""
+msgstr "Πληροφορίες χρήστη"
 
 #: ../ubuntutweak/clips/userinfo.py:16
 msgid "Current user:"
-msgstr ""
+msgstr "Τρέχων χρήστης:"
 
 #: ../ubuntutweak/clips/userinfo.py:18
 msgid "Home directory:"
-msgstr ""
+msgstr "Προσωπικός φάκελος χρήστη:"
 
 #: ../ubuntutweak/clips/userinfo.py:20
 msgid "Shell:"
-msgstr ""
+msgstr "Κέλυφος:"
 
 #: ../ubuntutweak/clips/userinfo.py:22
 msgid "Language:"
-msgstr ""
+msgstr "Γλώσσα:"
 
 #: ../ubuntutweak/clips/hardwareinfo.py:11
 msgid "Hardware Information"
-msgstr ""
+msgstr "Πληροφορίες υλικού"
 
 #: ../ubuntutweak/clips/hardwareinfo.py:32
 msgid "CPU:"
-msgstr ""
+msgstr "Επεξεργαστής:"
 
 #: ../ubuntutweak/clips/hardwareinfo.py:34
 msgid "Memory:"
-msgstr ""
+msgstr "Μνήμη:"
 
 #: ../ubuntutweak/clips/systeminfo.py:11
 msgid "Ubuntu Desktop Information"
-msgstr ""
+msgstr "Πληροφορίες Ubuntu Desktop"
 
 #: ../ubuntutweak/clips/systeminfo.py:17
 msgid "Hostname:"
-msgstr ""
+msgstr "Όνομα υπολογιστή:"
 
 #: ../ubuntutweak/clips/systeminfo.py:19
 msgid "Platform:"
-msgstr ""
+msgstr "Πλατφόρμα:"
 
 #: ../ubuntutweak/clips/systeminfo.py:21
 msgid "Distribution:"
-msgstr ""
+msgstr "Διανομή:"
 
 #: ../ubuntutweak/clips/systeminfo.py:23
 msgid "Desktop Environment:"
-msgstr ""
+msgstr "Γραφικό Περιβάλλον:"
 
 #: ../ubuntutweak/clips/cleanerinfo.py:11
 msgid "Your system is clean"
-msgstr ""
+msgstr "Το σύστημά σας είναι καθαρό"
 
 #: ../ubuntutweak/clips/cleanerinfo.py:19
 msgid "Some cache can be cleaned to free your disk space"
 msgstr ""
+"Ένα ποσό προσωρινής μνήμης μπορεί να καθαριστεί ώστε να ελευθερωθεί χώρος "
+"στο δίσκο σας"
 
 #: ../ubuntutweak/clips/cleanerinfo.py:21
 #, python-format
 msgid "%s cache packages can be cleaned."
-msgstr ""
+msgstr "%s πακέτα προσωρινής μνήμης μπορούν να καθαριστούν."
 
-#: ../ubuntutweak/clips/cleanerinfo.py:33
+#: ../ubuntutweak/clips/cleanerinfo.py:38
 #, python-format
 msgid "%s thumbnails cache can be cleaned."
-msgstr ""
+msgstr "%s προσωρινής μνήμης μικρογραφιών μπορεί να καθαριστεί."
 
-#: ../ubuntutweak/clips/cleanerinfo.py:39
+#: ../ubuntutweak/clips/cleanerinfo.py:44
 msgid "Start Janitor"
-msgstr ""
+msgstr "Εκκίνηση καθαριστή"
 
 #: ../ubuntutweak/clips/updateinfo.py:13
 msgid "Your system is up-to-date"
-msgstr ""
+msgstr "Το σύστημα σας είναι ενημερωμένο"
 
 #: ../ubuntutweak/clips/updateinfo.py:49
 msgid ""
 "It is unknown when the package information was updated last. Please try "
 "clicking on the 'Check' button to update the information."
 msgstr ""
+"Δεν είναι γνωστό πότε έγινε η τελευταία ανανέωση των πληροφοριών των "
+"πακέτων. Παρακαλώ δοκιμάστε να πατήσετε το κουμπί 'Έλεγχος' για να "
+"ανανεώσετε τις πληροφορίες."
 
 #: ../ubuntutweak/clips/updateinfo.py:54
 #, python-format
@@ -2359,6 +2533,9 @@ msgid ""
 "The package information was last updated %(days_ago)s days ago.\n"
 "Press the 'Check' button below to check for new software updates."
 msgstr ""
+"Οι πληροφορίες πακέτων ενημερώθηκαν πριν %(days_ago)s ημέρες.\n"
+"Πατήστε το κουμπί 'Έλεγχος' παρακάτω για να ελέγξετε για νέες ενημερώσεις "
+"λογισμικού."
 
 #: ../ubuntutweak/clips/updateinfo.py:59
 #, python-format
@@ -2366,19 +2543,23 @@ msgid "The package information was last updated %(days_ago)s day ago."
 msgid_plural ""
 "The package information was last updated %(days_ago)s days ago."
 msgstr[0] ""
+"Οι πληροφορίες των πακέτων ενημερώθηκαν πριν από %(days_ago)s ημέρα."
 msgstr[1] ""
+"Οι πληροφορίες των πακέτων ενημερώθηκαν πριν από %(days_ago)s ημέρες."
 
 #: ../ubuntutweak/clips/updateinfo.py:63
 #, python-format
 msgid "The package information was last updated %(hours_ago)s hour ago."
 msgid_plural ""
 "The package information was last updated %(hours_ago)s hours ago."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Οι πληροφορίες των πακέτων ενημερώθηκαν πριν %(hours_ago)s ώρα."
+msgstr[1] "Οι πληροφορίες των πακέτων ενημερώθηκαν πριν %(hours_ago)s ώρες."
 
 #: ../ubuntutweak/clips/updateinfo.py:67
 msgid "The package information was last updated less than one hour ago."
 msgstr ""
+"Η τελευταία ανανέωση των πληροφοριών των πακέτων έγινε λιγότερο από μία ώρα "
+"πριν."
 
 #: ../ubuntutweak/gui/widgets.py:161
 #, python-format
@@ -2439,35 +2620,37 @@ msgstr ""
 "\n"
 "Υπάρχουν αρχεία μέσα!"
 
-#: ../ubuntutweak/main.py:276
+#: ../ubuntutweak/main.py:264
 msgid "Results"
-msgstr ""
+msgstr "Αποτελέσματα"
 
-#: ../ubuntutweak/main.py:284
+#: ../ubuntutweak/main.py:272
 #, python-format
 msgid "Your filter \"<b>%s</b>\" does not match any items."
 msgstr ""
+"Το φίλτρο \"<b>%s</b>\" που θέσατε, δεν ταιριάζει με κανένα αντικείμενο."
 
-#: ../ubuntutweak/main.py:402
+#: ../ubuntutweak/main.py:400
 msgid "Please wait a moment..."
 msgstr "Παρακαλώ περιμένετε..."
 
-#: ../ubuntutweak/main.py:511
+#: ../ubuntutweak/main.py:509
 #, python-format
 msgid "No module named \"%s\""
-msgstr ""
+msgstr "Δεν υπάρχει άρθρωμα με όνομα \"%s\""
 
-#: ../ubuntutweak/main.py:512
+#: ../ubuntutweak/main.py:510
 msgid "Please ensure you have entered the correct module name."
-msgstr ""
+msgstr "Παρακαλώ βεβαιωθείτε πως έχετε εισάγει το σωστό όνομα αρθρώματος"
 
-#: ../ubuntutweak/main.py:570
+#: ../ubuntutweak/main.py:568
 msgid "Computer Janitor"
-msgstr ""
+msgstr "Καθαριστής υπολογιστή"
 
-#: ../ubuntutweak/main.py:571
+#: ../ubuntutweak/main.py:569
 msgid "Clean up a system so it's more like a freshly installed one"
 msgstr ""
+"Καθαρίστε το σύστημα έτσι ώστε να μοιάζει σαν μια φρέσκια εγκατάσταση"
 
 #: ../ubuntutweak/utils/__init__.py:40
 #, python-format
@@ -2493,80 +2676,62 @@ msgstr "%.1f GB"
 
 #: ../ubuntutweak/preferences.py:67
 msgid "Auto scan:"
-msgstr ""
+msgstr "Αυτόματη σάρωση:"
 
 #: ../ubuntutweak/preferences.py:163
 msgid "Choose a clip extension"
-msgstr ""
+msgstr "Επιλέξτε μια επέκταση στοιχείου"
 
 #: ../ubuntutweak/preferences.py:168
 #, python-format
 msgid "\"%s\" is not a Clip Extension!"
-msgstr ""
+msgstr "Το \"%s\" δεν είναι επέκταση στοιχείου!"
 
 #: ../ubuntutweak/preferences.py:171
 msgid "Choose a Tweaks Extension"
-msgstr ""
+msgstr "Επιλέξτε μια Επέκταση Προσαρμογών"
 
 #: ../ubuntutweak/preferences.py:176
 #, python-format
 msgid "\"%s\" is not a Tweaks Extension!"
-msgstr ""
+msgstr "Το \"%s\" δεν είναι μια Επέκταση Προσαρμογών!"
 
 #: ../ubuntutweak/preferences.py:179
 msgid "Choose a Admins Extension"
-msgstr ""
+msgstr "Επιλέξτε μια επέκταση συντήρησης"
 
 #: ../ubuntutweak/preferences.py:184
 #, python-format
 msgid "\"%s\" is not a Admins Extension!"
-msgstr ""
+msgstr "Το \"%s\" δεν είναι επέκταση συντήρησης!"
 
 #: ../ubuntutweak/preferences.py:187
 msgid "Choose a Janitor Extension"
-msgstr ""
+msgstr "Επιλέξτε μια επέκταση καθαριστή"
 
 #: ../ubuntutweak/preferences.py:192
 #, python-format
 msgid "\"%s\" is not a Janitor Extension!"
-msgstr ""
+msgstr "Το \"%s\" δεν είναι επέκταση καθαριστή!"
 
 #: ../ubuntutweak/preferences.py:201
 msgid "Ubuntu Tweak Extension (*.py, *.tar.gz)"
-msgstr ""
+msgstr "Επέκταση Ubuntu Tweak (*.py, *.tar.gz)"
 
 #: ../ubuntutweak/preferences.py:232
 msgid "Would you like to remove it then install again?"
-msgstr ""
+msgstr "Θα θέλατε να το αφαιρέσετε και στη συνέχεια να το εγκαταστήστε ξανά;"
 
 #: ../ubuntutweak/preferences.py:233
 #, python-format
 msgid "\"%s\" has already installed"
-msgstr ""
+msgstr "Το \"%s\" έχει ήδη εγκατασταθεί"
 
-#~ msgid "Could not find application"
-#~ msgstr "Αδυναμία εύρεσης εφαρμογής"
+#~ msgid "Show Widgets"
+#~ msgstr "Εμφάνιση Προγραμματιδίων"
 
-#~ msgid "Fix the appearance of themes when granted root privileges"
-#~ msgstr ""
-#~ "Καθορίστε την εμφάνιση των θεμάτων όταν χορηγούνται δικαιώματα υπερχρήστη"
+#~ msgid "Dodge Window"
+#~ msgstr "Αποφυγή παραθύρου:"
 
-#~ msgid "Downloading Packages..."
-#~ msgstr "Μεταφόρτωση Πακέτων..."
-
-#, python-format
-#~ msgid "Downgrading...%s"
-#~ msgstr "Υποβάθμιση...%s"
-
-#~ msgid "Purge PPA and Downgrade Packages"
-#~ msgstr "Εκκαθάριση των PPA και Υποβάθμιση πακέτων"
-
-#, python-format
-#~ msgid "You're going to purge: %s"
-#~ msgstr "Πρόκειται να εκκαθαρίσετε: %s"
-
-#~ msgid "Removing key files..."
-#~ msgstr "Απομάκρυνση αρχείων κλειδιών..."
-
-#~ msgid "Thumbnail cache time (days)"
-#~ msgstr "Χρόνος μνήμης αποθήκευσης μικρογραφιών (ημέρες)"
+#~ msgid "Dodge Active Window"
+#~ msgstr "Αποφυγή ενεργού παράθυρου"

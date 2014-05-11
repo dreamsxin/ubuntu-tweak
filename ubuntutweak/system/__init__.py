@@ -39,9 +39,11 @@ def get_desktop():
 def get_desktop_fullname():
     desktop_dict = {'ubuntu': 'Unity',
                     'ubuntu-2d': 'Unity 2D',
+                    'gnome': 'GNOME Shell',
                     'gnome-classic': _('GNOME Classic'),
                     'gnome-shell': 'GNOME Shell',
                     'gnome-fallback': _('GNOME Fallback'),
+                    'gnome-fallback-compiz': _('GNOME Fallback'),
                     'pantheon': 'elementary OS (Luna)',
                     'Lubutu': 'LXDE',
                     }
@@ -69,10 +71,10 @@ UBUNTU_CODENAMES = ('dapper', 'edgy', 'feisty',
                     'gutsy', 'hardy', 'intrepid',
                     'jaunty', 'karmic', 'lucid',
                     'maverick', 'natty', 'oneiric',
-                    'precise', 'quantal')
+                    'precise', 'quantal', 'raring', 'saucy')
 
 def is_supported(codename=CODENAME):
-    return codename in ('oneiric', 'precise')
+    return codename in ('precise', 'quantal', 'raring', 'saucy', 'trusty')
 
 
 if __name__ == '__main__':

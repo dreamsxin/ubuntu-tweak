@@ -28,10 +28,10 @@ class Nautilus(TweakModule):
     __desc__ = _('Manage the Nautilus file manager')
     __icon__ = ['file-manager', 'nautilus']
     __category__ = 'system'
-    __desktop__ = ['ubuntu', 'ubuntu-2d', 'gnome-classic', 'gnome-shell', 'gnome-fallback']
+    __desktop__ = ['ubuntu', 'ubuntu-2d', 'gnome', 'gnome-classic', 'gnome-shell', 'gnome-fallback', 'gnome-fallback-compiz']
 
-    utext_advanced_properties = _('Show advanced permissions in "File Properties"')
     utext_pathbar = _('Use the location entry instead of the pathbar')
+    recursive_search = _('Enable Recursive Search')
     utext_automount = _('Automatically mount media:')
     utext_open = _('Automatically open a folder:')
     utext_prompt = _('Prompt or autorun/autostart programs:')
@@ -42,31 +42,28 @@ class Nautilus(TweakModule):
     def __init__(self):
         TweakModule.__init__(self)
 
-        show_permission_button, show_permission_reset = WidgetFactory.create("CheckButton",
-                                       label=self.utext_advanced_properties,
-                                       enable_reset=True,
-                                       key="org.gnome.nautilus.preferences.show-advanced-permissions",
-                                       backend="gsettings")
-
         box = GridPack(
-                    (Gtk.Label(_("File browser:")), show_permission_button, show_permission_reset),
-                    WidgetFactory.create("CheckButton",
+                    WidgetFactory.create("Switch",
                         label=self.utext_pathbar,
                         enable_reset=True,
-                        blank_label=True,
                         key="org.gnome.nautilus.preferences.always-use-location-entry",
                         backend="gsettings"),
-                    Gtk.Separator(),
                     WidgetFactory.create('Switch',
-                                         key='org.gnome.desktop.media-handling.automount',
-                                         enable_reset=True,
-                                         label=self.utext_automount,
-                                         backend="gsettings"),
+                        key='org.gnome.nautilus.preferences.enable-interactive-search',
+                        enable_reset=True,
+                        reverse=True,
+                        label=self.recursive_search,
+                        backend="gsettings"),
                     WidgetFactory.create('Switch',
-                                         key='org.gnome.desktop.media-handling.automount-open',
-                                         enable_reset=True,
-                                         label=self.utext_open,
-                                         backend="gsettings"),
+                        key='org.gnome.desktop.media-handling.automount',
+                        enable_reset=True,
+                        label=self.utext_automount,
+                        backend="gsettings"),
+                    WidgetFactory.create('Switch',
+                        key='org.gnome.desktop.media-handling.automount-open',
+                        enable_reset=True,
+                        label=self.utext_open,
+                        backend="gsettings"),
                     WidgetFactory.create('Switch',
                         key='org.gnome.desktop.media-handling.autorun-never',
                         enable_reset=True,

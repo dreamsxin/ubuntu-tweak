@@ -20,7 +20,6 @@ data/com.ubuntu-tweak.daemon.policy.in
 [type: gettext/glade]data/ui/mainwindow.ui
 [type: gettext/glade]data/ui/desktoprecovery.ui
 ubuntutweak/factory.py
-ubuntutweak/system/distro.py
 ubuntutweak/system/__init__.py
 ubuntutweak/network/xmlrpc.py
 ubuntutweak/network/downloadmanager.py
@@ -79,6 +78,7 @@ ubuntutweak/tweaks/fonts.py
 ubuntutweak/tweaks/unity.py
 ubuntutweak/tweaks/__init__.py
 ubuntutweak/tweaks/workarounds.py
+ubuntutweak/tweaks/lovewallpaperhd.py
 ubuntutweak/apps/__init__.py
 ubuntutweak/clips/userinfo.py
 ubuntutweak/clips/hardwareinfo.py

@@ -8,7 +8,7 @@ import aptdaemon.errors
 from aptdaemon.enums import *
 from aptdaemon.gtk3widgets import AptErrorDialog, AptProgressDialog, AptConfirmDialog
 
-from gi.repository import Gtk
+from gi.repository import Gtk, Gdk
 
 from defer import inline_callbacks, return_value
 
@@ -19,7 +19,6 @@ log = logging.getLogger('package')
 
 
 class NewAptProgressDialog(AptProgressDialog):
-
     def run(self, attach=False, close_on_finished=True, show_error=True,
             reply_handler=None, error_handler=None):
         """Run the transaction and show the progress in the dialog.
@@ -60,6 +59,17 @@ class NewAptProgressDialog(AptProgressDialog):
                 self._transaction.emit('finished', '')
                 yield deferred
         self.show_all()
+
+    def _on_finished(self, transaction, status, close, show_error):
+        if close:
+            self.hide()
+            if status == EXIT_FAILED and show_error:
+                Gdk.threads_enter()
+                err_dia = AptErrorDialog(self._transaction.error, self)
+                err_dia.run()
+                err_dia.hide()
+                Gdk.threads_leave()
+        self.emit("finished")
 
 
 class AptWorker(object):

@@ -7,35 +7,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-04 22:24+0800\n"
-"PO-Revision-Date: 2012-06-29 18:34+0000\n"
-"Last-Translator: Trần Đức Nam <Unknown>\n"
+"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"PO-Revision-Date: 2012-10-02 06:13+0000\n"
+"Last-Translator: Ding Zhou <tualatrix@gmail.com>\n"
 "Language-Team: Vietnamese <vi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-08-12 03:16+0000\n"
-"X-Generator: Launchpad (build 15780)\n"
+"X-Launchpad-Export-Date: 2014-04-20 04:41+0000\n"
+"X-Generator: Launchpad (build 16985)\n"
 
 #: ../data/script-worker:57
 #, c-format
 msgid "You don't have permission to write in %s"
 msgstr "Bạn không có quyền để ghi vào %s"
 
-#: ../data/script-worker:155 ../data/script-worker:168
+#: ../data/script-worker:158 ../data/script-worker:171
 msgid "Enter your password to perform the administrative tasks"
 msgstr "Nhập vào mật khẩu để thực hiện lệnh với quyền quản trị"
 
-#: ../data/script-worker:162
+#: ../data/script-worker:165
 msgid "Coudn't find any text editor in your system!"
 msgstr "Không tìm thấy trình soạn thảo văn bản nào trong hệ thống!"
 
-#: ../data/script-worker:191
+#: ../data/script-worker:194
 msgid "Select a folder"
 msgstr "Chọn một thư mục"
 
-#: ../data/script-worker:221
+#: ../data/script-worker:224
 msgid "Please select a target (files or folders)."
 msgstr "Chọn một vị trí (tập tin hoặc thư mục)."
 
@@ -47,15 +47,19 @@ msgstr "Tinh chỉnh Ubuntu theo cách của bạn"
 msgid "Overview"
 msgstr "Tổng quan"
 
-#: ../data/ubuntu-tweak.desktop.in.h:3 ../data/ui/preferences.ui.h:13
+#: ../data/ubuntu-tweak.desktop.in.h:3 ../ubuntutweak/janitor/__init__.py:889
+msgid "Apps"
+msgstr "Ứng dụng"
+
+#: ../data/ubuntu-tweak.desktop.in.h:4 ../data/ui/preferences.ui.h:13
 msgid "Tweaks"
 msgstr "Tinh chỉnh"
 
-#: ../data/ubuntu-tweak.desktop.in.h:4 ../data/ui/preferences.ui.h:17
+#: ../data/ubuntu-tweak.desktop.in.h:5 ../data/ui/preferences.ui.h:17
 msgid "Admins"
 msgstr "Người quản trị"
 
-#: ../data/ubuntu-tweak.desktop.in.h:5 ../data/ui/preferences.ui.h:22
+#: ../data/ubuntu-tweak.desktop.in.h:6 ../data/ui/preferences.ui.h:22
 msgid "Janitor"
 msgstr "Dọn dẹp"
 
@@ -118,7 +122,7 @@ msgstr "Di chuyển lên"
 msgid "Move Down"
 msgstr "Di chuyển xuống"
 
-#: ../data/ui/preferences.ui.h:8
+#: ../data/ui/preferences.ui.h:8 ../ubuntutweak/apps/__init__.py:105
 msgid "Install"
 msgstr "Cài đặt"
 
@@ -406,9 +410,10 @@ msgstr ""
 "  Bruce Doan https://launchpad.net/~rgv151\n"
 "  Ding Zhou https://launchpad.net/~tualatrix\n"
 "  EsatYuce https://launchpad.net/~esat\n"
+"  Huynh Trong Nghia https://launchpad.net/~nghia-ht\n"
 "  Lê Trường An https://launchpad.net/~truongan\n"
-"  Ngô Chin https://launchpad.net/~ndtrung4419\n"
 "  Phan Trọng Khanh https://launchpad.net/~khanhpt\n"
+"  Trung Ngô https://launchpad.net/~ndtrung4419\n"
 "  Trần Đức Nam https://launchpad.net/~dynamotn\n"
 "  huanctv https://launchpad.net/~huanctv\n"
 "  zeratulbk https://launchpad.net/~congtumotsach"
@@ -422,18 +427,22 @@ msgid "_Overview"
 msgstr "T_oàn cảnh"
 
 #: ../data/ui/mainwindow.ui.h:9
+msgid "_Apps"
+msgstr ""
+
+#: ../data/ui/mainwindow.ui.h:10
 msgid "_Tweaks"
 msgstr "_Vọc"
 
-#: ../data/ui/mainwindow.ui.h:10
+#: ../data/ui/mainwindow.ui.h:11
 msgid "_Admins"
 msgstr "_Quản trị"
 
-#: ../data/ui/mainwindow.ui.h:11
+#: ../data/ui/mainwindow.ui.h:12
 msgid "_Janitor"
 msgstr "_Dọn dẹp"
 
-#: ../data/ui/mainwindow.ui.h:12
+#: ../data/ui/mainwindow.ui.h:13
 msgid "<big><b>No matches found</b></big>"
 msgstr "<big><b>Không tìm được</b><b>"
 
@@ -445,20 +454,20 @@ msgstr "Thiết đặt Tên:"
 msgid "R_eset"
 msgstr "Khởi động lạ_i"
 
-#: ../ubuntutweak/system/__init__.py:42
+#: ../ubuntutweak/system/__init__.py:43
 msgid "GNOME Classic"
 msgstr "GNOME Cổ điển"
 
-#: ../ubuntutweak/system/__init__.py:44
+#: ../ubuntutweak/system/__init__.py:45 ../ubuntutweak/system/__init__.py:46
 msgid "GNOME Fallback"
 msgstr "Dự phòng GNOME"
 
-#: ../ubuntutweak/system/__init__.py:55
+#: ../ubuntutweak/system/__init__.py:57
 #, python-format
 msgid "Unknown (%s)"
 msgstr "Không rõ (%s)"
 
-#: ../ubuntutweak/system/__init__.py:57
+#: ../ubuntutweak/system/__init__.py:59
 #: ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Không rõ"
@@ -481,8 +490,8 @@ msgid "Error happened!"
 msgstr "Có lỗi!"
 
 #: ../ubuntutweak/network/utdata.py:50 ../ubuntutweak/network/utdata.py:83
-#: ../ubuntutweak/tweaks/unity.py:66 ../ubuntutweak/tweaks/unity.py:69
-#: ../ubuntutweak/tweaks/unity.py:131 ../ubuntutweak/tweaks/unity.py:199
+#: ../ubuntutweak/tweaks/unity.py:68 ../ubuntutweak/tweaks/unity.py:145
+#: ../ubuntutweak/tweaks/unity.py:213
 msgid "Never"
 msgstr "Không bao giờ"
 
@@ -518,7 +527,7 @@ msgstr "Mới đây"
 msgid "_Unlock"
 msgstr "_Mở khoá"
 
-#: ../ubuntutweak/policykit/dbusproxy.py:32
+#: ../ubuntutweak/policykit/dbusproxy.py:28
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
@@ -571,7 +580,7 @@ msgstr "Bộ nhớ đệm Cache"
 msgid "Google Earth Cache"
 msgstr "Bộ nhớ đệm Google Earth"
 
-#: ../ubuntutweak/janitor/thumbnailcache_plugin.py:4
+#: ../ubuntutweak/janitor/thumbnailcache_plugin.py:5
 msgid "Thumbnail cache"
 msgstr "Bộ nhớ đệm hình thu nhỏ"
 
@@ -641,10 +650,6 @@ msgstr "Hệ thống"
 msgid "Personal"
 msgstr "Cá nhân"
 
-#: ../ubuntutweak/janitor/__init__.py:889
-msgid "Apps"
-msgstr "Ứng dụng"
-
 #: ../ubuntutweak/janitor/packageconfigs_plugin.py:30
 msgid "Package Configs"
 msgstr "Cấu hình gói tập tin"
@@ -657,7 +662,7 @@ msgstr "Cấu hình gói tập tin (Không có cấu hình gói tập tin nào �
 msgid "Old Kernel"
 msgstr "Nhân hệ thống cũ"
 
-#: ../ubuntutweak/janitor/oldkernel_plugin.py:101
+#: ../ubuntutweak/janitor/oldkernel_plugin.py:105
 msgid "Old Kernel Packages (No old kernel package to be removed)"
 msgstr "Gói nhân hệ thống cũ (Không có gói nhân hệ thống cũ nào được gỡ bỏ)"
 
@@ -668,12 +673,12 @@ msgstr "Ứng dụng"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:80
 #: ../ubuntutweak/admins/userdir.py:34 ../ubuntutweak/modules/__init__.py:32
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Desktop"
 msgstr "Màn hình nền"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:106
-#: ../ubuntutweak/apps/__init__.py:240
+#: ../ubuntutweak/apps/__init__.py:392
 msgid "Category"
 msgstr "Phân mục"
 
@@ -708,11 +713,11 @@ msgstr ""
 "Bạn cũng có thể ấn nút \"Cài đặt lại\" để cài đặt lại mọi thứ về giá trị mặc "
 "định của hệ thống."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:347
+#: ../ubuntutweak/admins/desktoprecovery.py:348
 msgid "No Backup Yet"
 msgstr "Chưa có bản sao lưu nào"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:382
+#: ../ubuntutweak/admins/desktoprecovery.py:383
 #, python-format
 msgid ""
 "Backup all settings under \"<b>%s</b>\"\n"
@@ -721,7 +726,7 @@ msgstr ""
 "Sao lưu mọi thiết đặt dưới tệp \"<b>%s</b>\n"
 "Bạn có muốn tiếp tục?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:403
+#: ../ubuntutweak/admins/desktoprecovery.py:404
 #, python-format
 msgid ""
 "Backup settings under \"<b>%s</b>\"\n"
@@ -730,12 +735,12 @@ msgstr ""
 "Sao lưu thiết đặt dưới tệp \"<b>%s</b>\n"
 "Bạn có muốn tiếp tục?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:446
+#: ../ubuntutweak/admins/desktoprecovery.py:447
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s/%s</b>\"?"
 msgstr "Bạn có muốn xóa tệp sao lưu \"<b>%s/%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:450
+#: ../ubuntutweak/admins/desktoprecovery.py:451
 #, python-format
 msgid ""
 "Would you like to delete the backup of all \"<b>%(setting_name)s</b>\" "
@@ -744,12 +749,12 @@ msgstr ""
 "Bạn có muốn xóa hết sao lưu của \"<b>%(setting_name)s</b>\" settings named "
 "\"<b>%(backup_name)s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:472
+#: ../ubuntutweak/admins/desktoprecovery.py:473
 #, python-format
 msgid "Would you like to recover the backup \"<b>%s/%s</b>\"?"
 msgstr "Bạn có muốn khôi phục lại sao lưu \"<b>%s/%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:475
+#: ../ubuntutweak/admins/desktoprecovery.py:476
 #, python-format
 msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
@@ -758,7 +763,7 @@ msgstr ""
 "Bạn có muốn khôi phục lại tất cả sao lưu \"<b>%(setting_name)s</b>\" "
 "settings named \"<b>%(backup_name)s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:480
+#: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
 "<b>NOTES</b>: While recovering, your desktop may be unresponsive for a "
 "moment."
@@ -766,30 +771,30 @@ msgstr ""
 "<b>CHÚ Ý</b>: Khi đang phục hồi, có thể máy sẽ không có phản ứng gì trong "
 "một lúc."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:497
+#: ../ubuntutweak/admins/desktoprecovery.py:498
 msgid "Recovery Successful!"
 msgstr "Khôi phục thành công!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:498
-#: ../ubuntutweak/admins/desktoprecovery.py:534
+#: ../ubuntutweak/admins/desktoprecovery.py:499
+#: ../ubuntutweak/admins/desktoprecovery.py:535
 msgid "You may need to restart your desktop for changes to take effect"
 msgstr "Bạn cần khởi động lại máy để thay đổi nhằm đạt được hiệu quả"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:503
+#: ../ubuntutweak/admins/desktoprecovery.py:504
 msgid "_Logout"
 msgstr "Đăng _xuất"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:516
+#: ../ubuntutweak/admins/desktoprecovery.py:517
 #, python-format
 msgid "Would you like to reset settings for \"<b>%s</b>\"?"
 msgstr "Bạn có muốn đặt lại thiết đặt về \"<b>%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:518
+#: ../ubuntutweak/admins/desktoprecovery.py:519
 #, python-format
 msgid "Would you like to reset all settings under \"<b>%s</b>\"?"
 msgstr "Bạn có muốn đặt lại tất cả thiết đặt dưới \"<b>%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:520
+#: ../ubuntutweak/admins/desktoprecovery.py:521
 msgid ""
 "<b>NOTES</b>: Whilst resetting, your desktop may be unresponsive for a "
 "moment."
@@ -797,21 +802,21 @@ msgstr ""
 "<b>CHÚ Ý</b>: Trong khi đặt lại, máy của bạn có thể không hoạt động trong "
 "một lúc."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:533
+#: ../ubuntutweak/admins/desktoprecovery.py:534
 msgid "Reset Successful!"
 msgstr "Đặt lại thành công!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:562
-#: ../ubuntutweak/admins/sourceeditor.py:418
+#: ../ubuntutweak/admins/desktoprecovery.py:563
+#: ../ubuntutweak/admins/sourceeditor.py:422
 msgid "Please enter a new name for your backup:"
 msgstr "Vui lòng nhập vào một tên mới cho sao lưu của bạn:"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:594
+#: ../ubuntutweak/admins/desktoprecovery.py:595
 msgid "Backup Successful!"
 msgstr "Sao lưu thành công!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:597
-#: ../ubuntutweak/admins/sourceeditor.py:394
+#: ../ubuntutweak/admins/desktoprecovery.py:598
+#: ../ubuntutweak/admins/sourceeditor.py:398
 msgid "Backup Failed!"
 msgstr "Sao lưu thất bại!"
 
@@ -883,6 +888,7 @@ msgstr ""
 "Bạn cần tắt nguồn <b>\"%(SOURCE)s\"</b> trước."
 
 #: ../ubuntutweak/admins/sourcecenter.py:903
+#: ../ubuntutweak/apps/__init__.py:225
 msgid "New source has been enabled"
 msgstr "Những nguồn mới đã được thêm vào"
 
@@ -915,7 +921,7 @@ msgid "Visit online Source Center"
 msgstr "Đi đến trang Trung tâm Nguồn trên mạng"
 
 #: ../ubuntutweak/admins/sourcecenter.py:937
-#: ../ubuntutweak/admins/appcenter.py:506
+#: ../ubuntutweak/admins/appcenter.py:505
 msgid "_Sync"
 msgstr "_Đồng bộ"
 
@@ -943,7 +949,7 @@ msgid "disabled on upgrade to %s"
 msgstr "bị hủy khi nâng cấp %s"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1014
-#: ../ubuntutweak/admins/appcenter.py:546
+#: ../ubuntutweak/admins/appcenter.py:545
 msgid "Last synced:"
 msgstr "Lần cuối đồng bộ hóa:"
 
@@ -998,7 +1004,7 @@ msgstr ""
 "ngừng hoạt động."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1184
-#: ../ubuntutweak/admins/appcenter.py:665
+#: ../ubuntutweak/admins/appcenter.py:664
 msgid "No update available."
 msgstr "Không có cập nhật."
 
@@ -1023,15 +1029,15 @@ msgstr "PPA đã được gỡ xong"
 msgid "It is highly recommend to do a \"Refresh\" source operation."
 msgstr "Đề nghị khẩn cấp làm mới nguồn phần mềm."
 
-#: ../ubuntutweak/admins/sourceeditor.py:168
+#: ../ubuntutweak/admins/sourceeditor.py:172
 msgid "Source Editor"
 msgstr "Chỉnh sửa nguồn"
 
-#: ../ubuntutweak/admins/sourceeditor.py:169
+#: ../ubuntutweak/admins/sourceeditor.py:173
 msgid "Manually edit your software sources to suit your needs."
 msgstr "Tự chỉnh sửa nguồn phần mềm cho phù hợp với nhu cầu của bạn."
 
-#: ../ubuntutweak/admins/sourceeditor.py:208
+#: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
 "You're viewing the backup \"<b>%(backup_name)s</b>\" for "
@@ -1039,19 +1045,19 @@ msgid ""
 msgstr ""
 "Bạn đang xem sao lưu \"<b>%(backup_name)s</b>\" cho \"<b>%(list_name)s</b>\""
 
-#: ../ubuntutweak/admins/sourceeditor.py:279
+#: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
 msgstr "Không có sao lưu nào"
 
-#: ../ubuntutweak/admins/sourceeditor.py:319
+#: ../ubuntutweak/admins/sourceeditor.py:323
 msgid "Please check the permission of the sources.list file"
 msgstr "Vui lòng kiểm tra phạm vi thẩm quyền của tập tin sources.list"
 
-#: ../ubuntutweak/admins/sourceeditor.py:321
+#: ../ubuntutweak/admins/sourceeditor.py:325
 msgid "Save failed!"
 msgstr "Lưu thất bại!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:339
+#: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
 "Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
@@ -1060,34 +1066,34 @@ msgstr ""
 "Bạn có muốn khôi phục lại sao lưu \"<b>%(backup_name)s</b>\" for "
 "\"<b>%(list_name)s</b>\"?"
 
-#: ../ubuntutweak/admins/sourceeditor.py:350
+#: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
 msgstr "Khôi phục thất bại!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:351
+#: ../ubuntutweak/admins/sourceeditor.py:355
 msgid "You may need to check the permission of source list."
 msgstr "Bạn cần kiểm tra quyền của danh sách nguồn."
 
-#: ../ubuntutweak/admins/sourceeditor.py:383
+#: ../ubuntutweak/admins/sourceeditor.py:387
 msgid "Please enter the name for your backup:"
 msgstr "Vui lòng nhập tên cho bản sao lưu của bạn:"
 
-#: ../ubuntutweak/admins/sourceeditor.py:396
-#: ../ubuntutweak/admins/sourceeditor.py:429
+#: ../ubuntutweak/admins/sourceeditor.py:400
+#: ../ubuntutweak/admins/sourceeditor.py:433
 msgid "Please only use alphanumeric characters and \"_\" and \"-\"."
 msgstr "Vui lòng chỉ sử dụng các ký tự số, \"_\" và \"-\"."
 
-#: ../ubuntutweak/admins/sourceeditor.py:398
-#: ../ubuntutweak/admins/sourceeditor.py:431
+#: ../ubuntutweak/admins/sourceeditor.py:402
+#: ../ubuntutweak/admins/sourceeditor.py:435
 msgid "Backup name is invalid"
 msgstr "Tên bản sao lưu không phù hợp"
 
-#: ../ubuntutweak/admins/sourceeditor.py:404
+#: ../ubuntutweak/admins/sourceeditor.py:408
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s</b>\"?"
 msgstr "Bạn có muốn xóa sao lưu \"<b>%s</b>\"?"
 
-#: ../ubuntutweak/admins/sourceeditor.py:434
+#: ../ubuntutweak/admins/sourceeditor.py:438
 msgid ""
 "The current content will be lost after reloading!\n"
 "Do you wish to continue?"
@@ -1095,11 +1101,11 @@ msgstr ""
 "Nội dung hiện tại sẽ bị mất sau khi tải lại!\n"
 "Bạn có muốn tiếp tục?"
 
-#: ../ubuntutweak/admins/sourceeditor.py:452
+#: ../ubuntutweak/admins/sourceeditor.py:456
 msgid "You can't delete sources.list!"
 msgstr "Bạn không thể xóa sources.list!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:454
+#: ../ubuntutweak/admins/sourceeditor.py:458
 #, python-format
 msgid ""
 "The \"%s\" will be deleted!\n"
@@ -1201,49 +1207,49 @@ msgstr ""
 "Nó sẽ xóa toàn bộ mẫu không dùng.\n"
 "Bạn có muốn tiếp tục?"
 
-#: ../ubuntutweak/admins/appcenter.py:188
+#: ../ubuntutweak/admins/appcenter.py:187
 msgid "Installed Apps"
 msgstr "Các ứng dụng đã cài"
 
-#: ../ubuntutweak/admins/appcenter.py:455
+#: ../ubuntutweak/admins/appcenter.py:454
 msgid "Checking update..."
 msgstr "Đang kiểm tra cập nhật..."
 
-#: ../ubuntutweak/admins/appcenter.py:490
+#: ../ubuntutweak/admins/appcenter.py:489
 msgid "Fetching online data..."
 msgstr "Đang tìm dữ liệu trực tuyến..."
 
-#: ../ubuntutweak/admins/appcenter.py:495
+#: ../ubuntutweak/admins/appcenter.py:494
 msgid "Application Center"
 msgstr "Trung tâm Ứng dụng"
 
-#: ../ubuntutweak/admins/appcenter.py:496
+#: ../ubuntutweak/admins/appcenter.py:495
 msgid ""
 "A simple but efficient way for finding and installing popular applications."
 msgstr ""
 "Cách thức dễ dàng nhưng hiệu quả để tìm kiếm và cài đặt các ứng dụng phổ "
 "biến."
 
-#: ../ubuntutweak/admins/appcenter.py:499
+#: ../ubuntutweak/admins/appcenter.py:498
 msgid "Visit Online Application Center"
 msgstr "Xem Trung tâm Ứng dụng trực tuyến"
 
-#: ../ubuntutweak/admins/appcenter.py:553
+#: ../ubuntutweak/admins/appcenter.py:552
 msgid "New application data available, would you like to update?"
 msgstr "Dữ liệu mới của ứng đã sẵn sàng, bạn có muốn cập nhật không?"
 
-#: ../ubuntutweak/admins/appcenter.py:652
+#: ../ubuntutweak/admins/appcenter.py:651
 msgid "Update available, would you like to update?"
 msgstr "Cập nhật sẵn sàng, bạn có muốn cập nhật?"
 
-#: ../ubuntutweak/admins/appcenter.py:661
+#: ../ubuntutweak/admins/appcenter.py:660
 msgid ""
 "Network Error, please check your network connection - or the remote server "
 "may be down."
 msgstr ""
 "Lỗi mạng, vui lòng kiểm tra lại kết nối mạng hoặc do máy chủ có vấn đề."
 
-#: ../ubuntutweak/admins/appcenter.py:678
+#: ../ubuntutweak/admins/appcenter.py:677
 msgid "An error occurred while downloading the file."
 msgstr "Gặp lỗi trong khi tải về tập tin."
 
@@ -1323,29 +1329,41 @@ msgstr "_Khôi phục"
 msgid "_Change"
 msgstr "Th_ay đổi"
 
-#: ../ubuntutweak/admins/quicklists.py:208
+#: ../ubuntutweak/admins/quicklists.py:211
 msgid "QuickLists Editor"
 msgstr "Chỉnh sửa QuickLists"
 
-#: ../ubuntutweak/admins/quicklists.py:209
+#: ../ubuntutweak/admins/quicklists.py:212
 msgid "Unity Launcher QuickLists Editor"
 msgstr "Chỉnh sửa các lối tắt trên thanh Unity"
 
-#: ../ubuntutweak/admins/quicklists.py:397
+#: ../ubuntutweak/admins/quicklists.py:230
+msgid "Running Apps"
+msgstr ""
+
+#: ../ubuntutweak/admins/quicklists.py:231
+msgid "Workspace Switcher"
+msgstr ""
+
+#: ../ubuntutweak/admins/quicklists.py:232
+msgid "Devices"
+msgstr ""
+
+#: ../ubuntutweak/admins/quicklists.py:426
 #, python-format
 msgid "Would you like to reset \"%s\"?"
 msgstr "Bạn có muốn thiết lập lại \"%s\"?"
 
-#: ../ubuntutweak/admins/quicklists.py:398
+#: ../ubuntutweak/admins/quicklists.py:427
 #, python-format
 msgid "If you continue, the actions of %s will be set to default."
 msgstr "Nếu bạn tiếp tục, các thiết đặt của %s sẽ được đặt về mặc định."
 
-#: ../ubuntutweak/admins/quicklists.py:411
+#: ../ubuntutweak/admins/quicklists.py:440
 msgid "Would you like to reset the launcher items?"
 msgstr "Bạn có muốn thiết lập lại các mục trên thanh?"
 
-#: ../ubuntutweak/admins/quicklists.py:412
+#: ../ubuntutweak/admins/quicklists.py:441
 msgid ""
 "If you continue, launcher will be set to default and all your current items "
 "will be lost."
@@ -1353,119 +1371,119 @@ msgstr ""
 "Nếu bạn tiếp tục, thanh khởi chạy sẽ được đặt về mặc định và tất cả các mục "
 "hiện thời sẽ bị mất."
 
-#: ../ubuntutweak/admins/scripts.py:43
+#: ../ubuntutweak/admins/scripts.py:49
 msgid "Create Launcher ..."
 msgstr "Tạo lệnh nhanh..."
 
-#: ../ubuntutweak/admins/scripts.py:44
+#: ../ubuntutweak/admins/scripts.py:50
 msgid "Copy to ..."
 msgstr "Sao chép tới..."
 
-#: ../ubuntutweak/admins/scripts.py:45
+#: ../ubuntutweak/admins/scripts.py:51
 msgid "Copy to Desktop"
 msgstr "Chép tới Bàn làm việc"
 
-#: ../ubuntutweak/admins/scripts.py:46
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Copy to Download"
 msgstr "Chép tới Download"
 
-#: ../ubuntutweak/admins/scripts.py:47
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Copy to Home"
 msgstr "Chép tới Thư mục chính"
 
-#: ../ubuntutweak/admins/scripts.py:48
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "kiểm tra mã md5"
 
-#: ../ubuntutweak/admins/scripts.py:49
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Compress PDF"
 msgstr "nén tập tin PDF"
 
-#: ../ubuntutweak/admins/scripts.py:50
+#: ../ubuntutweak/admins/scripts.py:56
 msgid "Move to ..."
 msgstr "Di chuyển tới..."
 
-#: ../ubuntutweak/admins/scripts.py:51
+#: ../ubuntutweak/admins/scripts.py:57
 msgid "Move to Desktop"
 msgstr "Di chuyển tới Bàn làm việc"
 
-#: ../ubuntutweak/admins/scripts.py:52
+#: ../ubuntutweak/admins/scripts.py:58
 msgid "Move to Download"
 msgstr "Di chuyển tới Download"
 
-#: ../ubuntutweak/admins/scripts.py:53
+#: ../ubuntutweak/admins/scripts.py:59
 msgid "Move to Home"
 msgstr "Di chuyển tới Thư mục chính"
 
-#: ../ubuntutweak/admins/scripts.py:54
+#: ../ubuntutweak/admins/scripts.py:60
 msgid "Create hardlink to ..."
 msgstr "Tạo liên kết cứng tới..."
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:61
 msgid "Link to ..."
 msgstr "Liên kết tới..."
 
-#: ../ubuntutweak/admins/scripts.py:56
+#: ../ubuntutweak/admins/scripts.py:62
 msgid "Link to Desktop"
 msgstr "Liên kết tới Bàn làm việc"
 
-#: ../ubuntutweak/admins/scripts.py:57
+#: ../ubuntutweak/admins/scripts.py:63
 msgid "Link to Download"
 msgstr "Liên kết tới Download"
 
-#: ../ubuntutweak/admins/scripts.py:58
+#: ../ubuntutweak/admins/scripts.py:64
 msgid "Link to Home"
 msgstr "Liên kết tới Thư mục chính"
 
-#: ../ubuntutweak/admins/scripts.py:59
+#: ../ubuntutweak/admins/scripts.py:65
 msgid "Open with your favourite text editor"
 msgstr "Mở bằng phần mềm soạn văn bản yêu thích"
 
-#: ../ubuntutweak/admins/scripts.py:60
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Open with your favourite text editor (as root)"
 msgstr "Mở bằng phần mềm soạn văn bản yêu thích (với quyền root)"
 
-#: ../ubuntutweak/admins/scripts.py:61
+#: ../ubuntutweak/admins/scripts.py:67
 msgid "Browse as root"
 msgstr "Duyệt với quyền root"
 
-#: ../ubuntutweak/admins/scripts.py:62
+#: ../ubuntutweak/admins/scripts.py:68
 msgid "Search in current folder"
 msgstr "Tìm kiếm trong thư mục hiện tại"
 
-#: ../ubuntutweak/admins/scripts.py:63
+#: ../ubuntutweak/admins/scripts.py:69
 msgid "Convert image to JPG"
 msgstr "Chuyển đổi ảnh thành JPG"
 
-#: ../ubuntutweak/admins/scripts.py:64
+#: ../ubuntutweak/admins/scripts.py:70
 msgid "Convert image to PNG"
 msgstr "Chuyển đổi ảnh thành PNG"
 
-#: ../ubuntutweak/admins/scripts.py:65
+#: ../ubuntutweak/admins/scripts.py:71
 msgid "Convert image to GIF"
 msgstr "Chuyển ảnh thành định dạng GIF"
 
-#: ../ubuntutweak/admins/scripts.py:66
+#: ../ubuntutweak/admins/scripts.py:72
 msgid "Set image as wallpaper"
 msgstr "Đặt ảnh làm ảnh nền"
 
-#: ../ubuntutweak/admins/scripts.py:67
+#: ../ubuntutweak/admins/scripts.py:73
 msgid "Make hard shadow to image"
 msgstr "Tạo bóng cho hình ảnh"
 
-#: ../ubuntutweak/admins/scripts.py:95
+#: ../ubuntutweak/admins/scripts.py:101
 msgid "Enabled Scripts"
 msgstr "Bật tập lệnh"
 
-#: ../ubuntutweak/admins/scripts.py:126
+#: ../ubuntutweak/admins/scripts.py:132
 msgid "Disabled Scripts"
 msgstr "Tắt tập lệnh"
 
-#: ../ubuntutweak/admins/scripts.py:133
+#: ../ubuntutweak/admins/scripts.py:139
 msgid "Scripts"
 msgstr "Tập lệnh"
 
-#: ../ubuntutweak/admins/scripts.py:134
+#: ../ubuntutweak/admins/scripts.py:140
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1475,11 +1493,11 @@ msgstr ""
 "Bạn có thể kéo thả tập lệnh vào đây từ Trình quản lý tập tin.\n"
 "'Tập lệnh' sẽ được thêm vào trình đơn ngữ cảnh"
 
-#: ../ubuntutweak/admins/scripts.py:162
+#: ../ubuntutweak/admins/scripts.py:168
 msgid "Rebuild System Scripts"
 msgstr "Xây dựng lại hệ thống tập lệnh"
 
-#: ../ubuntutweak/admins/scripts.py:176
+#: ../ubuntutweak/admins/scripts.py:182
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1502,34 +1520,36 @@ msgstr ""
 "cách nhanh chóng.\n"
 "Nhập lệnh để chạy ứng dụng và chọn một tổ hợp phím tắt."
 
-#: ../ubuntutweak/admins/shortcuts.py:83
+#: ../ubuntutweak/admins/shortcuts.py:84
 #, python-format
 msgid "Command %d"
 msgstr "Lệnh %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:88
-#: ../ubuntutweak/admins/shortcuts.py:200
+#: ../ubuntutweak/admins/shortcuts.py:89
+#: ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
-#: ../ubuntutweak/tweaks/window.py:77 ../ubuntutweak/tweaks/window.py:84
-#: ../ubuntutweak/tweaks/window.py:95 ../ubuntutweak/tweaks/window.py:110
+#: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
+#: ../ubuntutweak/tweaks/window.py:98 ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:137 ../ubuntutweak/tweaks/window.py:144
+#: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "None"
 msgstr "Không"
 
-#: ../ubuntutweak/admins/shortcuts.py:93
-#: ../ubuntutweak/admins/shortcuts.py:145
+#: ../ubuntutweak/admins/shortcuts.py:94
+#: ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "vô hiệu"
 
-#: ../ubuntutweak/admins/shortcuts.py:102
+#: ../ubuntutweak/admins/shortcuts.py:103
 msgid "ID"
 msgstr "ID"
 
-#: ../ubuntutweak/admins/shortcuts.py:113
+#: ../ubuntutweak/admins/shortcuts.py:114
 msgid "Command"
 msgstr "Lệnh"
 
-#: ../ubuntutweak/admins/shortcuts.py:126
+#: ../ubuntutweak/admins/shortcuts.py:127
 msgid "Key"
 msgstr "Khoá"
 
@@ -1554,7 +1574,7 @@ msgid "Application"
 msgstr "Ứng dụng"
 
 #: ../ubuntutweak/admins/filetypemanager.py:50
-#: ../ubuntutweak/apps/__init__.py:259
+#: ../ubuntutweak/apps/__init__.py:411
 msgid "All"
 msgstr "Tất cả"
 
@@ -1621,7 +1641,7 @@ msgstr "Khác"
 msgid "More"
 msgstr "Thêm"
 
-#: ../ubuntutweak/modules/__init__.py:426
+#: ../ubuntutweak/modules/__init__.py:427
 #, python-format
 msgid ""
 "Ubuntu Tweak has detected that your apt configuration is broken.\n"
@@ -1646,7 +1666,7 @@ msgstr ""
 "\n"
 "Hoặc bạn có thể gửi Thông báo lỗi đến các nhà phát triển để được trợ giúp:"
 
-#: ../ubuntutweak/modules/__init__.py:436
+#: ../ubuntutweak/modules/__init__.py:437
 #, python-format
 msgid ""
 "Ubuntu Tweak has detected that your apt list file is broken.\n"
@@ -1673,88 +1693,88 @@ msgstr ""
 "\n"
 "Hoặc bạn có thể báo cáo Tin nhắn lỗi đến người thiết kế để được giúp đỡ:"
 
-#: ../ubuntutweak/tweaks/icons.py:26
+#: ../ubuntutweak/tweaks/icons.py:27
 msgid "Show \"Computer\" icon"
 msgstr "Hiển thị biểu tượng \"Máy tính\""
 
-#: ../ubuntutweak/tweaks/icons.py:33
+#: ../ubuntutweak/tweaks/icons.py:34
 msgid "Show \"Home Folder\" icon"
 msgstr "Hiển thị biểu tượng \"Thư mục Home\""
 
-#: ../ubuntutweak/tweaks/icons.py:40
+#: ../ubuntutweak/tweaks/icons.py:41
 msgid "Show \"Trash\" icon"
 msgstr "Hiển thị biểu tượng \"Thùng rác\""
 
-#: ../ubuntutweak/tweaks/icons.py:47
+#: ../ubuntutweak/tweaks/icons.py:48
 msgid "Show \"Network Servers\" icon"
 msgstr "Hiển thị biểu tượng \"Mạng\""
 
-#: ../ubuntutweak/tweaks/icons.py:76 ../ubuntutweak/gui/treeviews.py:89
+#: ../ubuntutweak/tweaks/icons.py:80 ../ubuntutweak/gui/treeviews.py:89
 msgid "Rename"
 msgstr "Đổi tên"
 
-#: ../ubuntutweak/tweaks/icons.py:107
+#: ../ubuntutweak/tweaks/icons.py:111
 msgid "Desktop Icons"
 msgstr "Biểu tượng màn hình"
 
-#: ../ubuntutweak/tweaks/icons.py:108
+#: ../ubuntutweak/tweaks/icons.py:112
 msgid "Rename and toggle visibilty of desktop icons"
 msgstr "Đặt lại tên và khả năng hiển thị của các biểu tượng trên desktop"
 
-#: ../ubuntutweak/tweaks/icons.py:113
+#: ../ubuntutweak/tweaks/icons.py:117
 msgid "Show desktop icons:"
 msgstr "Hiêrn thị biểu tượng màn hình:"
 
-#: ../ubuntutweak/tweaks/icons.py:114
+#: ../ubuntutweak/tweaks/icons.py:118
 msgid "Show mounted volumes"
 msgstr "Hiển thị phân vùng đã kết nối"
 
-#: ../ubuntutweak/tweaks/icons.py:115
+#: ../ubuntutweak/tweaks/icons.py:119
 msgid "Show contents of \"Home Folder\""
 msgstr "Hiển thị nội dung \"Thư mục Home\""
 
-#: ../ubuntutweak/tweaks/icons.py:146
+#: ../ubuntutweak/tweaks/icons.py:151
 msgid "Note: switch off this option will make the desktop unclickable"
 msgstr "Chú ý: tắt tùy chọn này sẽ làm màn hình không thể nhấp chuột"
 
-#: ../ubuntutweak/tweaks/theme.py:36
+#: ../ubuntutweak/tweaks/theme.py:37
 msgid "Theme"
 msgstr "Sắc thái"
 
-#: ../ubuntutweak/tweaks/theme.py:37
+#: ../ubuntutweak/tweaks/theme.py:38
 msgid "Set the gtk theme, icon theme, cursor theme and others"
 msgstr "Đặt sắc thái Gtk, biểu tượng, con trỏ và những thứ khác"
 
-#: ../ubuntutweak/tweaks/theme.py:41 ../ubuntutweak/tweaks/loginsettings.py:47
+#: ../ubuntutweak/tweaks/theme.py:42 ../ubuntutweak/tweaks/loginsettings.py:47
 msgid "Icon theme:"
 msgstr "Sắc thái biểu tượng"
 
-#: ../ubuntutweak/tweaks/theme.py:42 ../ubuntutweak/tweaks/loginsettings.py:46
+#: ../ubuntutweak/tweaks/theme.py:43 ../ubuntutweak/tweaks/loginsettings.py:46
 msgid "Gtk theme:"
 msgstr "Sắc thái Gtk"
 
-#: ../ubuntutweak/tweaks/theme.py:43
+#: ../ubuntutweak/tweaks/theme.py:44
 msgid "Cursor theme:"
 msgstr "Sắc thái con trỏ"
 
-#: ../ubuntutweak/tweaks/theme.py:44
+#: ../ubuntutweak/tweaks/theme.py:45
 msgid "Window theme:"
 msgstr "Sắc thái cửa sổ"
 
-#: ../ubuntutweak/tweaks/theme.py:89
+#: ../ubuntutweak/tweaks/theme.py:102
 msgid "Install theme:"
 msgstr "Cài đặt sắc thái"
 
-#: ../ubuntutweak/tweaks/theme.py:99
+#: ../ubuntutweak/tweaks/theme.py:112
 msgid "Theme file is invalid"
 msgstr "Tập tin sắc thái không phù hợp"
 
-#: ../ubuntutweak/tweaks/theme.py:105
+#: ../ubuntutweak/tweaks/theme.py:118
 #, python-format
 msgid "\"%s\" installed successfully"
 msgstr "\"%s\" đã được cài thành công"
 
-#: ../ubuntutweak/tweaks/theme.py:106
+#: ../ubuntutweak/tweaks/theme.py:119
 #, python-format
 msgid "Would you like to set your icon theme to \"%s\" immediatelly?"
 msgstr "Bạn có muốn đặt sắc thái biểu tượng \"%s\" ngay lập tức?"
@@ -1767,60 +1787,66 @@ msgstr "Cửa sổ"
 msgid "Manage Window Manager settings"
 msgstr "Thiết đặt Quản lý Cửa sổ"
 
-#: ../ubuntutweak/tweaks/window.py:48
+#: ../ubuntutweak/tweaks/window.py:50
 msgid "Window control button position:"
 msgstr "Vị trí nút điều khiển cửa sổ"
 
-#: ../ubuntutweak/tweaks/window.py:49
+#: ../ubuntutweak/tweaks/window.py:51
 msgid "\"Close\" button only"
 msgstr "Chỉ có nút \"Đóng\""
 
-#: ../ubuntutweak/tweaks/window.py:50
+#: ../ubuntutweak/tweaks/window.py:52
 msgid "Titlebar mouse wheel action:"
 msgstr "Hành động khi cuộn chuột trên thanh tiêu đề"
 
-#: ../ubuntutweak/tweaks/window.py:51
+#: ../ubuntutweak/tweaks/window.py:53
 msgid "Titlebar double-click action:"
 msgstr "Hành động khi nhấn đúp chuột trên thanh tiêu đề"
 
-#: ../ubuntutweak/tweaks/window.py:52
+#: ../ubuntutweak/tweaks/window.py:54
 msgid "Titlebar middle-click action:"
 msgstr "Hành động khi nhấn chuột giữa trên thanh tiêu đề"
 
-#: ../ubuntutweak/tweaks/window.py:53
+#: ../ubuntutweak/tweaks/window.py:55
 msgid "Titlebar right-click action:"
 msgstr "Hành động khi nhấn chuột phải trên thanh tiêu đề"
 
-#: ../ubuntutweak/tweaks/window.py:77 ../ubuntutweak/tweaks/window.py:85
-#: ../ubuntutweak/tweaks/window.py:98 ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:88
+#: ../ubuntutweak/tweaks/window.py:101 ../ubuntutweak/tweaks/window.py:116
+#: ../ubuntutweak/tweaks/window.py:137 ../ubuntutweak/tweaks/window.py:145
+#: ../ubuntutweak/tweaks/window.py:156 ../ubuntutweak/tweaks/window.py:167
 msgid "Roll up"
 msgstr "Cuộn lên"
 
-#: ../ubuntutweak/tweaks/window.py:84 ../ubuntutweak/tweaks/window.py:95
-#: ../ubuntutweak/tweaks/window.py:110
+#: ../ubuntutweak/tweaks/window.py:87 ../ubuntutweak/tweaks/window.py:98
+#: ../ubuntutweak/tweaks/window.py:113 ../ubuntutweak/tweaks/window.py:144
+#: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "Maximize"
 msgstr "Phóng to"
 
-#: ../ubuntutweak/tweaks/window.py:85 ../ubuntutweak/tweaks/window.py:98
-#: ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:88 ../ubuntutweak/tweaks/window.py:101
+#: ../ubuntutweak/tweaks/window.py:116 ../ubuntutweak/tweaks/window.py:145
+#: ../ubuntutweak/tweaks/window.py:156 ../ubuntutweak/tweaks/window.py:167
 msgid "Minimize"
 msgstr "Thu nhỏ"
 
-#: ../ubuntutweak/tweaks/window.py:86 ../ubuntutweak/tweaks/window.py:99
-#: ../ubuntutweak/tweaks/window.py:114
+#: ../ubuntutweak/tweaks/window.py:89 ../ubuntutweak/tweaks/window.py:102
+#: ../ubuntutweak/tweaks/window.py:117 ../ubuntutweak/tweaks/window.py:146
+#: ../ubuntutweak/tweaks/window.py:157 ../ubuntutweak/tweaks/window.py:168
 msgid "Lower"
 msgstr "Thấp"
 
-#: ../ubuntutweak/tweaks/window.py:86 ../ubuntutweak/tweaks/window.py:99
-#: ../ubuntutweak/tweaks/window.py:114
+#: ../ubuntutweak/tweaks/window.py:89 ../ubuntutweak/tweaks/window.py:102
+#: ../ubuntutweak/tweaks/window.py:117 ../ubuntutweak/tweaks/window.py:146
+#: ../ubuntutweak/tweaks/window.py:157 ../ubuntutweak/tweaks/window.py:168
 msgid "Menu"
 msgstr "Trình đơn"
 
-#: ../ubuntutweak/tweaks/window.py:96 ../ubuntutweak/tweaks/window.py:111
+#: ../ubuntutweak/tweaks/window.py:99 ../ubuntutweak/tweaks/window.py:114
 msgid "Maximize Horizontally"
 msgstr "Phóng to theo chiều ngang"
 
-#: ../ubuntutweak/tweaks/window.py:97 ../ubuntutweak/tweaks/window.py:112
+#: ../ubuntutweak/tweaks/window.py:100 ../ubuntutweak/tweaks/window.py:115
 msgid "Maximize Vertically"
 msgstr "Phóng to theo chiều dọc"
 
@@ -1833,12 +1859,12 @@ msgid "Manage the Nautilus file manager"
 msgstr "Quản lý trình quản lý tập tin Nautilus"
 
 #: ../ubuntutweak/tweaks/nautilus.py:33
-msgid "Show advanced permissions in \"File Properties\""
-msgstr "Hiển thị tùy chọn nâng cao trong \"Thuộc tính tập tin\""
-
-#: ../ubuntutweak/tweaks/nautilus.py:34
 msgid "Use the location entry instead of the pathbar"
 msgstr "Sử dụng trường nhập địa điểm thay thế cho thanh đường dẫn"
+
+#: ../ubuntutweak/tweaks/nautilus.py:34
+msgid "Enable Recursive Search"
+msgstr ""
 
 #: ../ubuntutweak/tweaks/nautilus.py:35
 msgid "Automatically mount media:"
@@ -1864,61 +1890,53 @@ msgstr "Thời gian sống hình thu nhỏ (ngày)"
 msgid "Maximum thumbnail cache size (MB):"
 msgstr "Cỡ bộ nhớ đệm hình thu nhỏ lớn nhất (MB)"
 
-#: ../ubuntutweak/tweaks/nautilus.py:52
-msgid "File browser:"
-msgstr "Trình duyệt tập tin"
-
-#: ../ubuntutweak/tweaks/session.py:29
+#: ../ubuntutweak/tweaks/session.py:30
 msgid "Session Indicator"
 msgstr "Chỉ thị phiên làm việc"
 
-#: ../ubuntutweak/tweaks/session.py:30
+#: ../ubuntutweak/tweaks/session.py:31
 msgid "Control your system session releated features"
 msgstr "Điều khiển phiên làm việc của bạn"
 
-#: ../ubuntutweak/tweaks/session.py:34
+#: ../ubuntutweak/tweaks/session.py:35
 msgid "User indicator"
 msgstr "Chỉ thị người dùng"
 
-#: ../ubuntutweak/tweaks/session.py:35
+#: ../ubuntutweak/tweaks/session.py:36
 msgid "Disable \"Lock Screen\""
 msgstr "Vô hiệu \"Khóa màn hình\""
 
-#: ../ubuntutweak/tweaks/session.py:36
+#: ../ubuntutweak/tweaks/session.py:37
 msgid "Show user's real name on the panel"
 msgstr "Hiển thị tên thực của người dùng trên bảng điều khiển"
 
-#: ../ubuntutweak/tweaks/session.py:37
+#: ../ubuntutweak/tweaks/session.py:38
 msgid "Remove the log out item"
 msgstr "Gỡ bỏ mục đăng xuất"
 
-#: ../ubuntutweak/tweaks/session.py:38
+#: ../ubuntutweak/tweaks/session.py:39
 msgid "Remove the shutdown item"
 msgstr "Gỡ bỏ mục tắt máy"
 
-#: ../ubuntutweak/tweaks/session.py:39
+#: ../ubuntutweak/tweaks/session.py:40
 msgid "Suppress the dialog to confirm logout and shutdown action"
 msgstr "Ngăn các hộp thoại xác nhận hoạt động đăng xuất và tắt máy"
 
-#: ../ubuntutweak/tweaks/session.py:68
+#: ../ubuntutweak/tweaks/session.py:73
 msgid "Session indicator:"
 msgstr "Chỉ thị phiên làm việc:"
 
-#: ../ubuntutweak/tweaks/workspace.py:36
+#: ../ubuntutweak/tweaks/workspace.py:37
 msgid "Show Workspaces"
 msgstr "Hiện khác Vùng làm việc"
 
-#: ../ubuntutweak/tweaks/workspace.py:37
+#: ../ubuntutweak/tweaks/workspace.py:38
 msgid "Show Windows"
 msgstr "Hiện cửa sổ"
 
-#: ../ubuntutweak/tweaks/workspace.py:38
+#: ../ubuntutweak/tweaks/workspace.py:39
 msgid "Show Desktop"
 msgstr "Hiện màn hình nền"
-
-#: ../ubuntutweak/tweaks/workspace.py:39
-msgid "Show Widgets"
-msgstr "Hiện các Widget"
 
 #: ../ubuntutweak/tweaks/workspace.py:138
 msgid "Workspace"
@@ -1964,70 +1982,86 @@ msgstr "Sắc thái âm thanh"
 msgid "Play login sound:"
 msgstr "Âm thanh đăng nhập"
 
-#: ../ubuntutweak/tweaks/misc.py:31
+#: ../ubuntutweak/tweaks/misc.py:32
 msgid "Miscellaneous"
 msgstr "Linh tinh"
 
-#: ../ubuntutweak/tweaks/misc.py:32
+#: ../ubuntutweak/tweaks/misc.py:33
 msgid "Set the cursor timeout, menus and buttons icons"
 msgstr "Đặt thời gian chờ của con trỏ, biểu tượng của trình đơn và nút bấm"
 
-#: ../ubuntutweak/tweaks/misc.py:36
+#: ../ubuntutweak/tweaks/misc.py:37
 msgid "Natural Scrolling"
 msgstr "Cuộn theo kiểu chạm"
 
-#: ../ubuntutweak/tweaks/misc.py:37
+#: ../ubuntutweak/tweaks/misc.py:38
 msgid "Menus have icons"
 msgstr "Trình đơn có biểu tượng"
 
-#: ../ubuntutweak/tweaks/misc.py:38
+#: ../ubuntutweak/tweaks/misc.py:39
 msgid "Buttons have icons"
 msgstr "Nút bấm có biểu tượng"
 
-#: ../ubuntutweak/tweaks/misc.py:39
+#: ../ubuntutweak/tweaks/misc.py:40
 msgid "Show Input Method menu in the context menu"
 msgstr "Hiện trình đơn Phương pháp nhập liệu trong trình đơn ngữ cảnh"
 
-#: ../ubuntutweak/tweaks/misc.py:40
+#: ../ubuntutweak/tweaks/misc.py:41
 msgid "Show Unicode Control Character menu in the context menu"
 msgstr ""
 "Hiện trình đơn Chèn ký tự điều khiển Unicode trong trình đơn ngữ cảnh"
 
-#: ../ubuntutweak/tweaks/misc.py:41
+#: ../ubuntutweak/tweaks/misc.py:42
 msgid "Disable printing"
 msgstr "Vô hiệu hoá in"
 
-#: ../ubuntutweak/tweaks/misc.py:42
+#: ../ubuntutweak/tweaks/misc.py:43
 msgid "Disable printer settings"
 msgstr "Tắt các thiết lập máy in"
 
-#: ../ubuntutweak/tweaks/misc.py:43
+#: ../ubuntutweak/tweaks/misc.py:44
 msgid "Disable save to disk"
 msgstr "Vô hiệu lưu vào đĩa"
 
-#: ../ubuntutweak/tweaks/misc.py:44
+#: ../ubuntutweak/tweaks/misc.py:45
 msgid "Disable \"Fast User Switching\""
 msgstr "Vô hiệu hóa \"Chuyển người dùng nhanh\""
 
-#: ../ubuntutweak/tweaks/misc.py:45
+#: ../ubuntutweak/tweaks/misc.py:46
 msgid "Cursor blink:"
 msgstr "Nhấp nháy con trỏ"
 
-#: ../ubuntutweak/tweaks/misc.py:46
+#: ../ubuntutweak/tweaks/misc.py:47
 msgid "Overlay scrollbars:"
 msgstr "Lớp phủ thanh trượt:"
 
-#: ../ubuntutweak/tweaks/misc.py:47
+#: ../ubuntutweak/tweaks/misc.py:48
 msgid "Cursor blink time:"
 msgstr "Chu kỳ nhấp nháy con trỏ"
 
-#: ../ubuntutweak/tweaks/misc.py:48
+#: ../ubuntutweak/tweaks/misc.py:49
 msgid "Cursor blink timeout:"
 msgstr "Thời gian hiệu lực nhấp nháy con trỏ"
 
-#: ../ubuntutweak/tweaks/misc.py:60 ../ubuntutweak/tweaks/unity.py:175
+#: ../ubuntutweak/tweaks/misc.py:61 ../ubuntutweak/tweaks/unity.py:189
 msgid "Note: you may need to log out to take effect"
 msgstr "Chú ý: bạn có thể cần phải đăng xuất để thấy được hiệu quả"
+
+#: ../ubuntutweak/tweaks/misc.py:73
+msgid "Normal"
+msgstr "Bình thường"
+
+#: ../ubuntutweak/tweaks/misc.py:74
+msgid "Auto"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/misc.py:75
+msgid "Show Overlay"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/misc.py:76
+msgid "Never Show Overlay"
+msgstr ""
 
 #: ../ubuntutweak/tweaks/loginsettings.py:37
 msgid "Login Settings"
@@ -2039,97 +2073,97 @@ msgstr "Điểu khiển giao diện và hành vi của màn hình đăng nhập"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:43
 msgid "Guest account:"
-msgstr ""
+msgstr "Tài khoản Khách:"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:44
 msgid "Draw grid:"
 msgstr "Lưới vẽ"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:63
+#: ../ubuntutweak/tweaks/loginsettings.py:62
 msgid "Note: you may need to reboot to take effect"
-msgstr ""
+msgstr "Chú ý: khởi động lại để có hiệu lực"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:141
+#: ../ubuntutweak/tweaks/loginsettings.py:136
 msgid "Choose a new logo image"
 msgstr "Chọn hình ảnh biểu tượng mới"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:147
+#: ../ubuntutweak/tweaks/loginsettings.py:142
 msgid "All images (*.PNG)"
 msgstr "Tất cả hình ảnh dạng (*.PNG)"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:194
+#: ../ubuntutweak/tweaks/loginsettings.py:189
 msgid "Choose a new background image"
 msgstr "Hãy chọn một ảnh nền mới"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:200
+#: ../ubuntutweak/tweaks/loginsettings.py:195
 msgid "All images"
 msgstr "Tất cả ảnh"
 
-#: ../ubuntutweak/tweaks/fonts.py:26
+#: ../ubuntutweak/tweaks/fonts.py:27
 msgid "Fonts"
 msgstr "Phông chữ"
 
-#: ../ubuntutweak/tweaks/fonts.py:27
+#: ../ubuntutweak/tweaks/fonts.py:28
 msgid "Fonts Settings"
 msgstr "Thiết đặt phông chữ"
 
-#: ../ubuntutweak/tweaks/fonts.py:32
+#: ../ubuntutweak/tweaks/fonts.py:33
 msgid "Text scaling factor:"
 msgstr "Hệ số tỉ lệ xích văn bản:"
 
-#: ../ubuntutweak/tweaks/fonts.py:33
+#: ../ubuntutweak/tweaks/fonts.py:34
 msgid "Default font:"
 msgstr "Phông chữ mặc định:"
 
-#: ../ubuntutweak/tweaks/fonts.py:34
+#: ../ubuntutweak/tweaks/fonts.py:35
 msgid "Monospace font:"
 msgstr "Phông đơn cách:"
 
-#: ../ubuntutweak/tweaks/fonts.py:35
+#: ../ubuntutweak/tweaks/fonts.py:36
 msgid "Document font:"
 msgstr "Phông tài liệu:"
 
-#: ../ubuntutweak/tweaks/fonts.py:36
+#: ../ubuntutweak/tweaks/fonts.py:37
 msgid "Window title bar font:"
 msgstr "Phông thanh tiêu đề cửa sổ"
 
-#: ../ubuntutweak/tweaks/fonts.py:37
+#: ../ubuntutweak/tweaks/fonts.py:38
 msgid "Hinting:"
 msgstr "Làm mịn:"
 
-#: ../ubuntutweak/tweaks/fonts.py:38
+#: ../ubuntutweak/tweaks/fonts.py:39
 msgid "Antialiasing:"
 msgstr "Khử răng cưa:"
 
-#: ../ubuntutweak/tweaks/fonts.py:64
+#: ../ubuntutweak/tweaks/fonts.py:78
 msgid "Desktop font:"
 msgstr "Phông màn hình:"
 
-#: ../ubuntutweak/tweaks/fonts.py:89
+#: ../ubuntutweak/tweaks/fonts.py:99
 msgid "No hinting"
 msgstr "Không làm mịn"
 
-#: ../ubuntutweak/tweaks/fonts.py:90
+#: ../ubuntutweak/tweaks/fonts.py:100
 msgid "Basic"
 msgstr "Cơ bản"
 
-#: ../ubuntutweak/tweaks/fonts.py:91
+#: ../ubuntutweak/tweaks/fonts.py:101
 msgid "Moderate"
 msgstr "Vừa phải"
 
-#: ../ubuntutweak/tweaks/fonts.py:92
+#: ../ubuntutweak/tweaks/fonts.py:102
 msgid "Maximum"
 msgstr "Tối đa"
 
-#: ../ubuntutweak/tweaks/fonts.py:99
+#: ../ubuntutweak/tweaks/fonts.py:109
 msgid "No antialiasing"
 msgstr "Không làm mượt"
 
-#: ../ubuntutweak/tweaks/fonts.py:100
+#: ../ubuntutweak/tweaks/fonts.py:110
 msgid "Standard grayscale antialiasing"
 msgstr "Làm mượt bằng tiêu chuẩn grayscale"
 
-#: ../ubuntutweak/tweaks/fonts.py:101
+#: ../ubuntutweak/tweaks/fonts.py:111
 msgid "Subpixel antialiasing (LCD screens only)"
 msgstr "Làm mượt dưới điểm ảnh (chỉ màn hình LCD)"
 
@@ -2142,8 +2176,8 @@ msgid "HUD:"
 msgstr "HUD:"
 
 #: ../ubuntutweak/tweaks/unity.py:43
-msgid "Shortcut hits overlay:"
-msgstr "Đánh lớp phủ lối tắt:"
+msgid "Shortcut hints overlay:"
+msgstr ""
 
 #: ../ubuntutweak/tweaks/unity.py:44
 msgid "Launcher icon size:"
@@ -2154,115 +2188,118 @@ msgid "Launcher opacity:"
 msgstr "Độ trong suốt thanh khởi chạy:"
 
 #: ../ubuntutweak/tweaks/unity.py:46
+msgid "Web Apps integration:"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/unity.py:47
 msgid "Launcher hide mode:"
 msgstr "Chế độ ẩn thanh khởi chạy"
 
-#: ../ubuntutweak/tweaks/unity.py:47
+#: ../ubuntutweak/tweaks/unity.py:48
 msgid "Launcher icon backlight:"
 msgstr "Ánh sáng nền biểu tượng thanh khởi chạy:"
 
-#: ../ubuntutweak/tweaks/unity.py:48
+#: ../ubuntutweak/tweaks/unity.py:49
 msgid "Launcher show devices:"
 msgstr "Hiển thị thiết bị trên thanh khởi chạy:"
 
-#: ../ubuntutweak/tweaks/unity.py:49
+#: ../ubuntutweak/tweaks/unity.py:50
 msgid "\"Show desktop\" icon:"
 msgstr "Biểu tượng \"Hiển thị màn hình nền\":"
 
-#: ../ubuntutweak/tweaks/unity.py:50
+#: ../ubuntutweak/tweaks/unity.py:51
+msgid "Launcher click to minimize app:"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/unity.py:52
+msgid "Disable \"Show Desktop\" in the switcher:"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/unity.py:53
 msgid "Dash size:"
 msgstr "Cỡ khung dash:"
 
-#: ../ubuntutweak/tweaks/unity.py:51
+#: ../ubuntutweak/tweaks/unity.py:54
 msgid "Blur type:"
 msgstr "Kiểu bóng mờ:"
 
-#: ../ubuntutweak/tweaks/unity.py:52
+#: ../ubuntutweak/tweaks/unity.py:55
 msgid "Panel opacity:"
 msgstr "Độ trong suốt thanh điều khiển"
 
-#: ../ubuntutweak/tweaks/unity.py:53
+#: ../ubuntutweak/tweaks/unity.py:56
 msgid "Panel opacity for maximized windows:"
 msgstr "Độ trong suốt thanh điều khiển khi phóng to cửa sổ:"
 
-#: ../ubuntutweak/tweaks/unity.py:54
+#: ../ubuntutweak/tweaks/unity.py:57
 msgid "Super key:"
 msgstr "Phím Super:"
 
-#: ../ubuntutweak/tweaks/unity.py:55
+#: ../ubuntutweak/tweaks/unity.py:58
 msgid "Full screen dash:"
 msgstr "Khung dash đầy màn hình:"
 
-#: ../ubuntutweak/tweaks/unity.py:56
+#: ../ubuntutweak/tweaks/unity.py:59
 msgid "Compositing manager:"
 msgstr "Quản lý hợp"
 
-#: ../ubuntutweak/tweaks/unity.py:57
+#: ../ubuntutweak/tweaks/unity.py:60
 msgid "Number of workspaces:"
 msgstr "Số vùng làm việc:"
 
-#: ../ubuntutweak/tweaks/unity.py:66 ../ubuntutweak/tweaks/unity.py:69
-#: ../ubuntutweak/tweaks/unity.py:199
+#: ../ubuntutweak/tweaks/unity.py:68 ../ubuntutweak/tweaks/unity.py:213
 msgid "Auto Hide"
 msgstr "Tự động ẩn"
 
-#: ../ubuntutweak/tweaks/unity.py:66
-msgid "Dodge Window"
-msgstr "Né cửa sổ"
-
-#: ../ubuntutweak/tweaks/unity.py:66
-msgid "Dodge Active Window"
-msgstr "Né cửa sổ tích cực"
-
-#: ../ubuntutweak/tweaks/unity.py:119
+#: ../ubuntutweak/tweaks/unity.py:133
 msgid "Backlight Always On"
 msgstr "Ánh sáng nền luôn bật"
 
-#: ../ubuntutweak/tweaks/unity.py:120
+#: ../ubuntutweak/tweaks/unity.py:134
 msgid "Backlight Toggles"
 msgstr "Bật/tắt dựa vào trạng thái biểu tượng"
 
-#: ../ubuntutweak/tweaks/unity.py:121
+#: ../ubuntutweak/tweaks/unity.py:135
 msgid "Backlight Always Off"
 msgstr "Ánh sáng nền luôn tắt"
 
-#: ../ubuntutweak/tweaks/unity.py:122
+#: ../ubuntutweak/tweaks/unity.py:136
 msgid "Edge Illumination Toggles"
 msgstr "Bật tắt Độ sáng Đèn biên"
 
-#: ../ubuntutweak/tweaks/unity.py:123
+#: ../ubuntutweak/tweaks/unity.py:137
 msgid "Backlight and Edge Illumination Toggles"
 msgstr "Bật tắt độ sáng đèn nền và biên"
 
-#: ../ubuntutweak/tweaks/unity.py:132
+#: ../ubuntutweak/tweaks/unity.py:146
 msgid "Only Mounted"
 msgstr "Chỉ ổ đã gắn kết"
 
-#: ../ubuntutweak/tweaks/unity.py:133
+#: ../ubuntutweak/tweaks/unity.py:147
 msgid "Always"
 msgstr "Luôn luôn"
 
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Automatic"
 msgstr "Tự động"
 
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Netbook"
 msgstr "Kiểu netbook"
 
-#: ../ubuntutweak/tweaks/unity.py:149
+#: ../ubuntutweak/tweaks/unity.py:163
 msgid "No blur"
 msgstr "Không mờ"
 
-#: ../ubuntutweak/tweaks/unity.py:150
+#: ../ubuntutweak/tweaks/unity.py:164
 msgid "Static blur"
 msgstr "Mờ tĩnh"
 
-#: ../ubuntutweak/tweaks/unity.py:151
+#: ../ubuntutweak/tweaks/unity.py:165
 msgid "Active blur"
 msgstr "Mờ động"
 
-#: ../ubuntutweak/tweaks/unity.py:200
+#: ../ubuntutweak/tweaks/unity.py:214
 msgid "Intellihide"
 msgstr "Ẩn thông minh"
 
@@ -2279,8 +2316,53 @@ msgid "Fix the appearance of themes when granted root privileges:"
 msgstr "Sửa sắc thái diện mạo khi được cấp đặc quyền root:"
 
 #: ../ubuntutweak/tweaks/workarounds.py:39
-msgid "Auto detect text encoding for Chinese in Gedit:"
-msgstr "Tự động nhận dạng mã hóa văn bản tiếng Trung trong Gedit:"
+msgid "Auto detect text encoding for Simplified Chinese in Gedit:"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:20
+msgid "Love Wallpaper HD"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:21
+msgid "Browse online gallery and find your wallpaper"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:48
+msgid "I'm Feeling Lucky"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:91
+msgid "Downloading Wallpaper"
+msgstr ""
+
+#: ../ubuntutweak/apps/__init__.py:106
+msgid "Uninstall"
+msgstr ""
+
+#: ../ubuntutweak/apps/__init__.py:107
+msgid "Update"
+msgstr ""
+
+#: ../ubuntutweak/apps/__init__.py:108
+msgid "Installing"
+msgstr ""
+
+#: ../ubuntutweak/apps/__init__.py:109
+msgid "Uninstalling"
+msgstr ""
+
+#: ../ubuntutweak/apps/__init__.py:110
+msgid "Updating"
+msgstr ""
+
+#: ../ubuntutweak/apps/__init__.py:111
+msgid "Not Available"
+msgstr ""
+
+#: ../ubuntutweak/apps/__init__.py:226
+#, python-format
+msgid "\"%s\" is enabled now, Please click the update button to update %s"
+msgstr ""
 
 #: ../ubuntutweak/clips/userinfo.py:10
 msgid "User Information"
@@ -2347,12 +2429,12 @@ msgstr "Bộ nhớ đệm có thể được dọn dẹp để giải phóng kh�
 msgid "%s cache packages can be cleaned."
 msgstr "%s bộ nhớ đệm về gói được dọn dẹp"
 
-#: ../ubuntutweak/clips/cleanerinfo.py:33
+#: ../ubuntutweak/clips/cleanerinfo.py:38
 #, python-format
 msgid "%s thumbnails cache can be cleaned."
 msgstr "%s hình đệm thu nhỏ được làm sạch"
 
-#: ../ubuntutweak/clips/cleanerinfo.py:39
+#: ../ubuntutweak/clips/cleanerinfo.py:44
 msgid "Start Janitor"
 msgstr "Bắt đầu dọn dẹp"
 
@@ -2455,33 +2537,33 @@ msgstr ""
 "\n"
 "Có các tập tin đang tồn tại trong nó!"
 
-#: ../ubuntutweak/main.py:276
+#: ../ubuntutweak/main.py:264
 msgid "Results"
 msgstr "Kết quả"
 
-#: ../ubuntutweak/main.py:284
+#: ../ubuntutweak/main.py:272
 #, python-format
 msgid "Your filter \"<b>%s</b>\" does not match any items."
 msgstr "Bộ lọc \"<b>%s</b>\" không phù hợp với bất kỳ mục nào."
 
-#: ../ubuntutweak/main.py:402
+#: ../ubuntutweak/main.py:400
 msgid "Please wait a moment..."
 msgstr "Vui lòng chờ trong giây lát..."
 
-#: ../ubuntutweak/main.py:511
+#: ../ubuntutweak/main.py:509
 #, python-format
 msgid "No module named \"%s\""
 msgstr "Không có khối nào tên là \"%s\""
 
-#: ../ubuntutweak/main.py:512
+#: ../ubuntutweak/main.py:510
 msgid "Please ensure you have entered the correct module name."
 msgstr "Vui lòng đảm bảo bạn đã nhập đúng tên khối."
 
-#: ../ubuntutweak/main.py:570
+#: ../ubuntutweak/main.py:568
 msgid "Computer Janitor"
 msgstr "Dọn dẹp máy tính"
 
-#: ../ubuntutweak/main.py:571
+#: ../ubuntutweak/main.py:569
 msgid "Clean up a system so it's more like a freshly installed one"
 msgstr "Thu dọn hệ thống và làm nó trở lên như vừa mới được cài"
 
@@ -2559,61 +2641,20 @@ msgstr "Bạn muốn gỡ bỏ nó rồi cài đặt lại?"
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" vừa được cài đặt"
 
-#~ msgid "Could not find application"
-#~ msgstr "Không tìm thấy ứng dụng"
+#~ msgid "Show Widgets"
+#~ msgstr "Hiện các Widget"
 
-#~ msgid "Fix the appearance of themes when granted root privileges"
-#~ msgstr "Sửa giao diện của các chủ đề khi được giao quyền quản trị"
+#~ msgid "Dodge Window"
+#~ msgstr "Né cửa sổ"
 
-#~ msgid "Purge PPA and Downgrade Packages"
-#~ msgstr "Xoá các PPA và hạ cấp các gói tương ứng"
+#~ msgid "Dodge Active Window"
+#~ msgstr "Né cửa sổ tích cực"
 
-#~ msgid "Downloading Packages..."
-#~ msgstr "Đang tải các gói phần mềm..."
+#~ msgid "File browser:"
+#~ msgstr "Trình duyệt tập tin"
 
-#, python-format
-#~ msgid "Downgrading...%s"
-#~ msgstr "Đang hạ cấp...%s"
+#~ msgid "Show advanced permissions in \"File Properties\""
+#~ msgstr "Hiển thị tùy chọn nâng cao trong \"Thuộc tính tập tin\""
 
-#~ msgid "Removing key files..."
-#~ msgstr "Đang xoá các tập tin key..."
-
-#, python-format
-#~ msgid "You're going to purge: %s"
-#~ msgstr "Bạn đang chuẩn bị gỡ hoàn toàn: %s"
-
-#~ msgid "Thumbnail cache time (days)"
-#~ msgstr "Thời hạn lưu bộ nhớ tạm hình thu nhỏ (ngày)"
-
-#, python-format
-#~ msgid "Downloading...%s"
-#~ msgstr "Đang tải... %s"
-
-#~ msgid "No PPA to be removed"
-#~ msgstr "Không PPA nào được gỡ bỏ"
-
-#, python-format
-#~ msgid "Could not find \"%s\", Please ensure the path is correct."
-#~ msgstr "Không thể tìm thấy \"%s\", vui lòng đảm bảo là đường dẫn chính xác."
-
-#~ msgid "Enable the Super key"
-#~ msgstr "Cho phép phím Windows (Super)"
-
-#, python-format
-#~ msgid "%d PPAs to be removed"
-#~ msgstr "%d PPA được gỡ bỏ"
-
-#~ msgid "Cursor blink timeout"
-#~ msgstr "Thời gian trễ nhấp nháy con trỏ"
-
-#~ msgid "Cursor blink time"
-#~ msgstr "Thời gian nhấp nháy con trỏ"
-
-#~ msgid "Cursor blink"
-#~ msgstr "Nhấp nháy con trỏ"
-
-#~ msgid "Launcher"
-#~ msgstr "Thanh khởi chạy"
-
-#~ msgid "PPA"
-#~ msgstr "PPA"
+#~ msgid "Auto detect text encoding for Chinese in Gedit:"
+#~ msgstr "Tự động nhận dạng mã hóa văn bản tiếng Trung trong Gedit:"

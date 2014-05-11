@@ -1,3 +1,111 @@
+Ubuntu Tweak 0.8.7
+==================
+
+  * Overview of Changes:
+    - Add support for Ubuntu 14.04 Trusty Tahr
+    - Add Support for Minimize from Unity Launcher
+    - Add toggle for Nautilus Recursive Search
+
+  * Bugs fixed
+    - Fix the nautilus scripts support for Ubuntu 13.10 and later (Bug #1242379)
+    - Going to workspace adjustement automatically add keyboard shortcut for fade screen (Bug #1240005)
+    - Missing options: fonts, desktop icons,window, file manager (Bug #1250252)
+    - Never crash when sources.list is not parsable (Bug #1246348)
+
+Ubuntu Tweak 0.8.6
+==================
+
+  * Overview of Changes:
+    - Add support for Ubuntu 13.10 Saucy Salamander, drop support for Ubuntu 11.10 Oneiric
+    - Improve the old kernels clean up, now it will find out more old kernels
+    - Disable appcenter and sourcecenter, they are no longer maintained
+
+  * Bugs fixed
+    - Modules show error with "expected string or buffer" (Bug #880663)
+    - Ubuntu Tweak crashed while processing override (Bug #1195550)
+    - Problem showing error dialog if dest path contains special characters e.g. "ö" (Bug #1203049)
+    - Ubuntu Tweak crached in logo in GNOME 3.8 (Bug #1144075)
+    - LovewallpaperHD failed to load (Bug #1071414)
+
+Ubuntu Tweak 0.8.5
+==================
+
+  * Bugs fixed
+    - ubuntu tweak crashes on updating software list (LP: #1081235)
+    - Ubuntu 13.04 Posible bug in fonts selector and window configurations (LP: #1173275)
+    - wrong german translation for reporting a bug (Melden/Berichten) (LP: #1177128)
+    - Can't change window theme [Ubuntu Tweak 0.8.4, Raring] (LP: #1172760)
+
+Ubuntu Tweak 0.8.4
+==================
+
+  * Bugs fixed
+    - Ubuntu 13.04 should upgrade the path of scripts (LP: #1155854)
+    - creating of a hard link to a directory crashes UT (LP: #1092086)
+    - Janitor only shows "System" (LP: #1101264)
+    - Window button tweak error in 13.04 (LP: #1114576)
+    - ubuntu tweak crashes on updating software list (LP: #1081235)
+
+Ubuntu Tweak 0.8.3
+==================
+
+  * Overview of Changes
+    - Add two mirrors for Apps remote data
+    - Update the overlay scrollbar settings for Ubuntu 12.10
+
+  * Bugs fixed
+    - Ignore the Unity WebApp specific action like S0 ~ S1 (LP: #1076417)
+    - Fix ubuntu-tweak crashed with SIGSEV in PyGILState_Ensure() (LP: #1074853)
+    - Improve "Auto detect text encoding for Chinese in Gedit" (LP: #1074572)
+    - thumbnailcache_plugin uses deprecated path (LP: #1090364)
+    - File Manager module encountered error while loading (LP: #1073795)
+    - ubuntu-tweak is top crasher on errors.ubuntu.com (LP: #1086722)
+
+Ubuntu Tweak 0.8.2
+==================
+
+  * Overview of Changes
+    - Show apps installation status
+    - No more Desktop Recovery and Shortcut for 12.10
+    - Add option to turn off Unity Web Apps
+    - Remove "show User indicator" option for 12.10
+    - Love Wallpaper HD is ready
+
+  * Bugs fixed
+    - Quicklists load failed in 12.04 (LP: #1073004)
+    - Window control button position not working for Ubuntu 12.10 (LP: #1061218)
+    - Window titlebar font setting is not working under 12.10 (LP: #1069669)
+    - Window theme setting is not working under 12.10 (LP: #1069670)
+    - Error in Translations it.po (LP: #1069028)
+
+Ubuntu Tweak 0.8.1
+==================
+
+  * Overview of Changes
+    - Add Disable "Show Desktop" in the switcher (12.10 only)
+    - Add the Apps shortcut to Unity launcher icon
+    - QuickLists Editor support 12.10 and reordering the unity items
+    - Add installation status in app view
+    - Disable the Window tweaks for 12.10
+    - Add cookie and cache (12.10 only) support for Apps
+
+  * Bugs fixed
+    - Increase the default window size to 900x506 (LP: #1064392)
+
+Ubuntu Tweak 0.8.0
+==================
+
+  * Overview of Changes
+    - New web based Apps feature to let you install latest apps easily
+      - Always keep up-to-date (need Internet connection)
+      - In the same interface, you can manage the app and source
+      - List of new apps recently added (LP: #729411)
+
+  * Bugs fixed
+    - Fix misspelled item "Shortcut hits overlay:" (LP: #1035960)
+    - Janitor preparation to remove kernels results in crash of Ubuntu Tweak (LP: #1051717)
+    - Scripts bugs image convert if file has some spaces (LP: #1057422)
+
 Ubuntu Tweak 0.7.3
 ==================
 

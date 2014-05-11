@@ -2,10 +2,10 @@ import os
 import re
 import logging
 
+from distutils.version import LooseVersion
 from ubuntutweak.gui.gtk import set_busy, unset_busy
 from ubuntutweak.janitor import JanitorPlugin, PackageObject
 from ubuntutweak.utils.package import AptWorker
-from ubuntutweak.utils import filesizeformat
 from ubuntutweak.common.debug import log_func, get_traceback
 
 
@@ -21,8 +21,12 @@ class OldKernelPlugin(JanitorPlugin):
 
     def __init__(self):
         JanitorPlugin.__init__(self)
-        self.current_kernel_version = self.p_kernel_version.findall('-'.join(os.uname()[2].split('-')[:2]))[0]
-        log.debug("the current_kernel_version is %s" % self.current_kernel_version)
+        try:
+            self.current_kernel_version = self.p_kernel_version.findall('-'.join(os.uname()[2].split('-')[:2]))[0]
+            log.debug("the current_kernel_version is %s" % self.current_kernel_version)
+        except Exception, e:
+            log.error(e)
+            self.current_kernel_version = '3.2.0-36'
 
     def get_cruft(self):
         try:
@@ -32,12 +36,12 @@ class OldKernelPlugin(JanitorPlugin):
 
             if cache:
                 for pkg in cache:
-                    if pkg.isInstalled and self.is_old_kernel_package(pkg.name):
+                    if pkg.is_installed and self.is_old_kernel_package(pkg.name):
                         log.debug("Find old kernerl: %s" % pkg.name)
                         count += 1
-                        size += pkg.installedSize
+                        size += pkg.installed.size
                         self.emit('find_object',
-                                  PackageObject(pkg.name, pkg.name, pkg.installedSize),
+                                  PackageObject(pkg.name, pkg.name, pkg.installed.size),
                                   count)
 
             self.emit('scan_finished', True, count, size)
@@ -92,7 +96,7 @@ class OldKernelPlugin(JanitorPlugin):
             else:
                 return False
         else:
-            return c1 > p1
+            return LooseVersion(c1) > LooseVersion(p1)
 
     def get_summary(self, count):
         if count:

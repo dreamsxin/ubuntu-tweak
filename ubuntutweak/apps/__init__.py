@@ -1,16 +1,18 @@
 import os
 import json
+import random
 import logging
 import webbrowser
 
-from gi.repository import GObject, Gtk, WebKit
+from gi.repository import GObject, Gtk, WebKit, Soup
 from gi.repository import Notify
 from aptsources.sourceslist import SourcesList
 
 from ubuntutweak import system
 from ubuntutweak import __version__
-from ubuntutweak.common.consts import IS_TESTING
+from ubuntutweak.common.consts import IS_TESTING, LANG
 from ubuntutweak.common.debug import log_func
+from ubuntutweak.common.consts import CONFIG_ROOT
 from ubuntutweak.gui.gtk import set_busy, unset_busy
 from ubuntutweak.utils.package import AptWorker
 from ubuntutweak.utils.parser import Parser
@@ -21,6 +23,12 @@ log = logging.getLogger('apps')
 
 
 class AppsPage(Gtk.ScrolledWindow):
+    is_loaded = False
+
+    __gsignals__ = {
+        'loaded': (GObject.SignalFlags.RUN_FIRST, None, ()),
+    }
+
     def __init__(self, go_back_button, forward_button):
         GObject.GObject.__init__(self)
 
@@ -50,6 +58,14 @@ class AppsPage(Gtk.ScrolledWindow):
             self._go_back_button.set_sensitive(widget.can_go_back())
             self._forward_button.set_sensitive(widget.can_go_forward())
             self.on_size_allocate(widget)
+            # TODO enable when it will not crash
+            # self._webview.save_cache()
+            if self.is_loaded == False:
+                self.is_loaded = True
+                self.emit('loaded')
+
+    def load(self):
+        self._webview.load_uri('http://ubuntu-tweak.com/utapp/')
 
     @log_func(log)
     def on_go_back_clicked(self, widget):
@@ -100,12 +116,38 @@ class AppsWebView(WebKit.WebView):
 
         self.get_settings().set_property('enable-default-context-menu', False)
         self.get_settings().set_property('enable-plugins', False)
-        self.setup_user_agent()
 
-        self.load_uri('http://ubuntu-tweak.com/utapp/')
+        # TODO enable when it will not crash
+        # self.setup_features()
+        self.setup_user_agent()
 
         self.connect('notify::title', self.on_title_changed)
         self.connect('new-window-policy-decision-requested', self.on_window)
+
+    def setup_features(self):
+        try:
+            session = WebKit.get_default_session()
+            session.connect('request-queued', self.on_session_request_queued)
+
+            cookie = Soup.CookieJarText(filename=os.path.join(CONFIG_ROOT, 'cookies'))
+            session.add_feature(cookie)
+
+            self._cache = Soup.Cache(cache_dir=os.path.join(CONFIG_ROOT, 'cache'),
+                                     cache_type=Soup.CacheType.SHARED)
+            session.add_feature(self._cache)
+            self._cache.set_max_size(10 * 1024 * 1024)
+            self._cache.load()
+        except Exception, e:
+            log.error("setup_features failed with %s" % e)
+
+    def on_session_request_queued(self, session, message):
+        message.request_headers.replace('Accept-language', LANG)
+
+    @log_func(log)
+    def save_cache(self):
+        if hasattr(self, '_cache'):
+            self._cache.flush()
+            self._cache.dump()
 
     def setup_user_agent(self):
         user_agent = 'Mozilla/5.0 (X11; Linux %(arch)s) Chrome/%(version)s-%(codename)s' % {'arch': os.uname()[-1],
@@ -126,14 +168,28 @@ class AppsWebView(WebKit.WebView):
                 getattr(self, parameters[0])(*parameters[1:])
 
     @log_func(log)
+    def initialize_apps(self, apps_json, *args):
+        apps = json.loads(apps_json)
+        for package in apps.keys():
+            apps[package] = proxy.is_package_installed(package)
+
+        self.execute_script('''
+                            var apps_dict = %s;
+                            Utapp.get("router.appsController").content.forEach(function(app) {
+                            app.set('isInstalled', apps_dict[app.package]);
+                            });''' % json.dumps(apps))
+
+    @log_func(log)
     def update_app(self, pkgname, *args):
         if pkgname != self.current_app:
             self.current_app = pkgname
 
         if proxy.is_package_avaiable(pkgname):
             if proxy.is_package_installed(pkgname):
+                self.execute_script('Utapp.get("router.appController").currentApp.set("isInstalled", true);');
                 self.update_action_button(self.UNINSTALL_ACTION)
             else:
+                self.execute_script('Utapp.get("router.appController").currentApp.set("isInstalled", false);');
                 self.update_action_button(self.INSTALL_ACTION)
         else:
             self.update_action_button(self.NOT_AVAILABLE_ACTION)

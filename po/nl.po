@@ -7,35 +7,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-tweak\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-04 22:24+0800\n"
-"PO-Revision-Date: 2012-08-09 21:10+0000\n"
+"POT-Creation-Date: 2014-04-19 14:32+0800\n"
+"PO-Revision-Date: 2013-01-08 18:44+0000\n"
 "Last-Translator: rob <linuxned@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2012-08-12 03:16+0000\n"
-"X-Generator: Launchpad (build 15780)\n"
+"X-Launchpad-Export-Date: 2014-04-20 04:41+0000\n"
+"X-Generator: Launchpad (build 16985)\n"
 
 #: ../data/script-worker:57
 #, c-format
 msgid "You don't have permission to write in %s"
 msgstr "U heeft geen schrijfrechten voor %s"
 
-#: ../data/script-worker:155 ../data/script-worker:168
+#: ../data/script-worker:158 ../data/script-worker:171
 msgid "Enter your password to perform the administrative tasks"
 msgstr "Voer uw wachtwoord in om beheerstaken uit te voeren."
 
-#: ../data/script-worker:162
+#: ../data/script-worker:165
 msgid "Coudn't find any text editor in your system!"
 msgstr "Geen teksteditor gevonden!"
 
-#: ../data/script-worker:191
+#: ../data/script-worker:194
 msgid "Select a folder"
 msgstr "Selecteer een map"
 
-#: ../data/script-worker:221
+#: ../data/script-worker:224
 msgid "Please select a target (files or folders)."
 msgstr "Selecteer een doel (bestanden of mappen)."
 
@@ -47,15 +47,19 @@ msgstr "Ubuntu aanpassen zoals u dat wilt"
 msgid "Overview"
 msgstr "Overzicht"
 
-#: ../data/ubuntu-tweak.desktop.in.h:3 ../data/ui/preferences.ui.h:13
+#: ../data/ubuntu-tweak.desktop.in.h:3 ../ubuntutweak/janitor/__init__.py:889
+msgid "Apps"
+msgstr "Toepassingen"
+
+#: ../data/ubuntu-tweak.desktop.in.h:4 ../data/ui/preferences.ui.h:13
 msgid "Tweaks"
 msgstr "Aanpassingen"
 
-#: ../data/ubuntu-tweak.desktop.in.h:4 ../data/ui/preferences.ui.h:17
+#: ../data/ubuntu-tweak.desktop.in.h:5 ../data/ui/preferences.ui.h:17
 msgid "Admins"
 msgstr "Beheerders"
 
-#: ../data/ubuntu-tweak.desktop.in.h:5 ../data/ui/preferences.ui.h:22
+#: ../data/ubuntu-tweak.desktop.in.h:6 ../data/ui/preferences.ui.h:22
 msgid "Janitor"
 msgstr "Schoonmaak"
 
@@ -118,7 +122,7 @@ msgstr "Omhoog verplaatsen"
 msgid "Move Down"
 msgstr "Omlaag verplaatsen"
 
-#: ../data/ui/preferences.ui.h:8
+#: ../data/ui/preferences.ui.h:8 ../ubuntutweak/apps/__init__.py:105
 msgid "Install"
 msgstr "Installeren"
 
@@ -421,7 +425,8 @@ msgstr ""
 "  Wim Champagne https://launchpad.net/~fng-deactivatedaccount-"
 "deactivatedaccount\n"
 "  cumulus007 https://launchpad.net/~cumulus-007\n"
-"  ikikik https://launchpad.net/~ikikik\n"
+"  ikikik https://launchpad.net/~ikikik-deactivatedaccount-"
+"deactivatedaccount\n"
 "  rob https://launchpad.net/~rvdb\n"
 "  ruben https://launchpad.net/~rubenvanassche\n"
 "  xatr0z https://launchpad.net/~xatr0z"
@@ -435,18 +440,22 @@ msgid "_Overview"
 msgstr "_Overzicht"
 
 #: ../data/ui/mainwindow.ui.h:9
+msgid "_Apps"
+msgstr "Toe_passingen"
+
+#: ../data/ui/mainwindow.ui.h:10
 msgid "_Tweaks"
 msgstr "_Aanpassingen"
 
-#: ../data/ui/mainwindow.ui.h:10
+#: ../data/ui/mainwindow.ui.h:11
 msgid "_Admins"
 msgstr "_Beheerders"
 
-#: ../data/ui/mainwindow.ui.h:11
+#: ../data/ui/mainwindow.ui.h:12
 msgid "_Janitor"
 msgstr "_Schoonmaak"
 
-#: ../data/ui/mainwindow.ui.h:12
+#: ../data/ui/mainwindow.ui.h:13
 msgid "<big><b>No matches found</b></big>"
 msgstr "<big><b>Geen overeenkomsten gevonden</b></big>"
 
@@ -458,20 +467,20 @@ msgstr "Naam van instelling:"
 msgid "R_eset"
 msgstr "H_erstellen"
 
-#: ../ubuntutweak/system/__init__.py:42
+#: ../ubuntutweak/system/__init__.py:43
 msgid "GNOME Classic"
 msgstr "GNOME-klassiek"
 
-#: ../ubuntutweak/system/__init__.py:44
+#: ../ubuntutweak/system/__init__.py:45 ../ubuntutweak/system/__init__.py:46
 msgid "GNOME Fallback"
 msgstr "GNOME-terugval"
 
-#: ../ubuntutweak/system/__init__.py:55
+#: ../ubuntutweak/system/__init__.py:57
 #, python-format
 msgid "Unknown (%s)"
 msgstr "Onbekend (%s)"
 
-#: ../ubuntutweak/system/__init__.py:57
+#: ../ubuntutweak/system/__init__.py:59
 #: ../ubuntutweak/clips/hardwareinfo.py:16
 msgid "Unknown"
 msgstr "Onbekend"
@@ -494,8 +503,8 @@ msgid "Error happened!"
 msgstr "Er is een fout opgetreden!"
 
 #: ../ubuntutweak/network/utdata.py:50 ../ubuntutweak/network/utdata.py:83
-#: ../ubuntutweak/tweaks/unity.py:66 ../ubuntutweak/tweaks/unity.py:69
-#: ../ubuntutweak/tweaks/unity.py:131 ../ubuntutweak/tweaks/unity.py:199
+#: ../ubuntutweak/tweaks/unity.py:68 ../ubuntutweak/tweaks/unity.py:145
+#: ../ubuntutweak/tweaks/unity.py:213
 msgid "Never"
 msgstr "Nooit"
 
@@ -535,7 +544,7 @@ msgstr "Een moment geleden"
 msgid "_Unlock"
 msgstr "_Ontgrendelen"
 
-#: ../ubuntutweak/policykit/dbusproxy.py:32
+#: ../ubuntutweak/policykit/dbusproxy.py:28
 msgid ""
 "The Ubuntu Tweak daemon didn't start correctly. This means that some "
 "advanced features may not work.\n"
@@ -589,7 +598,7 @@ msgstr "Opera-buffer"
 msgid "Google Earth Cache"
 msgstr "Google Earth-buffer"
 
-#: ../ubuntutweak/janitor/thumbnailcache_plugin.py:4
+#: ../ubuntutweak/janitor/thumbnailcache_plugin.py:5
 msgid "Thumbnail cache"
 msgstr "Thumbnailsbuffer"
 
@@ -660,10 +669,6 @@ msgstr "Systeem"
 msgid "Personal"
 msgstr "Persoonlijk"
 
-#: ../ubuntutweak/janitor/__init__.py:889
-msgid "Apps"
-msgstr "Toepassingen"
-
 #: ../ubuntutweak/janitor/packageconfigs_plugin.py:30
 msgid "Package Configs"
 msgstr "Pakketconfiguratiebestanden"
@@ -678,7 +683,7 @@ msgstr ""
 msgid "Old Kernel"
 msgstr "Oude kernel"
 
-#: ../ubuntutweak/janitor/oldkernel_plugin.py:101
+#: ../ubuntutweak/janitor/oldkernel_plugin.py:105
 msgid "Old Kernel Packages (No old kernel package to be removed)"
 msgstr ""
 "Oude kernel-pakketten (er zijn geen oude kernel-pakketten die verwijderd "
@@ -691,12 +696,12 @@ msgstr "Toepassingen"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:80
 #: ../ubuntutweak/admins/userdir.py:34 ../ubuntutweak/modules/__init__.py:32
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Desktop"
 msgstr "Bureaublad"
 
 #: ../ubuntutweak/admins/desktoprecovery.py:106
-#: ../ubuntutweak/apps/__init__.py:240
+#: ../ubuntutweak/apps/__init__.py:392
 msgid "Category"
 msgstr "Categorie"
 
@@ -731,11 +736,11 @@ msgstr ""
 "U kunt ook \"Herstellen\" gebruiken om terug te gaan naar de "
 "standaardsysteeminstellingen."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:347
+#: ../ubuntutweak/admins/desktoprecovery.py:348
 msgid "No Backup Yet"
 msgstr "Nog geen back-up beschikbaar"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:382
+#: ../ubuntutweak/admins/desktoprecovery.py:383
 #, python-format
 msgid ""
 "Backup all settings under \"<b>%s</b>\"\n"
@@ -744,7 +749,7 @@ msgstr ""
 "Back-up maken van alle instellingen onder \"<b>%s</b>\"\n"
 "Wilt u doorgaan?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:403
+#: ../ubuntutweak/admins/desktoprecovery.py:404
 #, python-format
 msgid ""
 "Backup settings under \"<b>%s</b>\"\n"
@@ -753,12 +758,12 @@ msgstr ""
 "Back-up maken van instellingen onder \"<b>%s</b>\"\n"
 "Wilt u doorgaan?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:446
+#: ../ubuntutweak/admins/desktoprecovery.py:447
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s/%s</b>\"?"
 msgstr "Wilt u de back-up \"<b>%s/%s</b>\" verwijderen?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:450
+#: ../ubuntutweak/admins/desktoprecovery.py:451
 #, python-format
 msgid ""
 "Would you like to delete the backup of all \"<b>%(setting_name)s</b>\" "
@@ -767,12 +772,12 @@ msgstr ""
 "Wilt u de back-up verwijderen van alle \"<b>%(setting_name)s</b>\" "
 "instellingen met de naam \"<b>%(backup_name)s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:472
+#: ../ubuntutweak/admins/desktoprecovery.py:473
 #, python-format
 msgid "Would you like to recover the backup \"<b>%s/%s</b>\"?"
 msgstr "Wilt u de back-up \"<b>%s/%s</b>\" terugzetten?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:475
+#: ../ubuntutweak/admins/desktoprecovery.py:476
 #, python-format
 msgid ""
 "Would you like to recover the backup of all \"<b>%(setting_name)s</b>\" "
@@ -781,7 +786,7 @@ msgstr ""
 "Wilt u de back-up van alle \"<b>%(setting_name)s</b>\" instellingen met de "
 "naam \"<b>%(backup_name)s</b>\" terugzetten?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:480
+#: ../ubuntutweak/admins/desktoprecovery.py:481
 msgid ""
 "<b>NOTES</b>: While recovering, your desktop may be unresponsive for a "
 "moment."
@@ -789,30 +794,30 @@ msgstr ""
 "<b>Let op</b>: Tijdens het terugzetten kan uw computer mogelijk traag "
 "reageren."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:497
+#: ../ubuntutweak/admins/desktoprecovery.py:498
 msgid "Recovery Successful!"
 msgstr "Terugzetten is geslaagd!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:498
-#: ../ubuntutweak/admins/desktoprecovery.py:534
+#: ../ubuntutweak/admins/desktoprecovery.py:499
+#: ../ubuntutweak/admins/desktoprecovery.py:535
 msgid "You may need to restart your desktop for changes to take effect"
 msgstr "U dient zich af te melden voordat de wijzigen effect zullen hebben"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:503
+#: ../ubuntutweak/admins/desktoprecovery.py:504
 msgid "_Logout"
 msgstr "Af_melden"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:516
+#: ../ubuntutweak/admins/desktoprecovery.py:517
 #, python-format
 msgid "Would you like to reset settings for \"<b>%s</b>\"?"
 msgstr "Wilt u de instellingen herstellen voor \"<b>%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:518
+#: ../ubuntutweak/admins/desktoprecovery.py:519
 #, python-format
 msgid "Would you like to reset all settings under \"<b>%s</b>\"?"
 msgstr "Wilt u alle instellingen herstellen voor \"<b>%s</b>\"?"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:520
+#: ../ubuntutweak/admins/desktoprecovery.py:521
 msgid ""
 "<b>NOTES</b>: Whilst resetting, your desktop may be unresponsive for a "
 "moment."
@@ -820,21 +825,21 @@ msgstr ""
 "<b>Let op</b>: Tijdens het herstellen kan uw computer mogelijk traag "
 "reageren."
 
-#: ../ubuntutweak/admins/desktoprecovery.py:533
+#: ../ubuntutweak/admins/desktoprecovery.py:534
 msgid "Reset Successful!"
 msgstr "Herstellen is geslaagd!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:562
-#: ../ubuntutweak/admins/sourceeditor.py:418
+#: ../ubuntutweak/admins/desktoprecovery.py:563
+#: ../ubuntutweak/admins/sourceeditor.py:422
 msgid "Please enter a new name for your backup:"
 msgstr "Voer een nieuwe naam in voor uw back-up:"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:594
+#: ../ubuntutweak/admins/desktoprecovery.py:595
 msgid "Backup Successful!"
 msgstr "Back-up is gemaakt!"
 
-#: ../ubuntutweak/admins/desktoprecovery.py:597
-#: ../ubuntutweak/admins/sourceeditor.py:394
+#: ../ubuntutweak/admins/desktoprecovery.py:598
+#: ../ubuntutweak/admins/sourceeditor.py:398
 msgid "Backup Failed!"
 msgstr "Back-up is mislukt!"
 
@@ -908,6 +913,7 @@ msgstr ""
 "Om door te gaan dient u eerst <b>\"%(SOURCE)s\"</b> uit te schakelen."
 
 #: ../ubuntutweak/admins/sourcecenter.py:903
+#: ../ubuntutweak/apps/__init__.py:225
 msgid "New source has been enabled"
 msgstr "Nieuwe bron is ingeschakeld"
 
@@ -917,7 +923,7 @@ msgid ""
 "%s is enabled now, Please click the refresh button to update the application "
 "cache."
 msgstr ""
-"%s is nu ingeschakeld, klik a.u.b. op de Verversen-knop om het "
+"%s is nu ingeschakeld, klik a.u.b. op de knop Verversen om het "
 "buffergeheugen van de toepassing bij te werken."
 
 #: ../ubuntutweak/admins/sourcecenter.py:921
@@ -941,7 +947,7 @@ msgid "Visit online Source Center"
 msgstr "Onlinesoftwarebron bezoeken"
 
 #: ../ubuntutweak/admins/sourcecenter.py:937
-#: ../ubuntutweak/admins/appcenter.py:506
+#: ../ubuntutweak/admins/appcenter.py:505
 msgid "_Sync"
 msgstr "_Synchroniseren"
 
@@ -968,7 +974,7 @@ msgid "disabled on upgrade to %s"
 msgstr "uitgeschakeld bij upgrade naar %s"
 
 #: ../ubuntutweak/admins/sourcecenter.py:1014
-#: ../ubuntutweak/admins/appcenter.py:546
+#: ../ubuntutweak/admins/appcenter.py:545
 msgid "Last synced:"
 msgstr "Laatst gesynchroniseerd:"
 
@@ -1024,7 +1030,7 @@ msgstr ""
 "beschikbaarhei van de server op afstand."
 
 #: ../ubuntutweak/admins/sourcecenter.py:1184
-#: ../ubuntutweak/admins/appcenter.py:665
+#: ../ubuntutweak/admins/appcenter.py:664
 msgid "No update available."
 msgstr "Geen update beschikbaar."
 
@@ -1053,15 +1059,15 @@ msgstr "PPA is verwijderd"
 msgid "It is highly recommend to do a \"Refresh\" source operation."
 msgstr "Het wordt sterk aanbevolen om de bronnen te \"Verversen\"."
 
-#: ../ubuntutweak/admins/sourceeditor.py:168
+#: ../ubuntutweak/admins/sourceeditor.py:172
 msgid "Source Editor"
 msgstr "Broneditor"
 
-#: ../ubuntutweak/admins/sourceeditor.py:169
+#: ../ubuntutweak/admins/sourceeditor.py:173
 msgid "Manually edit your software sources to suit your needs."
 msgstr "Bewerk uw softwarebronnen geheel naar uw eigen keuze."
 
-#: ../ubuntutweak/admins/sourceeditor.py:208
+#: ../ubuntutweak/admins/sourceeditor.py:212
 #, python-format
 msgid ""
 "You're viewing the backup \"<b>%(backup_name)s</b>\" for "
@@ -1069,19 +1075,19 @@ msgid ""
 msgstr ""
 "U bekijkt de back-up \"<b>%(backup_name)s</b>\" voor \"<b>%(list_name)s</b>\""
 
-#: ../ubuntutweak/admins/sourceeditor.py:279
+#: ../ubuntutweak/admins/sourceeditor.py:283
 msgid "No backup yet"
 msgstr "Nog geen back-up beschikbaar"
 
-#: ../ubuntutweak/admins/sourceeditor.py:319
+#: ../ubuntutweak/admins/sourceeditor.py:323
 msgid "Please check the permission of the sources.list file"
 msgstr "Controleer de toegangsrechten van het sources.list bestand"
 
-#: ../ubuntutweak/admins/sourceeditor.py:321
+#: ../ubuntutweak/admins/sourceeditor.py:325
 msgid "Save failed!"
 msgstr "Opslaan mislukt!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:339
+#: ../ubuntutweak/admins/sourceeditor.py:343
 #, python-format
 msgid ""
 "Would you like to recover the backup \"<b>%(backup_name)s</b>\" for "
@@ -1090,34 +1096,34 @@ msgstr ""
 "Wilt u de back-up terugzetten van \"<b>%(backup_name)s</b>\" voor "
 "\"<b>%(list_name)s</b>\"?"
 
-#: ../ubuntutweak/admins/sourceeditor.py:350
+#: ../ubuntutweak/admins/sourceeditor.py:354
 msgid "Recovery Failed!"
 msgstr "Terugzetten is mislukt!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:351
+#: ../ubuntutweak/admins/sourceeditor.py:355
 msgid "You may need to check the permission of source list."
 msgstr "Controleer de toegangsrechten van source list."
 
-#: ../ubuntutweak/admins/sourceeditor.py:383
+#: ../ubuntutweak/admins/sourceeditor.py:387
 msgid "Please enter the name for your backup:"
 msgstr "Voer de naam in voor uw back-up:"
 
-#: ../ubuntutweak/admins/sourceeditor.py:396
-#: ../ubuntutweak/admins/sourceeditor.py:429
+#: ../ubuntutweak/admins/sourceeditor.py:400
+#: ../ubuntutweak/admins/sourceeditor.py:433
 msgid "Please only use alphanumeric characters and \"_\" and \"-\"."
 msgstr "Gebruik alleen alfanumerieke tekens en \"_\" en \"-\"."
 
-#: ../ubuntutweak/admins/sourceeditor.py:398
-#: ../ubuntutweak/admins/sourceeditor.py:431
+#: ../ubuntutweak/admins/sourceeditor.py:402
+#: ../ubuntutweak/admins/sourceeditor.py:435
 msgid "Backup name is invalid"
 msgstr "Back-upnaam is ongeldig"
 
-#: ../ubuntutweak/admins/sourceeditor.py:404
+#: ../ubuntutweak/admins/sourceeditor.py:408
 #, python-format
 msgid "Would you like to delete the backup \"<b>%s</b>\"?"
 msgstr "Wilt u de back-up \"<b>%s</b>\" verwijderen?"
 
-#: ../ubuntutweak/admins/sourceeditor.py:434
+#: ../ubuntutweak/admins/sourceeditor.py:438
 msgid ""
 "The current content will be lost after reloading!\n"
 "Do you wish to continue?"
@@ -1125,11 +1131,11 @@ msgstr ""
 "De huidige inhoud zal verloren gaan na het herladen!\n"
 "Wilt u doorgaan?"
 
-#: ../ubuntutweak/admins/sourceeditor.py:452
+#: ../ubuntutweak/admins/sourceeditor.py:456
 msgid "You can't delete sources.list!"
 msgstr "U kunt sources.list niet verwijderen!"
 
-#: ../ubuntutweak/admins/sourceeditor.py:454
+#: ../ubuntutweak/admins/sourceeditor.py:458
 #, python-format
 msgid ""
 "The \"%s\" will be deleted!\n"
@@ -1232,44 +1238,44 @@ msgstr ""
 "Dit zal alle inactieve sjablonen verwijderen.\n"
 "Wilt u doorgaan?"
 
-#: ../ubuntutweak/admins/appcenter.py:188
+#: ../ubuntutweak/admins/appcenter.py:187
 msgid "Installed Apps"
 msgstr "Geïnstalleerde toepassingen"
 
-#: ../ubuntutweak/admins/appcenter.py:455
+#: ../ubuntutweak/admins/appcenter.py:454
 msgid "Checking update..."
 msgstr "Zoeken naar update…"
 
-#: ../ubuntutweak/admins/appcenter.py:490
+#: ../ubuntutweak/admins/appcenter.py:489
 msgid "Fetching online data..."
 msgstr "Onlinedata ophalen…"
 
-#: ../ubuntutweak/admins/appcenter.py:495
+#: ../ubuntutweak/admins/appcenter.py:494
 msgid "Application Center"
 msgstr "Softwarecentrum"
 
-#: ../ubuntutweak/admins/appcenter.py:496
+#: ../ubuntutweak/admins/appcenter.py:495
 msgid ""
 "A simple but efficient way for finding and installing popular applications."
 msgstr ""
 "Een simpele maar efficiënte manier om populaire toepassingen te vinden en "
 "installeren."
 
-#: ../ubuntutweak/admins/appcenter.py:499
+#: ../ubuntutweak/admins/appcenter.py:498
 msgid "Visit Online Application Center"
 msgstr "Onlinesoftwarecentrum bezoeken"
 
-#: ../ubuntutweak/admins/appcenter.py:553
+#: ../ubuntutweak/admins/appcenter.py:552
 msgid "New application data available, would you like to update?"
 msgstr ""
 "Er is nieuwe toepassingendata beschikbaar, wilt u de toepassingendata "
 "bijwerken?"
 
-#: ../ubuntutweak/admins/appcenter.py:652
+#: ../ubuntutweak/admins/appcenter.py:651
 msgid "Update available, would you like to update?"
 msgstr "Update beschikbaar, wilt u het softwarecentrum bijwerken?"
 
-#: ../ubuntutweak/admins/appcenter.py:661
+#: ../ubuntutweak/admins/appcenter.py:660
 msgid ""
 "Network Error, please check your network connection - or the remote server "
 "may be down."
@@ -1277,7 +1283,7 @@ msgstr ""
 "Netwerkfout, controleer a.u.b. uw netwerkverbinding of controleer de "
 "beschikbaarheid van de server op afstand."
 
-#: ../ubuntutweak/admins/appcenter.py:678
+#: ../ubuntutweak/admins/appcenter.py:677
 msgid "An error occurred while downloading the file."
 msgstr "Er is een fout opgetreden bij het downloaden van het bestand."
 
@@ -1356,31 +1362,43 @@ msgstr "Te_rugplaatsen"
 msgid "_Change"
 msgstr "_Wijzigen"
 
-#: ../ubuntutweak/admins/quicklists.py:208
+#: ../ubuntutweak/admins/quicklists.py:211
 msgid "QuickLists Editor"
 msgstr "Quicklists editor"
 
-#: ../ubuntutweak/admins/quicklists.py:209
+#: ../ubuntutweak/admins/quicklists.py:212
 msgid "Unity Launcher QuickLists Editor"
 msgstr "Unity-starter quicklists editor"
 
-#: ../ubuntutweak/admins/quicklists.py:397
+#: ../ubuntutweak/admins/quicklists.py:230
+msgid "Running Apps"
+msgstr "Draaiende toepassingen"
+
+#: ../ubuntutweak/admins/quicklists.py:231
+msgid "Workspace Switcher"
+msgstr "Werkbladwisselaar"
+
+#: ../ubuntutweak/admins/quicklists.py:232
+msgid "Devices"
+msgstr "Apparaten"
+
+#: ../ubuntutweak/admins/quicklists.py:426
 #, python-format
 msgid "Would you like to reset \"%s\"?"
 msgstr "Wilt u \"%s\" herstellen?"
 
-#: ../ubuntutweak/admins/quicklists.py:398
+#: ../ubuntutweak/admins/quicklists.py:427
 #, python-format
 msgid "If you continue, the actions of %s will be set to default."
 msgstr ""
 "Indien u doorgaat, zullen de acties van %s ingesteld worden op hun "
 "standaardwaarden."
 
-#: ../ubuntutweak/admins/quicklists.py:411
+#: ../ubuntutweak/admins/quicklists.py:440
 msgid "Would you like to reset the launcher items?"
 msgstr "Wilt u de starteritems herstellen?"
 
-#: ../ubuntutweak/admins/quicklists.py:412
+#: ../ubuntutweak/admins/quicklists.py:441
 msgid ""
 "If you continue, launcher will be set to default and all your current items "
 "will be lost."
@@ -1388,119 +1406,119 @@ msgstr ""
 "Indien u doorgaat, zal de starter ingesteld worden op zijn standaardwaarde "
 "en zullen al uw huidige items verloren gaan."
 
-#: ../ubuntutweak/admins/scripts.py:43
+#: ../ubuntutweak/admins/scripts.py:49
 msgid "Create Launcher ..."
 msgstr "Starter aanmaken …"
 
-#: ../ubuntutweak/admins/scripts.py:44
+#: ../ubuntutweak/admins/scripts.py:50
 msgid "Copy to ..."
 msgstr "Kopiëren naar …"
 
-#: ../ubuntutweak/admins/scripts.py:45
+#: ../ubuntutweak/admins/scripts.py:51
 msgid "Copy to Desktop"
 msgstr "Kopiëren naar bureaublad"
 
-#: ../ubuntutweak/admins/scripts.py:46
+#: ../ubuntutweak/admins/scripts.py:52
 msgid "Copy to Download"
 msgstr "Kopiëren naar download"
 
-#: ../ubuntutweak/admins/scripts.py:47
+#: ../ubuntutweak/admins/scripts.py:53
 msgid "Copy to Home"
 msgstr "Kopiëren naar Persoonlijke map"
 
-#: ../ubuntutweak/admins/scripts.py:48
+#: ../ubuntutweak/admins/scripts.py:54
 msgid "Check md5 sum"
 msgstr "md5-som controleren"
 
-#: ../ubuntutweak/admins/scripts.py:49
+#: ../ubuntutweak/admins/scripts.py:55
 msgid "Compress PDF"
 msgstr "PDF comprimeren"
 
-#: ../ubuntutweak/admins/scripts.py:50
+#: ../ubuntutweak/admins/scripts.py:56
 msgid "Move to ..."
 msgstr "Verplaatsen naar …"
 
-#: ../ubuntutweak/admins/scripts.py:51
+#: ../ubuntutweak/admins/scripts.py:57
 msgid "Move to Desktop"
 msgstr "Verplaatsen naar bureaublad"
 
-#: ../ubuntutweak/admins/scripts.py:52
+#: ../ubuntutweak/admins/scripts.py:58
 msgid "Move to Download"
 msgstr "Verplaatsen om te downloaden"
 
-#: ../ubuntutweak/admins/scripts.py:53
+#: ../ubuntutweak/admins/scripts.py:59
 msgid "Move to Home"
-msgstr "Verplaatsen naar persoonlijke map"
+msgstr "Verplaatsen naar Persoonlijke map"
 
-#: ../ubuntutweak/admins/scripts.py:54
+#: ../ubuntutweak/admins/scripts.py:60
 msgid "Create hardlink to ..."
 msgstr "Hardlink aanmaken naar …"
 
-#: ../ubuntutweak/admins/scripts.py:55
+#: ../ubuntutweak/admins/scripts.py:61
 msgid "Link to ..."
 msgstr "Koppelen aan …"
 
-#: ../ubuntutweak/admins/scripts.py:56
+#: ../ubuntutweak/admins/scripts.py:62
 msgid "Link to Desktop"
 msgstr "Koppelen aan het bureaublad"
 
-#: ../ubuntutweak/admins/scripts.py:57
+#: ../ubuntutweak/admins/scripts.py:63
 msgid "Link to Download"
 msgstr "Link om te downloaden"
 
-#: ../ubuntutweak/admins/scripts.py:58
+#: ../ubuntutweak/admins/scripts.py:64
 msgid "Link to Home"
 msgstr "Koppelen aan Persoonlijke map"
 
-#: ../ubuntutweak/admins/scripts.py:59
+#: ../ubuntutweak/admins/scripts.py:65
 msgid "Open with your favourite text editor"
 msgstr "Openen met uw favoriete teksteditor"
 
-#: ../ubuntutweak/admins/scripts.py:60
+#: ../ubuntutweak/admins/scripts.py:66
 msgid "Open with your favourite text editor (as root)"
 msgstr "Openen met uw favoriete teksteditor (als root)"
 
-#: ../ubuntutweak/admins/scripts.py:61
+#: ../ubuntutweak/admins/scripts.py:67
 msgid "Browse as root"
 msgstr "Doorbladeren als root"
 
-#: ../ubuntutweak/admins/scripts.py:62
+#: ../ubuntutweak/admins/scripts.py:68
 msgid "Search in current folder"
 msgstr "Zoeken in de huidige map"
 
-#: ../ubuntutweak/admins/scripts.py:63
+#: ../ubuntutweak/admins/scripts.py:69
 msgid "Convert image to JPG"
 msgstr "Afbeelding converteren naar JPG"
 
-#: ../ubuntutweak/admins/scripts.py:64
+#: ../ubuntutweak/admins/scripts.py:70
 msgid "Convert image to PNG"
 msgstr "Afbeelding converteren naar PNG"
 
-#: ../ubuntutweak/admins/scripts.py:65
+#: ../ubuntutweak/admins/scripts.py:71
 msgid "Convert image to GIF"
 msgstr "Afbeelding converteren naar GIF"
 
-#: ../ubuntutweak/admins/scripts.py:66
+#: ../ubuntutweak/admins/scripts.py:72
 msgid "Set image as wallpaper"
 msgstr "Afbeelding als bureaubladachtergrond gebruiken"
 
-#: ../ubuntutweak/admins/scripts.py:67
+#: ../ubuntutweak/admins/scripts.py:73
 msgid "Make hard shadow to image"
 msgstr "Harde schaduw aan afbeelding toevoegen"
 
-#: ../ubuntutweak/admins/scripts.py:95
+#: ../ubuntutweak/admins/scripts.py:101
 msgid "Enabled Scripts"
 msgstr "Ingeschakelde scripts"
 
-#: ../ubuntutweak/admins/scripts.py:126
+#: ../ubuntutweak/admins/scripts.py:132
 msgid "Disabled Scripts"
 msgstr "Uitgeschakelde scripts"
 
-#: ../ubuntutweak/admins/scripts.py:133
+#: ../ubuntutweak/admins/scripts.py:139
 msgid "Scripts"
 msgstr "Scripts"
 
-#: ../ubuntutweak/admins/scripts.py:134
+#: ../ubuntutweak/admins/scripts.py:140
 msgid ""
 "Scripts can be used to complete all kinds of tasks.\n"
 "You can drag and drop scripts here from File Manager.\n"
@@ -1510,11 +1528,11 @@ msgstr ""
 "U kunt scripts hiernaartoe verslepen vanuit de bestandsbeheerder.\n"
 "De 'scripts' zullen dan toegevoegd worden aan het rechtermuisknopmenu."
 
-#: ../ubuntutweak/admins/scripts.py:162
+#: ../ubuntutweak/admins/scripts.py:168
 msgid "Rebuild System Scripts"
 msgstr "Systeemscripts verversen"
 
-#: ../ubuntutweak/admins/scripts.py:176
+#: ../ubuntutweak/admins/scripts.py:182
 msgid ""
 "This will delete all disabled scripts.\n"
 "Do you wish to continue?"
@@ -1537,34 +1555,36 @@ msgstr ""
 "toepassingen.\n"
 "Voer de opdracht voor de toepassing in en stel de gewenste sneltoets in."
 
-#: ../ubuntutweak/admins/shortcuts.py:83
+#: ../ubuntutweak/admins/shortcuts.py:84
 #, python-format
 msgid "Command %d"
 msgstr "Opdracht %d"
 
-#: ../ubuntutweak/admins/shortcuts.py:88
-#: ../ubuntutweak/admins/shortcuts.py:200
+#: ../ubuntutweak/admins/shortcuts.py:89
+#: ../ubuntutweak/admins/shortcuts.py:201
 #: ../ubuntutweak/admins/filetypemanager.py:178
 #: ../ubuntutweak/admins/filetypemanager.py:202
-#: ../ubuntutweak/tweaks/window.py:77 ../ubuntutweak/tweaks/window.py:84
-#: ../ubuntutweak/tweaks/window.py:95 ../ubuntutweak/tweaks/window.py:110
+#: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:87
+#: ../ubuntutweak/tweaks/window.py:98 ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:137 ../ubuntutweak/tweaks/window.py:144
+#: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "None"
 msgstr "Geen"
 
-#: ../ubuntutweak/admins/shortcuts.py:93
-#: ../ubuntutweak/admins/shortcuts.py:145
+#: ../ubuntutweak/admins/shortcuts.py:94
+#: ../ubuntutweak/admins/shortcuts.py:146
 msgid "disabled"
 msgstr "Uitgeschakeld"
 
-#: ../ubuntutweak/admins/shortcuts.py:102
+#: ../ubuntutweak/admins/shortcuts.py:103
 msgid "ID"
 msgstr "ID"
 
-#: ../ubuntutweak/admins/shortcuts.py:113
+#: ../ubuntutweak/admins/shortcuts.py:114
 msgid "Command"
 msgstr "Opdracht"
 
-#: ../ubuntutweak/admins/shortcuts.py:126
+#: ../ubuntutweak/admins/shortcuts.py:127
 msgid "Key"
 msgstr "Sleutel"
 
@@ -1589,7 +1609,7 @@ msgid "Application"
 msgstr "Toepassing"
 
 #: ../ubuntutweak/admins/filetypemanager.py:50
-#: ../ubuntutweak/apps/__init__.py:259
+#: ../ubuntutweak/apps/__init__.py:411
 msgid "All"
 msgstr "Alles"
 
@@ -1659,7 +1679,7 @@ msgstr "Overige"
 msgid "More"
 msgstr "Meer"
 
-#: ../ubuntutweak/modules/__init__.py:426
+#: ../ubuntutweak/modules/__init__.py:427
 #, python-format
 msgid ""
 "Ubuntu Tweak has detected that your apt configuration is broken.\n"
@@ -1684,7 +1704,7 @@ msgstr ""
 "\n"
 "Of u kunt de foutmelding naar de ontwikkelaar sturen voor hulp:"
 
-#: ../ubuntutweak/modules/__init__.py:436
+#: ../ubuntutweak/modules/__init__.py:437
 #, python-format
 msgid ""
 "Ubuntu Tweak has detected that your apt list file is broken.\n"
@@ -1711,90 +1731,90 @@ msgstr ""
 "\n"
 "Of u kunt de foutmelding naar de ontwikkelaar sturen voor hulp:"
 
-#: ../ubuntutweak/tweaks/icons.py:26
+#: ../ubuntutweak/tweaks/icons.py:27
 msgid "Show \"Computer\" icon"
 msgstr "\"Computer\"-pictogram tonen"
 
-#: ../ubuntutweak/tweaks/icons.py:33
+#: ../ubuntutweak/tweaks/icons.py:34
 msgid "Show \"Home Folder\" icon"
 msgstr "\"Persoonlijke map\"-pictogram tonen"
 
-#: ../ubuntutweak/tweaks/icons.py:40
+#: ../ubuntutweak/tweaks/icons.py:41
 msgid "Show \"Trash\" icon"
 msgstr "\"Prullenbak\"-pictogram tonen"
 
-#: ../ubuntutweak/tweaks/icons.py:47
+#: ../ubuntutweak/tweaks/icons.py:48
 msgid "Show \"Network Servers\" icon"
 msgstr "\"Netwerkservers\"-pictogram tonen"
 
-#: ../ubuntutweak/tweaks/icons.py:76 ../ubuntutweak/gui/treeviews.py:89
+#: ../ubuntutweak/tweaks/icons.py:80 ../ubuntutweak/gui/treeviews.py:89
 msgid "Rename"
 msgstr "Hernoemen"
 
-#: ../ubuntutweak/tweaks/icons.py:107
+#: ../ubuntutweak/tweaks/icons.py:111
 msgid "Desktop Icons"
 msgstr "Bureaubladpictogrammen"
 
-#: ../ubuntutweak/tweaks/icons.py:108
+#: ../ubuntutweak/tweaks/icons.py:112
 msgid "Rename and toggle visibilty of desktop icons"
 msgstr "Naam wijzigen en zichtbaarheid bureaubladpictogrammen beheren"
 
-#: ../ubuntutweak/tweaks/icons.py:113
+#: ../ubuntutweak/tweaks/icons.py:117
 msgid "Show desktop icons:"
 msgstr "Bureaubladpictogrammen tonen:"
 
-#: ../ubuntutweak/tweaks/icons.py:114
+#: ../ubuntutweak/tweaks/icons.py:118
 msgid "Show mounted volumes"
 msgstr "Aangekoppelde volumes tonen"
 
-#: ../ubuntutweak/tweaks/icons.py:115
+#: ../ubuntutweak/tweaks/icons.py:119
 msgid "Show contents of \"Home Folder\""
 msgstr "Inhoud van \"Persoonlijke map\" tonen"
 
-#: ../ubuntutweak/tweaks/icons.py:146
+#: ../ubuntutweak/tweaks/icons.py:151
 msgid "Note: switch off this option will make the desktop unclickable"
 msgstr ""
 "Let op: wanneer u deze optie uitschakelt kunt u niet meer op het bureaublad "
 "klikken"
 
-#: ../ubuntutweak/tweaks/theme.py:36
+#: ../ubuntutweak/tweaks/theme.py:37
 msgid "Theme"
 msgstr "Thema"
 
-#: ../ubuntutweak/tweaks/theme.py:37
+#: ../ubuntutweak/tweaks/theme.py:38
 msgid "Set the gtk theme, icon theme, cursor theme and others"
 msgstr "Het gtk-thema, pictogramthema, cursorthema en andere instellen"
 
-#: ../ubuntutweak/tweaks/theme.py:41 ../ubuntutweak/tweaks/loginsettings.py:47
+#: ../ubuntutweak/tweaks/theme.py:42 ../ubuntutweak/tweaks/loginsettings.py:47
 msgid "Icon theme:"
 msgstr "Pictogramthema:"
 
-#: ../ubuntutweak/tweaks/theme.py:42 ../ubuntutweak/tweaks/loginsettings.py:46
+#: ../ubuntutweak/tweaks/theme.py:43 ../ubuntutweak/tweaks/loginsettings.py:46
 msgid "Gtk theme:"
 msgstr "Gtk-thema:"
 
-#: ../ubuntutweak/tweaks/theme.py:43
+#: ../ubuntutweak/tweaks/theme.py:44
 msgid "Cursor theme:"
 msgstr "Cursorthema:"
 
-#: ../ubuntutweak/tweaks/theme.py:44
+#: ../ubuntutweak/tweaks/theme.py:45
 msgid "Window theme:"
 msgstr "Vensterthema:"
 
-#: ../ubuntutweak/tweaks/theme.py:89
+#: ../ubuntutweak/tweaks/theme.py:102
 msgid "Install theme:"
 msgstr "Installatiethema:"
 
-#: ../ubuntutweak/tweaks/theme.py:99
+#: ../ubuntutweak/tweaks/theme.py:112
 msgid "Theme file is invalid"
 msgstr "Themabestand is ongeldig"
 
-#: ../ubuntutweak/tweaks/theme.py:105
+#: ../ubuntutweak/tweaks/theme.py:118
 #, python-format
 msgid "\"%s\" installed successfully"
 msgstr "\"%s\" is succesvol geïnstalleerd"
 
-#: ../ubuntutweak/tweaks/theme.py:106
+#: ../ubuntutweak/tweaks/theme.py:119
 #, python-format
 msgid "Would you like to set your icon theme to \"%s\" immediatelly?"
 msgstr "Wilt u uw pictogramthema meteen instellen op \"%s\"?"
@@ -1807,60 +1827,66 @@ msgstr "Venster"
 msgid "Manage Window Manager settings"
 msgstr "Vensterbeheerinstellingen"
 
-#: ../ubuntutweak/tweaks/window.py:48
+#: ../ubuntutweak/tweaks/window.py:50
 msgid "Window control button position:"
 msgstr "Vensterknoppositie:"
 
-#: ../ubuntutweak/tweaks/window.py:49
+#: ../ubuntutweak/tweaks/window.py:51
 msgid "\"Close\" button only"
 msgstr "Alleen \"Sluiten\"-knop"
 
-#: ../ubuntutweak/tweaks/window.py:50
+#: ../ubuntutweak/tweaks/window.py:52
 msgid "Titlebar mouse wheel action:"
 msgstr "Titelbalkmuiswielactie:"
 
-#: ../ubuntutweak/tweaks/window.py:51
+#: ../ubuntutweak/tweaks/window.py:53
 msgid "Titlebar double-click action:"
 msgstr "Titelbalkdubbelklikactie:"
 
-#: ../ubuntutweak/tweaks/window.py:52
+#: ../ubuntutweak/tweaks/window.py:54
 msgid "Titlebar middle-click action:"
 msgstr "Titelbalkmiddelklikactie:"
 
-#: ../ubuntutweak/tweaks/window.py:53
+#: ../ubuntutweak/tweaks/window.py:55
 msgid "Titlebar right-click action:"
 msgstr "Titelbalkrechterklikactie:"
 
-#: ../ubuntutweak/tweaks/window.py:77 ../ubuntutweak/tweaks/window.py:85
-#: ../ubuntutweak/tweaks/window.py:98 ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:80 ../ubuntutweak/tweaks/window.py:88
+#: ../ubuntutweak/tweaks/window.py:101 ../ubuntutweak/tweaks/window.py:116
+#: ../ubuntutweak/tweaks/window.py:137 ../ubuntutweak/tweaks/window.py:145
+#: ../ubuntutweak/tweaks/window.py:156 ../ubuntutweak/tweaks/window.py:167
 msgid "Roll up"
 msgstr "Oprollen"
 
-#: ../ubuntutweak/tweaks/window.py:84 ../ubuntutweak/tweaks/window.py:95
-#: ../ubuntutweak/tweaks/window.py:110
+#: ../ubuntutweak/tweaks/window.py:87 ../ubuntutweak/tweaks/window.py:98
+#: ../ubuntutweak/tweaks/window.py:113 ../ubuntutweak/tweaks/window.py:144
+#: ../ubuntutweak/tweaks/window.py:155 ../ubuntutweak/tweaks/window.py:166
 msgid "Maximize"
 msgstr "Maximaliseren"
 
-#: ../ubuntutweak/tweaks/window.py:85 ../ubuntutweak/tweaks/window.py:98
-#: ../ubuntutweak/tweaks/window.py:113
+#: ../ubuntutweak/tweaks/window.py:88 ../ubuntutweak/tweaks/window.py:101
+#: ../ubuntutweak/tweaks/window.py:116 ../ubuntutweak/tweaks/window.py:145
+#: ../ubuntutweak/tweaks/window.py:156 ../ubuntutweak/tweaks/window.py:167
 msgid "Minimize"
 msgstr "Minimaliseren"
 
-#: ../ubuntutweak/tweaks/window.py:86 ../ubuntutweak/tweaks/window.py:99
-#: ../ubuntutweak/tweaks/window.py:114
+#: ../ubuntutweak/tweaks/window.py:89 ../ubuntutweak/tweaks/window.py:102
+#: ../ubuntutweak/tweaks/window.py:117 ../ubuntutweak/tweaks/window.py:146
+#: ../ubuntutweak/tweaks/window.py:157 ../ubuntutweak/tweaks/window.py:168
 msgid "Lower"
 msgstr "Lager"
 
-#: ../ubuntutweak/tweaks/window.py:86 ../ubuntutweak/tweaks/window.py:99
-#: ../ubuntutweak/tweaks/window.py:114
+#: ../ubuntutweak/tweaks/window.py:89 ../ubuntutweak/tweaks/window.py:102
+#: ../ubuntutweak/tweaks/window.py:117 ../ubuntutweak/tweaks/window.py:146
+#: ../ubuntutweak/tweaks/window.py:157 ../ubuntutweak/tweaks/window.py:168
 msgid "Menu"
 msgstr "Menu"
 
-#: ../ubuntutweak/tweaks/window.py:96 ../ubuntutweak/tweaks/window.py:111
+#: ../ubuntutweak/tweaks/window.py:99 ../ubuntutweak/tweaks/window.py:114
 msgid "Maximize Horizontally"
 msgstr "Horizontaal maximaliseren"
 
-#: ../ubuntutweak/tweaks/window.py:97 ../ubuntutweak/tweaks/window.py:112
+#: ../ubuntutweak/tweaks/window.py:100 ../ubuntutweak/tweaks/window.py:115
 msgid "Maximize Vertically"
 msgstr "Verticaal maximaliseren"
 
@@ -1873,12 +1899,12 @@ msgid "Manage the Nautilus file manager"
 msgstr "Nautilus-bestandsbeheer instellen"
 
 #: ../ubuntutweak/tweaks/nautilus.py:33
-msgid "Show advanced permissions in \"File Properties\""
-msgstr "Geavanceerde rechten tonen in \"Bestandseigenschappen\""
-
-#: ../ubuntutweak/tweaks/nautilus.py:34
 msgid "Use the location entry instead of the pathbar"
 msgstr "Het locatieveld gebruiken in plaats van de pad-balk"
+
+#: ../ubuntutweak/tweaks/nautilus.py:34
+msgid "Enable Recursive Search"
+msgstr ""
 
 #: ../ubuntutweak/tweaks/nautilus.py:35
 msgid "Automatically mount media:"
@@ -1904,63 +1930,55 @@ msgstr "Maximum tijd voor thumbnailsbuffer (dagen):"
 msgid "Maximum thumbnail cache size (MB):"
 msgstr "Maximum grootte van de thumbnailsbuffer (MB):"
 
-#: ../ubuntutweak/tweaks/nautilus.py:52
-msgid "File browser:"
-msgstr "Bestandsbeheer:"
-
-#: ../ubuntutweak/tweaks/session.py:29
+#: ../ubuntutweak/tweaks/session.py:30
 msgid "Session Indicator"
 msgstr "Sessie-indicator"
 
-#: ../ubuntutweak/tweaks/session.py:30
+#: ../ubuntutweak/tweaks/session.py:31
 msgid "Control your system session releated features"
 msgstr "Sessieopties instellen"
 
-#: ../ubuntutweak/tweaks/session.py:34
+#: ../ubuntutweak/tweaks/session.py:35
 msgid "User indicator"
 msgstr "Gebruikerindicator"
 
-#: ../ubuntutweak/tweaks/session.py:35
+#: ../ubuntutweak/tweaks/session.py:36
 msgid "Disable \"Lock Screen\""
 msgstr "\"Beeldscherm vergrendelen\" uitschakelen"
 
-#: ../ubuntutweak/tweaks/session.py:36
+#: ../ubuntutweak/tweaks/session.py:37
 msgid "Show user's real name on the panel"
 msgstr "Echte naam van gebruiker in paneel tonen"
 
-#: ../ubuntutweak/tweaks/session.py:37
+#: ../ubuntutweak/tweaks/session.py:38
 msgid "Remove the log out item"
 msgstr "De optie 'Afmelden' verbergen"
 
-#: ../ubuntutweak/tweaks/session.py:38
+#: ../ubuntutweak/tweaks/session.py:39
 msgid "Remove the shutdown item"
 msgstr "De optie 'Afsluiten' verbergen"
 
-#: ../ubuntutweak/tweaks/session.py:39
+#: ../ubuntutweak/tweaks/session.py:40
 msgid "Suppress the dialog to confirm logout and shutdown action"
 msgstr ""
 "Verhinderen dat er een dialoogvenster getoond wordt voor het afmelden en "
 "afsluiten"
 
-#: ../ubuntutweak/tweaks/session.py:68
+#: ../ubuntutweak/tweaks/session.py:73
 msgid "Session indicator:"
 msgstr "Sessie-indicator:"
 
-#: ../ubuntutweak/tweaks/workspace.py:36
+#: ../ubuntutweak/tweaks/workspace.py:37
 msgid "Show Workspaces"
 msgstr "Werkbladen tonen"
 
-#: ../ubuntutweak/tweaks/workspace.py:37
+#: ../ubuntutweak/tweaks/workspace.py:38
 msgid "Show Windows"
 msgstr "Vensters tonen"
 
-#: ../ubuntutweak/tweaks/workspace.py:38
+#: ../ubuntutweak/tweaks/workspace.py:39
 msgid "Show Desktop"
 msgstr "Bureaublad tonen"
-
-#: ../ubuntutweak/tweaks/workspace.py:39
-msgid "Show Widgets"
-msgstr "Widgets tonen"
 
 #: ../ubuntutweak/tweaks/workspace.py:138
 msgid "Workspace"
@@ -2006,71 +2024,87 @@ msgstr "Geluidsthema:"
 msgid "Play login sound:"
 msgstr "Aanmeldgeluid afspelen:"
 
-#: ../ubuntutweak/tweaks/misc.py:31
+#: ../ubuntutweak/tweaks/misc.py:32
 msgid "Miscellaneous"
 msgstr "Diverse"
 
-#: ../ubuntutweak/tweaks/misc.py:32
+#: ../ubuntutweak/tweaks/misc.py:33
 msgid "Set the cursor timeout, menus and buttons icons"
 msgstr "De cursortime-out, menu's en knoppictogrammen instellen"
 
-#: ../ubuntutweak/tweaks/misc.py:36
+#: ../ubuntutweak/tweaks/misc.py:37
 msgid "Natural Scrolling"
 msgstr "Natuurlijk scrollen"
 
-#: ../ubuntutweak/tweaks/misc.py:37
+#: ../ubuntutweak/tweaks/misc.py:38
 msgid "Menus have icons"
 msgstr "Menu's hebben pictogrammen"
 
-#: ../ubuntutweak/tweaks/misc.py:38
+#: ../ubuntutweak/tweaks/misc.py:39
 msgid "Buttons have icons"
 msgstr "Knoppen hebben pictogrammen"
 
-#: ../ubuntutweak/tweaks/misc.py:39
+#: ../ubuntutweak/tweaks/misc.py:40
 msgid "Show Input Method menu in the context menu"
 msgstr "Invoermethodemenu in het rechtermuisknopmenu tonen"
 
-#: ../ubuntutweak/tweaks/misc.py:40
+#: ../ubuntutweak/tweaks/misc.py:41
 msgid "Show Unicode Control Character menu in the context menu"
 msgstr "Unicode-methodemenu in het rechtermuisknopmenu tonen"
 
-#: ../ubuntutweak/tweaks/misc.py:41
+#: ../ubuntutweak/tweaks/misc.py:42
 msgid "Disable printing"
 msgstr "Afdrukken uitschakelen"
 
-#: ../ubuntutweak/tweaks/misc.py:42
+#: ../ubuntutweak/tweaks/misc.py:43
 msgid "Disable printer settings"
 msgstr "Afdrukinstellingen uitschakelen"
 
-#: ../ubuntutweak/tweaks/misc.py:43
+#: ../ubuntutweak/tweaks/misc.py:44
 msgid "Disable save to disk"
 msgstr "Opslaan uitschakelen"
 
-#: ../ubuntutweak/tweaks/misc.py:44
+#: ../ubuntutweak/tweaks/misc.py:45
 msgid "Disable \"Fast User Switching\""
 msgstr "\"Snel gebruikers wisselen\" uitschakelen"
 
-#: ../ubuntutweak/tweaks/misc.py:45
+#: ../ubuntutweak/tweaks/misc.py:46
 msgid "Cursor blink:"
 msgstr "Knipperen cursor:"
 
-#: ../ubuntutweak/tweaks/misc.py:46
+#: ../ubuntutweak/tweaks/misc.py:47
 msgid "Overlay scrollbars:"
 msgstr "Opduikschuifbalken:"
 
-#: ../ubuntutweak/tweaks/misc.py:47
+#: ../ubuntutweak/tweaks/misc.py:48
 msgid "Cursor blink time:"
 msgstr "Knippertijd cursor:"
 
-#: ../ubuntutweak/tweaks/misc.py:48
+#: ../ubuntutweak/tweaks/misc.py:49
 msgid "Cursor blink timeout:"
 msgstr "Knippertime-out cursor:"
 
-#: ../ubuntutweak/tweaks/misc.py:60 ../ubuntutweak/tweaks/unity.py:175
+#: ../ubuntutweak/tweaks/misc.py:61 ../ubuntutweak/tweaks/unity.py:189
 msgid "Note: you may need to log out to take effect"
 msgstr ""
 "Let op: u dient zich mogelijk eerst af te melden voordat de wijzigingen "
 "effect zullen hebben"
+
+#: ../ubuntutweak/tweaks/misc.py:73
+msgid "Normal"
+msgstr "Normaal"
+
+#: ../ubuntutweak/tweaks/misc.py:74
+msgid "Auto"
+msgstr "Autom."
+
+#: ../ubuntutweak/tweaks/misc.py:75
+msgid "Show Overlay"
+msgstr "Altijd weergeven"
+
+#: ../ubuntutweak/tweaks/misc.py:76
+msgid "Never Show Overlay"
+msgstr "Nooit weergeven"
 
 #: ../ubuntutweak/tweaks/loginsettings.py:37
 msgid "Login Settings"
@@ -2088,93 +2122,93 @@ msgstr "Gastsessie:"
 msgid "Draw grid:"
 msgstr "Raster tekenen:"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:63
+#: ../ubuntutweak/tweaks/loginsettings.py:62
 msgid "Note: you may need to reboot to take effect"
 msgstr ""
 "Let op: mogelijk dient u de computer te herstarten voordat de wijzigingen "
 "effect zullen hebben"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:141
+#: ../ubuntutweak/tweaks/loginsettings.py:136
 msgid "Choose a new logo image"
 msgstr "Selecteer een nieuw logo"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:147
+#: ../ubuntutweak/tweaks/loginsettings.py:142
 msgid "All images (*.PNG)"
 msgstr "Alle afbeeldingen (*.PNG)"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:194
+#: ../ubuntutweak/tweaks/loginsettings.py:189
 msgid "Choose a new background image"
 msgstr "Selecteer een nieuwe achtergrondafbeelding"
 
-#: ../ubuntutweak/tweaks/loginsettings.py:200
+#: ../ubuntutweak/tweaks/loginsettings.py:195
 msgid "All images"
 msgstr "Alle afbeeldingen"
 
-#: ../ubuntutweak/tweaks/fonts.py:26
+#: ../ubuntutweak/tweaks/fonts.py:27
 msgid "Fonts"
 msgstr "Lettertypes"
 
-#: ../ubuntutweak/tweaks/fonts.py:27
+#: ../ubuntutweak/tweaks/fonts.py:28
 msgid "Fonts Settings"
 msgstr "Instellingen lettertypes"
 
-#: ../ubuntutweak/tweaks/fonts.py:32
+#: ../ubuntutweak/tweaks/fonts.py:33
 msgid "Text scaling factor:"
 msgstr "Schalingsfactor tekst:"
 
-#: ../ubuntutweak/tweaks/fonts.py:33
+#: ../ubuntutweak/tweaks/fonts.py:34
 msgid "Default font:"
 msgstr "Standaardlettertype:"
 
-#: ../ubuntutweak/tweaks/fonts.py:34
+#: ../ubuntutweak/tweaks/fonts.py:35
 msgid "Monospace font:"
 msgstr "Monospace-lettertype:"
 
-#: ../ubuntutweak/tweaks/fonts.py:35
+#: ../ubuntutweak/tweaks/fonts.py:36
 msgid "Document font:"
 msgstr "Documentlettertype:"
 
-#: ../ubuntutweak/tweaks/fonts.py:36
+#: ../ubuntutweak/tweaks/fonts.py:37
 msgid "Window title bar font:"
 msgstr "Lettertype venstertitelbalk:"
 
-#: ../ubuntutweak/tweaks/fonts.py:37
+#: ../ubuntutweak/tweaks/fonts.py:38
 msgid "Hinting:"
 msgstr "Hinting:"
 
-#: ../ubuntutweak/tweaks/fonts.py:38
+#: ../ubuntutweak/tweaks/fonts.py:39
 msgid "Antialiasing:"
 msgstr "Antialiasing:"
 
-#: ../ubuntutweak/tweaks/fonts.py:64
+#: ../ubuntutweak/tweaks/fonts.py:78
 msgid "Desktop font:"
 msgstr "Bureaubladlettertype:"
 
-#: ../ubuntutweak/tweaks/fonts.py:89
+#: ../ubuntutweak/tweaks/fonts.py:99
 msgid "No hinting"
 msgstr "Geen hinting"
 
-#: ../ubuntutweak/tweaks/fonts.py:90
+#: ../ubuntutweak/tweaks/fonts.py:100
 msgid "Basic"
 msgstr "Eenvoudig"
 
-#: ../ubuntutweak/tweaks/fonts.py:91
+#: ../ubuntutweak/tweaks/fonts.py:101
 msgid "Moderate"
 msgstr "Gematigd"
 
-#: ../ubuntutweak/tweaks/fonts.py:92
+#: ../ubuntutweak/tweaks/fonts.py:102
 msgid "Maximum"
 msgstr "Maximaal"
 
-#: ../ubuntutweak/tweaks/fonts.py:99
+#: ../ubuntutweak/tweaks/fonts.py:109
 msgid "No antialiasing"
 msgstr "Geen antialiasing"
 
-#: ../ubuntutweak/tweaks/fonts.py:100
+#: ../ubuntutweak/tweaks/fonts.py:110
 msgid "Standard grayscale antialiasing"
 msgstr "Standaardgrijswaarden antialiasing"
 
-#: ../ubuntutweak/tweaks/fonts.py:101
+#: ../ubuntutweak/tweaks/fonts.py:111
 msgid "Subpixel antialiasing (LCD screens only)"
 msgstr "Subpixel-antialiasing (alleen lcd-schermen)"
 
@@ -2187,7 +2221,7 @@ msgid "HUD:"
 msgstr "HUD:"
 
 #: ../ubuntutweak/tweaks/unity.py:43
-msgid "Shortcut hits overlay:"
+msgid "Shortcut hints overlay:"
 msgstr "Sneltoetstips:"
 
 #: ../ubuntutweak/tweaks/unity.py:44
@@ -2199,115 +2233,118 @@ msgid "Launcher opacity:"
 msgstr "Ondoorzichtigheid van starter:"
 
 #: ../ubuntutweak/tweaks/unity.py:46
+msgid "Web Apps integration:"
+msgstr "Integratie webapplicaties:"
+
+#: ../ubuntutweak/tweaks/unity.py:47
 msgid "Launcher hide mode:"
 msgstr "Starter verbergen-modus:"
 
-#: ../ubuntutweak/tweaks/unity.py:47
+#: ../ubuntutweak/tweaks/unity.py:48
 msgid "Launcher icon backlight:"
 msgstr "Achtergrondverlichting starterpictogram:"
 
-#: ../ubuntutweak/tweaks/unity.py:48
+#: ../ubuntutweak/tweaks/unity.py:49
 msgid "Launcher show devices:"
 msgstr "Starter toont apparaten:"
 
-#: ../ubuntutweak/tweaks/unity.py:49
+#: ../ubuntutweak/tweaks/unity.py:50
 msgid "\"Show desktop\" icon:"
 msgstr "\"Bureaublad\"-pictogram tonen:"
 
-#: ../ubuntutweak/tweaks/unity.py:50
+#: ../ubuntutweak/tweaks/unity.py:51
+msgid "Launcher click to minimize app:"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/unity.py:52
+msgid "Disable \"Show Desktop\" in the switcher:"
+msgstr "‘Bureaublad tonen’ in de wisselaar uitschakelen:"
+
+#: ../ubuntutweak/tweaks/unity.py:53
 msgid "Dash size:"
 msgstr "Dash-grootte:"
 
-#: ../ubuntutweak/tweaks/unity.py:51
+#: ../ubuntutweak/tweaks/unity.py:54
 msgid "Blur type:"
 msgstr "De manier van vervaging:"
 
-#: ../ubuntutweak/tweaks/unity.py:52
+#: ../ubuntutweak/tweaks/unity.py:55
 msgid "Panel opacity:"
 msgstr "Ondoorzichtigheid van paneel:"
 
-#: ../ubuntutweak/tweaks/unity.py:53
+#: ../ubuntutweak/tweaks/unity.py:56
 msgid "Panel opacity for maximized windows:"
 msgstr "Ondoorzichtigheid van paneel voor gemaximaliseerde vensters:"
 
-#: ../ubuntutweak/tweaks/unity.py:54
+#: ../ubuntutweak/tweaks/unity.py:57
 msgid "Super key:"
 msgstr "Super-toets:"
 
-#: ../ubuntutweak/tweaks/unity.py:55
+#: ../ubuntutweak/tweaks/unity.py:58
 msgid "Full screen dash:"
 msgstr "Dash schermvullend:"
 
-#: ../ubuntutweak/tweaks/unity.py:56
+#: ../ubuntutweak/tweaks/unity.py:59
 msgid "Compositing manager:"
 msgstr "Composite-beheerder:"
 
-#: ../ubuntutweak/tweaks/unity.py:57
+#: ../ubuntutweak/tweaks/unity.py:60
 msgid "Number of workspaces:"
 msgstr "Aantal werkbladen:"
 
-#: ../ubuntutweak/tweaks/unity.py:66 ../ubuntutweak/tweaks/unity.py:69
-#: ../ubuntutweak/tweaks/unity.py:199
+#: ../ubuntutweak/tweaks/unity.py:68 ../ubuntutweak/tweaks/unity.py:213
 msgid "Auto Hide"
 msgstr "Automatisch verbergen"
 
-#: ../ubuntutweak/tweaks/unity.py:66
-msgid "Dodge Window"
-msgstr "Venster ontwijken"
-
-#: ../ubuntutweak/tweaks/unity.py:66
-msgid "Dodge Active Window"
-msgstr "Actieve venster ontwijken"
-
-#: ../ubuntutweak/tweaks/unity.py:119
+#: ../ubuntutweak/tweaks/unity.py:133
 msgid "Backlight Always On"
 msgstr "Achtergrondverlichting altijd aan"
 
-#: ../ubuntutweak/tweaks/unity.py:120
+#: ../ubuntutweak/tweaks/unity.py:134
 msgid "Backlight Toggles"
 msgstr "Achtergrondverlichting aan/uit"
 
-#: ../ubuntutweak/tweaks/unity.py:121
+#: ../ubuntutweak/tweaks/unity.py:135
 msgid "Backlight Always Off"
 msgstr "Achtergrondverlichting altijd uit"
 
-#: ../ubuntutweak/tweaks/unity.py:122
+#: ../ubuntutweak/tweaks/unity.py:136
 msgid "Edge Illumination Toggles"
 msgstr "Randverlichting aan/uit"
 
-#: ../ubuntutweak/tweaks/unity.py:123
+#: ../ubuntutweak/tweaks/unity.py:137
 msgid "Backlight and Edge Illumination Toggles"
 msgstr "Achtergrondverlichting en randverlichting aan/uit"
 
-#: ../ubuntutweak/tweaks/unity.py:132
+#: ../ubuntutweak/tweaks/unity.py:146
 msgid "Only Mounted"
 msgstr "Alleen aangekoppeld"
 
-#: ../ubuntutweak/tweaks/unity.py:133
+#: ../ubuntutweak/tweaks/unity.py:147
 msgid "Always"
 msgstr "Altijd"
 
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Automatic"
 msgstr "Automatisch"
 
-#: ../ubuntutweak/tweaks/unity.py:142
+#: ../ubuntutweak/tweaks/unity.py:156
 msgid "Netbook"
 msgstr "Netbook"
 
-#: ../ubuntutweak/tweaks/unity.py:149
+#: ../ubuntutweak/tweaks/unity.py:163
 msgid "No blur"
 msgstr "Geen vervaging"
 
-#: ../ubuntutweak/tweaks/unity.py:150
+#: ../ubuntutweak/tweaks/unity.py:164
 msgid "Static blur"
 msgstr "Statische vervaging"
 
-#: ../ubuntutweak/tweaks/unity.py:151
+#: ../ubuntutweak/tweaks/unity.py:165
 msgid "Active blur"
 msgstr "Actieve vervaging"
 
-#: ../ubuntutweak/tweaks/unity.py:200
+#: ../ubuntutweak/tweaks/unity.py:214
 msgid "Intellihide"
 msgstr "Intelligent verbergen"
 
@@ -2324,8 +2361,55 @@ msgid "Fix the appearance of themes when granted root privileges:"
 msgstr "Themaweergave herstellen tijdens het hebben van root-rechten:"
 
 #: ../ubuntutweak/tweaks/workarounds.py:39
-msgid "Auto detect text encoding for Chinese in Gedit:"
-msgstr "Tekenset voor Chinees automatisch detecteren in Gedit:"
+msgid "Auto detect text encoding for Simplified Chinese in Gedit:"
+msgstr "Tekenset voor vereenvoudigd Chinees automatisch detecteren in Gedit"
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:20
+msgid "Love Wallpaper HD"
+msgstr "Love HD-bureaubladachtergronden"
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:21
+msgid "Browse online gallery and find your wallpaper"
+msgstr "Online bureauachtergronden bekijken en installeren"
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:48
+msgid "I'm Feeling Lucky"
+msgstr ""
+
+#: ../ubuntutweak/tweaks/lovewallpaperhd.py:91
+msgid "Downloading Wallpaper"
+msgstr "Bureaubladachtergrond downloaden"
+
+#: ../ubuntutweak/apps/__init__.py:106
+msgid "Uninstall"
+msgstr "Deïnstalleren"
+
+#: ../ubuntutweak/apps/__init__.py:107
+msgid "Update"
+msgstr "Bijwerken"
+
+#: ../ubuntutweak/apps/__init__.py:108
+msgid "Installing"
+msgstr "Installeren"
+
+#: ../ubuntutweak/apps/__init__.py:109
+msgid "Uninstalling"
+msgstr "Deïnstalleren"
+
+#: ../ubuntutweak/apps/__init__.py:110
+msgid "Updating"
+msgstr "Bijwerken"
+
+#: ../ubuntutweak/apps/__init__.py:111
+msgid "Not Available"
+msgstr "Niet beschikbaar"
+
+#: ../ubuntutweak/apps/__init__.py:226
+#, python-format
+msgid "\"%s\" is enabled now, Please click the update button to update %s"
+msgstr ""
+"\"%s\" is nu ingeschakeld, klik a.u.b. op de knop Bijwerken om %s bij te "
+"werken"
 
 #: ../ubuntutweak/clips/userinfo.py:10
 msgid "User Information"
@@ -2394,12 +2478,12 @@ msgstr ""
 msgid "%s cache packages can be cleaned."
 msgstr "Er kunnen %s pakketten uit de pakketbuffer verwijderd worden."
 
-#: ../ubuntutweak/clips/cleanerinfo.py:33
+#: ../ubuntutweak/clips/cleanerinfo.py:38
 #, python-format
 msgid "%s thumbnails cache can be cleaned."
 msgstr "Er kan %s uit de thumbnailsbuffer verwijderd worden."
 
-#: ../ubuntutweak/clips/cleanerinfo.py:39
+#: ../ubuntutweak/clips/cleanerinfo.py:44
 msgid "Start Janitor"
 msgstr "Schoonmaak starten"
 
@@ -2431,9 +2515,10 @@ msgid "The package information was last updated %(days_ago)s day ago."
 msgid_plural ""
 "The package information was last updated %(days_ago)s days ago."
 msgstr[0] ""
-"De pakketinformatie werd voor het laatst %(days_ago)s dag geleden bijgewerkt."
+"Deze pakketinformatie werd %(days_ago)s dag geleden voor het laatst "
+"bijgewerkt."
 msgstr[1] ""
-"De pakketinformatie werd voor het laatst %(days_ago)s dagen geleden "
+"De pakketinformatie werd %(days_ago)s dagen geleden voor het laatst "
 "bijgewerkt."
 
 #: ../ubuntutweak/clips/updateinfo.py:63
@@ -2442,10 +2527,10 @@ msgid "The package information was last updated %(hours_ago)s hour ago."
 msgid_plural ""
 "The package information was last updated %(hours_ago)s hours ago."
 msgstr[0] ""
-"De pakketinformatie werd voor het laatst %(hours_ago)s uur geleden "
+"De pakketinformatie werd %(hours_ago)s uur geleden voor het laatst "
 "bijgewerkt."
 msgstr[1] ""
-"De pakketinformatie werd voor het laatst %(hours_ago)s uren geleden "
+"De pakketinformatie werd %(hours_ago)s uren geleden voor het laatst "
 "bijgewerkt."
 
 #: ../ubuntutweak/clips/updateinfo.py:67
@@ -2512,33 +2597,33 @@ msgstr ""
 "\n"
 "Er zitten bestanden in!"
 
-#: ../ubuntutweak/main.py:276
+#: ../ubuntutweak/main.py:264
 msgid "Results"
 msgstr "Resultaten"
 
-#: ../ubuntutweak/main.py:284
+#: ../ubuntutweak/main.py:272
 #, python-format
 msgid "Your filter \"<b>%s</b>\" does not match any items."
 msgstr "Uw filter \"<b>%s</b>\" komt met geen enkel item overeen."
 
-#: ../ubuntutweak/main.py:402
+#: ../ubuntutweak/main.py:400
 msgid "Please wait a moment..."
 msgstr "Een moment geduld a.u.b.…"
 
-#: ../ubuntutweak/main.py:511
+#: ../ubuntutweak/main.py:509
 #, python-format
 msgid "No module named \"%s\""
 msgstr "Er is geen module met de naam \"%s\""
 
-#: ../ubuntutweak/main.py:512
+#: ../ubuntutweak/main.py:510
 msgid "Please ensure you have entered the correct module name."
 msgstr "Controleer of u de juiste modulenaam ingevoerd heeft."
 
-#: ../ubuntutweak/main.py:570
+#: ../ubuntutweak/main.py:568
 msgid "Computer Janitor"
 msgstr "Computerschoonmaak"
 
-#: ../ubuntutweak/main.py:571
+#: ../ubuntutweak/main.py:569
 msgid "Clean up a system so it's more like a freshly installed one"
 msgstr ""
 "Uw systeem opschonen zodat het meer op een pas geïnstalleerd systeem lijkt"
@@ -2618,61 +2703,20 @@ msgstr "Wilt u het verwijderen en daarna opnieuw installeren?"
 msgid "\"%s\" has already installed"
 msgstr "\"%s\" is reeds geïnstalleerd"
 
-#~ msgid "Could not find application"
-#~ msgstr "Kon toepassing niet vinden"
+#~ msgid "Show Widgets"
+#~ msgstr "Widgets tonen"
 
-#~ msgid "Thumbnail cache time (days)"
-#~ msgstr "Maximum aantal dagen voor thumbnailsbuffer"
+#~ msgid "Dodge Window"
+#~ msgstr "Venster ontwijken"
 
-#~ msgid "Fix the appearance of themes when granted root privileges"
-#~ msgstr "Themaweergave herstellen tijdens het hebben van root-rechten"
+#~ msgid "Dodge Active Window"
+#~ msgstr "Actieve venster ontwijken"
 
-#~ msgid "Purge PPA and Downgrade Packages"
-#~ msgstr "PPA verwijderen en pakketten terugbrengen naar vorige versie"
+#~ msgid "Show advanced permissions in \"File Properties\""
+#~ msgstr "Geavanceerde rechten tonen in \"Bestandseigenschappen\""
 
-#, python-format
-#~ msgid "You're going to purge: %s"
-#~ msgstr "U gaat %s verwijderen"
+#~ msgid "File browser:"
+#~ msgstr "Bestandsbeheer:"
 
-#~ msgid "No PPA to be removed"
-#~ msgstr "Geen PPA om te verwijderen"
-
-#, python-format
-#~ msgid "%d PPAs to be removed"
-#~ msgstr "%d PPA's om te verwijderen"
-
-#~ msgid "PPA"
-#~ msgstr "PPA"
-
-#, python-format
-#~ msgid "Could not find \"%s\", Please ensure the path is correct."
-#~ msgstr "Kon \"%s\" niet vinden, controleer of het pad correct is."
-
-#~ msgid "Launcher"
-#~ msgstr "Starter"
-
-#~ msgid "Enable the Super key"
-#~ msgstr "Super-toets inschakelen"
-
-#~ msgid "Cursor blink time"
-#~ msgstr "Tijd knipperen cursor"
-
-#~ msgid "Cursor blink"
-#~ msgstr "Knipperen cursor"
-
-#~ msgid "Cursor blink timeout"
-#~ msgstr "Time-out knipperen cursor"
-
-#, python-format
-#~ msgid "Downloading...%s"
-#~ msgstr "Downloaden van…%s"
-
-#~ msgid "Downloading Packages..."
-#~ msgstr "Pakketten aan het downloaden…"
-
-#, python-format
-#~ msgid "Downgrading...%s"
-#~ msgstr "%s wordt teruggebracht naar vorige versie…"
-
-#~ msgid "Removing key files..."
-#~ msgstr "Sleutelbestanden verwijderen…"
+#~ msgid "Auto detect text encoding for Chinese in Gedit:"
+#~ msgstr "Tekenset voor Chinees automatisch detecteren in Gedit:"

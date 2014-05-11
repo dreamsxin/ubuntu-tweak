@@ -43,10 +43,13 @@ class Unity(TweakModule):
     utext_overlay = _('Shortcut hints overlay:')
     utext_launcher_size = _('Launcher icon size:')
     utext_launcher_opacity = _('Launcher opacity:')
+    utext_web_apps_integration = _('Web Apps integration:')
     utext_launcher_hide = _('Launcher hide mode:')
     utext_launcher_backlight = _('Launcher icon backlight:')
     utext_device = _('Launcher show devices:')
     utext_show_desktop_icon = _('"Show desktop" icon:')
+    utext_launcher_minimize_window = _('Launcher click to minimize app:')
+    utext_disable_show_desktop_switcher = _('Disable "Show Desktop" in the switcher:')
     utext_dash_size = _('Dash size:')
     utext_blur_type = _('Blur type:')
     utext_panel_opacity = _('Panel opacity:')
@@ -62,12 +65,8 @@ class Unity(TweakModule):
         version_pattern = re.compile('\d.\d+.\d')
 
         if system.DESKTOP == 'ubuntu':
-            if system.CODENAME == 'oneiric':
-                hide_texts = (_('Never'), _('Auto Hide'), _('Dodge Window'), _('Dodge Active Window'))
-                hide_values = (0, 1, 2, 3)
-            else:
-                hide_texts = (_('Never'), _('Auto Hide'))
-                hide_values = (0, 1)
+            hide_texts = (_('Never'), _('Auto Hide'))
+            hide_values = (0, 1)
 
             grid_pack = GridPack(
                         WidgetFactory.create("Switch",
@@ -82,10 +81,25 @@ class Unity(TweakModule):
                             key="unityshell.shortcut_overlay",
                             backend="compiz",
                             enable_reset=True),
+                        WidgetFactory.create("Switch",
+                            label=self.utext_web_apps_integration,
+                            key="com.canonical.unity.webapps.integration-allowed",
+                            backend="gsettings",
+                            enable_reset=True),
                         Gtk.Separator(),
                         WidgetFactory.create("Switch",
                             label=self.utext_show_desktop_icon,
                             key="unityshell.show_desktop_icon",
+                            backend="compiz",
+                            enable_reset=True),
+                        WidgetFactory.create("Switch",
+                            label=self.utext_disable_show_desktop_switcher,
+                            key="unityshell.disable_show_desktop",
+                            backend="compiz",
+                            enable_reset=True),
+                        WidgetFactory.create("Switch",
+                            label=self.utext_launcher_minimize_window,
+                            key="unityshell.launcher_minimize_window",
                             backend="compiz",
                             enable_reset=True),
                         WidgetFactory.create("Scale",

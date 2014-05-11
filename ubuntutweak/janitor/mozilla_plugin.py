@@ -10,6 +10,10 @@ class MozillaCachePlugin(JanitorCachePlugin):
     __category__ = 'application'
 
     targets = ['Cache',
+               'safebrowsing',
+               'startupCache',
+               'thumbnails',
+               'cache2',
                'OfflineCache']
     app_path = ''
 
@@ -24,12 +28,12 @@ class MozillaCachePlugin(JanitorCachePlugin):
                     if section.startswith('Profile'):
                         relative_id = config.get_value(section, 'IsRelative')
                         if relative_id == profile_id:
-                            return os.path.expanduser('%s/%s' % (cls.app_path, config.get_value(section, 'Path')))
+                            return os.path.expanduser('%s/%s' % (cls.cache_path, config.get_value(section, 'Path')))
             except Exception, e:
                 log.error(e)
                 path = config.get_value('Profile0', 'Path')
                 if path:
-                    return os.path.expanduser('%s/%s' % (cls.app_path, path))
+                    return os.path.expanduser('%s/%s' % (cls.cache_path, path))
         return cls.root_path
 
 
@@ -37,9 +41,11 @@ class FirefoxCachePlugin(MozillaCachePlugin):
     __title__ = _('Firefox Cache')
 
     app_path = '~/.mozilla/firefox'
+    cache_path = '~/.cache/mozilla/firefox'
 
 
 class ThunderbirdCachePlugin(MozillaCachePlugin):
     __title__ = _('Thunderbird Cache')
 
     app_path = '~/.thunderbird'
+    cache_path = '~/.cache/thunderbird'
